@@ -15,7 +15,7 @@
     - MSM8998
       - [sagit (小米6)](zh/devices/msm8998/sagit/status.md)
   - Windows
-    - [设备支持状态](zh/windows/state.md)
+    - [设备支持状态](zh/windows/Windows状态.md)
     - [触摸](zh/windows/touch.md)
 - English
   - [Preface](en/Preface.md)
@@ -33,4 +33,5 @@
     - MSM8998
       - [sagit (Xiaomi MI6)](en/devices/msm8998/sagit/status.md)
   - Windows
+    - [Windows Status.md](en/windows/Windows-Status.md)
     - [Touch](en/windows/touch.md)
