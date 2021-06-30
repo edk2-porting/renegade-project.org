@@ -1,0 +1,35 @@
+- [Home](/README.md)
+* Chinese
+  - [前言](zh/Preface.md)
+  - EDK2
+    - [预览](zh/edk2/Overview.md)
+    - [移植](zh/edk2/port.md)
+  - 工具
+    - [UEFI-NTFS](zh/tools/uefi-ntfs/index.md)
+  - Linux
+    - [命令行](zh/linux/cmdline.md)
+  - 设备
+    - [SDM845](zh/devices/sdm845/status.md)
+      - [dipper (小米8)](zh/devices/sdm845/dipper/status.md)
+      - [polaris (小米MIX2S)](zh/devices/sdm845/polaris/status.md)
+    - MSM8998
+      - [sagit (小米6)](zh/devices/msm8998/sagit/status.md)
+  - Windows
+    - [触摸](zh/windows/touch.md)
+- English
+  - [Preface](en/Preface.md)
+  - EDK2
+    - [Overview](en/edk2/Overview.md)
+    - [Porting](en/edk2/port.md)
+  - Tools
+    - [UEFI-NTFS](en/tools/uefi-ntfs/index.md)
+  - Linux
+    - [Cmdline](en/linux/cmdline.md)
+  - Devices
+    - [SDM845](en/devices/sdm845/status.md)
+      - [dipper (Xiaomi MI8)](en/devices/sdm845/dipper/status.md)
+      - [polaris (Xiaomi MIX2S)](en/devices/sdm845/polaris/status.md)
+    - MSM8998
+      - [sagit (Xiaomi MI6)](en/devices/msm8998/sagit/status.md)
+  - Windows
+    - [Touch](en/windows/touch.md)
