@@ -1,0 +1,11 @@
+*.rej
+*.orig
+*.swp
+*.save*
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+webroot/
+.deploy*/
