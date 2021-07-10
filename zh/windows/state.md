@@ -1,66 +1,70 @@
 # Windows设备支持状态
-*Xiaomi MIX 2S (polaris)*  
+__*Xiaomi MIX 2S (polaris)*__  
 
-__USB和触摸屏不工作__
+USB和触摸屏不工作
 
-*Xiaomi MIX 3 (perseus)*
+__*Xiaomi MIX 3 (perseus)*__
 
-__USB正常工作__
+USB正常工作
 
-*Xiaomi MI 8 (dipper)*
+__*Xiaomi MI 8 (dipper)*__
 
-__USB和触摸屏不工作__
+USB和触摸屏不工作
 
-*Xiaomi PocoPhone F1 (beryllium)*
+__*Xiaomi PocoPhone F1 (beryllium)*__
 
-__USB正常工作__
+USB正常工作
 
-*OnePlus 6 (enchilada)*
+__*OnePlus 6 (enchilada)*__
 
-__USB正常工作__
+USB正常工作
 
-__触摸屏正常工作__
+触摸屏正常工作
 
-*OnePlus 6T (fajita)*
+__*OnePlus 6T (fajita)*__
 
-__USB正常工作__
+USB正常工作
 
-__触摸屏正常工作__
+触摸屏正常工作
 
-*Nubia X (nx616j)*
+__*Nubia X (nx616j)*__
 
-__USB和触摸屏不工作__
+USB和触摸屏不工作
 
-*Meizu 16th (m1882)*
+__*Meizu 16th (m1882)*__
 
-__USB正常工作__
+USB正常工作
 
-__显示Framebuffer非常慢 (大约1fps)__
+显示Framebuffer非常慢 (大约1fps)
 
-*BlackShark One (skr-a0)*
+__*BlackShark One (skr-a0)*__
 
-未知
+USB正常工作
 
-*锤子坚果R1 (trident)*
+__*锤子坚果R1 (trident)*__
 
-__USB正常工作__
+USB正常工作
 
-*LG G7 (judyln)*
+__*LG G7 (judyln)*__
 
-__USB正常工作__
+USB正常工作
 
-__由于watchdog问题，1分钟内自动重启__
+由于watchdog问题，1分钟内自动重启
 
-*Samsung Galaxy S9+ (star2qltechn)*
+__*Samsung Galaxy S9+ (star2qltechn)*__
 
-__USB需外接供电才能正常工作__
+USB需外接供电才能正常工作
 
-__UFS不工作__
+UFS不工作
 
-__如果你在磁盘管理中使其强制联机，你的UFS将会被擦除__
+如果你在磁盘管理中使其强制联机，你的UFS将会被擦除
 
-*Google pixel3*
+__*Google pixel3 (Blueline)*__
 
-__USB正常工作__
+USB正常工作
 
-__UFS自毁__
+UFS不工作
+
+__*Oppo Findx (CPH1871)*__
+
+USB正常工作
