@@ -9,3 +9,7 @@ Please see the list on the left
 ## Project Forum/项目论坛：
 
 [Renegade Project Forum](https://forum.renegade-project.org/)
+
+## Welcome to edit the document on Github 欢迎在Github编辑文档
+
+[edk2-porting/renegade-project.org](https://github.com/edk2-porting/renegade-project.org/)
