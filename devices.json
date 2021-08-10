@@ -1,0 +1,262 @@
+[
+	{
+		"codename":"fajita",
+		"name":{
+			"zh_cn":"一加6T",
+			"en_us":"Oneplus 6T"
+		},
+		"state":{
+			"fullsystem":"y",
+			"touchscreen":"y",
+			"wifi":"y",
+			"bluetooth":"y",
+			"battery":"y",
+			"charging":"p"
+		},
+		"message":{
+		}
+	},{
+		"codename":"enchilada",
+		"name":{
+			"zh_cn":"一加6",
+			"en_us":"Oneplus 6"
+		},
+		"state":{
+			"fullsystem":"y",
+			"touchscreen":"y",
+			"wifi":"y",
+			"bluetooth":"y",
+			"battery":"y",
+			"charging":"p"
+		},
+		"message":{
+		}
+	},{
+		"codename":"polaris",
+		"name":{
+			"zh_cn":"小米MIX2S",
+			"en_us":"Xiaomi MIX2S"
+		},
+		"state":{
+			"fullsystem":"y",
+			"touchscreen":"w",
+			"wifi":"y",
+			"bluetooth":"p",
+			"battery":"y",
+			"charging":"p"
+		},
+		"message":{
+		}
+	},{
+		"codename":"perseus",
+		"name":{
+			"zh_cn":"小米MIX3",
+			"en_us":"Xiaomi MIX3"
+		},
+		"state":{
+			"fullsystem":"y",
+			"touchscreen":"n",
+			"wifi":"y",
+			"bluetooth":"p",
+			"battery":"y",
+			"charging":"p"
+		},
+		"message":{
+			"touchscreen":{
+				"zh_cn":"STM FTS触摸屏无可用驱动",
+				"en_us":"No driver available for STM FTS touch screen"
+			}
+		}
+	},{
+		"codename":"dipper",
+		"name":{
+			"zh_cn":"小米8",
+			"en_us":"Xiaomi MI8"
+		},
+		"state":{
+			"fullsystem":"y",
+			"touchscreen":"n",
+			"wifi":"y",
+			"bluetooth":"p"
+		},
+		"message":{
+			"touchscreen":{
+				"zh_cn":"STM FTS触摸屏无可用驱动",
+				"en_us":"No driver available for STM FTS touch screen"
+			}
+		}
+	},{
+		"codename":"beryllium",
+		"name":{
+			"zh_cn":"小米PocoPhone F1",
+			"en_us":"Xiaomi PocoPhone F1"
+		},
+		"state":{
+		},
+		"message":{
+		}
+	},{
+		"codename":"nx616j",
+		"name":{
+			"zh_cn":"努比亚X",
+			"en_us":"Nubia X"
+		},
+		"state":{
+			"usb":"w"
+		},
+		"message":{
+		}
+	},{
+		"codename":"m1882",
+		"name":{
+			"zh_cn":"魅族16th",
+			"en_us":"Meizu 16th"
+		},
+		"state":{
+			"fullsystem":"y",
+			"display":"p"
+		},
+		"message":{
+			"display":{
+				"zh_cn":"显示Framebuffer非常慢 (大约1fps)",
+				"en_us":"Framebuffer is very slow (~1fps)"
+			}
+		}
+	},{
+		"codename":"m1892",
+		"name":{
+			"zh_cn":"魅族16th Plus",
+			"en_us":"Meizu 16th Plus"
+		},
+		"state":{
+			"fullsystem":"y",
+			"display":"p"
+		},
+		"message":{
+			"display":{
+				"zh_cn":"显示Framebuffer非常慢 (大约1fps)",
+				"en_us":"Framebuffer is very slow (~1fps)"
+			}
+		}
+	},{
+		"codename":"star2qltechn",
+		"name":{
+			"zh_cn":"三星 Galaxy S9+",
+			"en_us":"Samsung Galaxy S9+"
+		},
+		"state":{
+			"usb":"p",
+			"ufs":"p"
+		},
+		"message":{
+			"ufs":{
+				"zh_cn":"如果你在磁盘管理中使其强制联机，你的UFS将会被擦除",
+				"en_us":"Your UFS will be ERASED if you make UFS online in diskmgmt"
+			},
+			"usb":{
+				"zh_cn":"USB需外接供电才能正常工作",
+				"en_us":"USB working only with powered hub"
+			}
+		}
+	},{
+		"codename":"judyln",
+		"name":{
+			"zh_cn":"LG G7",
+			"en_us":"LG G7"
+		},
+		"state":{
+			"uefi":"p"
+		},
+		"message":{
+			"uefi":{
+				"zh_cn":"WatchDog导致的重启可能已经修复",
+				"en_us":"The reboot caused by WatchDog may have been fixed"
+			}
+		}
+	},{
+		"codename":"trident",
+		"name":{
+			"zh_cn":"锤子坚果R1",
+			"en_us":"Smartisan R1"
+		},
+		"state":{
+			"fullsystem":"y"
+		},
+		"message":{
+		}
+	},{
+		"codename":"skr-a0",
+		"name":{
+			"zh_cn":"黑鲨手机一代",
+			"en_us":"BlackShark One"
+		},
+		"state":{
+			"fullsystem":"y"
+		},
+		"message":{
+		}
+	},{
+		"codename":"pafm00",
+		"name":{
+			"zh_cn":"OPPO Find X",
+			"en_us":"OPPO Find X"
+		},
+		"state":{
+		},
+		"message":{
+		}
+	},{
+		"codename":"olympic",
+		"name":{
+			"zh_cn":"诺基亚9 PureView",
+			"en_us":"Nokia 9 PureView"
+		},
+		"state":{
+			"usb":"u",
+			"windowspe":"u"
+		},
+		"message":{
+		}
+	},{
+		"codename":"draco",
+		"name":{
+			"zh_cn":"华硕 ZenFone 5Z",
+			"en_us":"Asus ZenFone 5Z"
+		},
+		"state":{
+			"usb":"u",
+			"windowspe":"u"
+		},
+		"message":{
+		}
+	},{
+		"codename":"pd1821",
+		"name":{
+			"zh_cn":"Vivo NEX 双屏版",
+			"en_us":"Vivo NEX Dual Display"
+		},
+		"state":{
+			"uefi":"u",
+			"usb":"u",
+			"windowspe":"u"
+		},
+		"message":{
+		}
+	},{
+		"codename":"blueline",
+		"name":{
+			"zh_cn":"谷歌 Pixel 3",
+			"en_us":"Google Pixel 3"
+		},
+		"state":{
+			"fullsystem":"n",
+			"ufs":"n"
+		},
+		"message":{
+			"ufs":{
+				"zh_cn":"你的UFS将会被擦除!",
+				"en_us":"Your UFS will be ERASED!"
+			}
+		}
+	}
+]
