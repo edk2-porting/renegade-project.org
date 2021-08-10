@@ -10,11 +10,20 @@
 	</head>
 	<body>
 		<div id="app"></div>
+		<script language="javascript" src="/res/edit-on-github.js"></script>
 		<script language="javascript">
+			const github="https://github.com/edk2-porting/";
+			const repo=github+"renegade-project.org/";
 			window.$docsify={
 				name:'Renegade Project',
-				repo:'https://github.com/edk2-porting/',
+				repo:github,
 				loadSidebar: true,
+				plugins: [
+					EditOnGithubPlugin.create(
+						repo+"blob/master/",
+						null,null
+					)
+				]
 			}
 		</script>
 		<script language="javascript" src="/res/docsify.js"></script>
