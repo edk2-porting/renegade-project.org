@@ -15,6 +15,7 @@
     - MSM8998
       - [sagit (小米6)](zh/devices/msm8998/sagit/status.md)
   - Windows
+    - [安装指南](zh/windows/installation-guide.md)
     - [设备支持状态](zh/windows/state-frame.html)
     - [触摸](zh/windows/touch.md)
 - English
