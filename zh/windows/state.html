@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="description" content="Windows Device Support State" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0" />
+		<link rel="stylesheet" href="/res/vue.css" />
+		<title>Windows设备支持状态</title>
+		<style>
+			td.state-y,td.state-n,td.state-p,td.state-w,td.state-t,td.state-u{
+				text-align:center;
+			}
+			td.state-y{background-color:#CFFFBF;}
+			td.state-n{background-color:#FF6060;}
+			td.state-p{background-color:yellow;}
+			td.state-w{background-color:#8080FF;}
+			td.state-t{background-color:#E000E0;}
+			td.state-u{background-color:#A0A0A0;}
+			th{
+				padding-left:5px;
+				padding-right:5px;
+				white-space:nowrap;
+			}
+			body{
+				overflow:auto !important;
+			}
+			.markdown-section{
+				max-width:100%;
+			}
+		</style>
+		<script>
+			let num=0;
+			function add_device(device){
+				const cont=document.getElementById("content");
+				const add_col=function(_tr,_content,_class){
+					const td=document.createElement("td");
+					if(_class)td.setAttribute("class",_class);
+					td.innerText=_content;
+					_tr.appendChild(td);
+					return td;
+				};
+				const add_state=function(_tr,_state,_default,_message){
+					const state=_state?_state:_default;
+					const c=add_col(
+						tr,
+						state.toUpperCase(),
+						"state-"+state.toLowerCase()
+					);
+					if(_message){
+						num++;
+						let x=document.createElement("sup");
+						x.innerText=num.toString();
+						c.number=num;
+						c.appendChild(x);
+						c.style.cursor="pointer";
+						c.onclick=function(){
+							const note=document.getElementById("note-"+this.number);
+							const notes=note.style;
+							if(parent)parent.scrollTo(0,note.offsetTop);
+							else scrollTo(0,note.offsetTop);
+							notes.backgroundColor="gray";
+							setTimeout(function(){notes.backgroundColor=null},250);
+                                                };
+						let m=document.createElement("li");
+						m.id="note-"+num;
+						m.setAttribute("tabindex",num);
+						m.innerText=num+": "+_message.zh_cn;
+						document.getElementById("messages").appendChild(m);
+						document.getElementById("message").style.display=null;
+					}
+				};
+				const tr=document.createElement("tr");
+				let state=device.state,message=device.message;
+				if(!state)state={};
+				if(!message)message={};
+				add_col(tr,device.name.zh_cn,null);
+				add_col(tr,device.codename,null);
+				cont.appendChild(tr);
+				add_state(tr,state.uefi          ,"y",message.uefi);
+				add_state(tr,state.windowspe     ,"y",message.windowspe);
+				add_state(tr,state.fullsystem    ,"u",message.fullsystem);
+				add_state(tr,state.usb           ,"y",message.usb);
+				add_state(tr,state.ufs           ,"y",message.ufs);
+				add_state(tr,state.display       ,"y",message.display);
+				add_state(tr,state.buttons       ,"y",message.buttons);
+				add_state(tr,state.touchscreen   ,"u",message.touchscreen);
+				add_state(tr,state.wifi          ,"w",message.wifi);
+				add_state(tr,state.bluetooth     ,"w",message.bluetooth);
+				add_state(tr,state.battery       ,"w",message.battery);
+				add_state(tr,state.charging      ,"w",message.charging);
+				add_state(tr,state.virtualization,"n",message.virtualization);
+				add_state(tr,state.gpu           ,"t",message.gpu);
+				add_state(tr,state.lte           ,"t",message.lte);
+				add_state(tr,state.call          ,"t",message.call);
+				add_state(tr,state.sms           ,"t",message.sms);
+				add_state(tr,state.gps           ,"t",message.gps);
+				add_state(tr,state.audio         ,"t",message.audio);
+				add_state(tr,state.sensor        ,"t",message.sensor);
+				add_state(tr,state.camera        ,"t",message.camera);
+			}
+			function update_size(){
+				if(!parent)return;
+				const i=parent.document.getElementById("iframe");
+				if(!i)return;
+				i.height=document.body.scrollHeight;
+			}
+			function initialize(){
+				const cont=document.getElementById("content");
+				cont.innerText="加载中...";
+				try{
+					let x;
+					if(window.XMLHttpRequest)x=new XMLHttpRequest();
+					else x=new ActiveXObject("Microsoft.XMLHTTP");
+					x.open("GET","/devices.json",true);
+					x.onreadystatechange=function(){
+						try{
+							if(x.readyState!==4)return;
+							if(x.status!==200)throw new Error("status not ok: "+x.status);
+							const j=JSON.parse(x.response);
+							cont.innerHTML="";
+							for(let i=0;i<j.length;i++)add_device(j[i]);
+							update_size();
+						}catch(e){
+							cont.innerText="加载失败："+e;
+							console.error(e);
+						}
+					}
+					x.send();
+				}catch(e){
+					cont.innerText="加载失败："+e;
+					console.error(e);
+				}
+			}
+		</script>
+	</head>
+	<body class="markdown-section">
+		<h2>Windows设备支持状态</h2>
+		<table border="1" cellspacing="0">
+			<thead>
+				<tr>
+					<th>设备</th>
+					<th>代号</th>
+					<th>UEFI</th>
+					<th>PE</th>
+					<th>完整系统</th>
+					<th>USB</th>
+					<th>UFS</th>
+					<th>显示</th>
+					<th>按键</th>
+					<th>触摸</th>
+					<th>WiFi</th>
+					<th>蓝牙</th>
+					<th>电池</th>
+					<th>充电</th>
+					<th>虚拟化</th>
+					<th>GPU</th>
+					<th>LTE</th>
+					<th>拨号</th>
+					<th>短信</th>
+					<th>定位</th>
+					<th>音频</th>
+					<th>传感器</th>
+					<th>摄像头</th>
+				</tr>
+			</thead>
+			<tbody id="content">
+			</tbody>
+		</table>
+		<br/>
+		<table>
+			<tbody>
+				<tr>
+					<td class="state-y">Y</td>
+					<td>已经支持并且可用</td>
+				</tr>
+				<tr>
+					<td class="state-n">N</td>
+					<td>现阶段不可能支持</td>
+				</tr>
+				<tr>
+					<td class="state-p">P</td>
+					<td>可能支持但不一定可用</td>
+				</tr>
+				<tr>
+					<td class="state-w">W</td>
+					<td>其它设备已经支持，但该设备暂未适配</td>
+				</tr>
+				<tr>
+					<td class="state-t">T</td>
+					<td>有希望支持，正在测试中或者等待适配</td>
+				</tr>
+				<tr>
+					<td class="state-t">U</td>
+					<td>状态未知，等待补充</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>该表可能缺失一些设备的状态，欢迎到<a href="https://github.com/edk2-porting/renegade-project.org">GitHub</a>补充</p>
+		<div id="message" style="display:none">
+			<p>说明：</p>
+			<ul id="messages"></ul>
+		</div>
+	</body>
+	<script>initialize();</script>
+</html>
