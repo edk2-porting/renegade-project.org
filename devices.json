@@ -57,9 +57,7 @@
 			"fullsystem":"y",
 			"touchscreen":"n",
 			"wifi":"y",
-			"bluetooth":"p",
-			"battery":"y",
-			"charging":"p"
+			"bluetooth":"p"
 		},
 		"message":{
 			"touchscreen":{
@@ -77,7 +75,9 @@
 			"fullsystem":"y",
 			"touchscreen":"n",
 			"wifi":"y",
-			"bluetooth":"p"
+			"bluetooth":"p",
+			"battery":"y",
+			"charging":"p"
 		},
 		"message":{
 			"touchscreen":{
