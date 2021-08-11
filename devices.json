@@ -92,6 +92,10 @@
 			"en_us":"Xiaomi PocoPhone F1"
 		},
 		"state":{
+			"fullsystem":"y",
+			"wifi":"y",
+			"battery":"y",
+			"charging":"p"
 		},
 		"message":{
 		}
