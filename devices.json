@@ -14,6 +14,10 @@
 			"charging":"p"
 		},
 		"message":{
+			"charging":{
+				"zh_cn":"对充电器要求较高，lumia 5v3a充电器效果最佳",
+				"en_us":"could be picky about chargers, 5v3a charger from Lumia is preferred"
+			}
 		}
 	},{
 		"codename":"enchilada",
@@ -30,6 +34,10 @@
 			"charging":"p"
 		},
 		"message":{
+			"charging":{
+				"zh_cn":"对充电器要求较高，lumia 5v3a充电器效果最佳",
+				"en_us":"could be picky about chargers, 5v3a charger from Lumia is preferred"
+			}
 		}
 	},{
 		"codename":"polaris",
@@ -39,11 +47,11 @@
 		},
 		"state":{
 			"fullsystem":"y",
-			"touchscreen":"w",
+			"touchscreen":"t",
 			"wifi":"y",
 			"bluetooth":"p",
 			"battery":"y",
-			"charging":"p"
+			"charging":"y"
 		},
 		"message":{
 		}
@@ -77,7 +85,7 @@
 			"wifi":"y",
 			"bluetooth":"p",
 			"battery":"y",
-			"charging":"p"
+			"charging":"y"
 		},
 		"message":{
 			"touchscreen":{
@@ -95,7 +103,9 @@
 			"fullsystem":"y",
 			"wifi":"y",
 			"battery":"y",
-			"charging":"p"
+			"charging":"y",
+			"bluetooth":"u",
+			"touchscreen":"t"
 		},
 		"message":{
 		}
@@ -106,7 +116,8 @@
 			"en_us":"Nubia X"
 		},
 		"state":{
-			"usb":"w"
+			"usb":"w",
+			"bluetooth":"u"
 		},
 		"message":{
 		}
@@ -118,7 +129,8 @@
 		},
 		"state":{
 			"fullsystem":"y",
-			"display":"p"
+			"display":"p",
+			"bluetooth":"u"
 		},
 		"message":{
 			"display":{
@@ -134,7 +146,9 @@
 		},
 		"state":{
 			"fullsystem":"y",
-			"display":"p"
+			"display":"p",
+			"touchscreen":"w",
+			"bluetooth":"u"
 		},
 		"message":{
 			"display":{
@@ -150,7 +164,8 @@
 		},
 		"state":{
 			"usb":"p",
-			"ufs":"p"
+			"ufs":"p",
+			"bluetooth":"u"
 		},
 		"message":{
 			"ufs":{
@@ -169,13 +184,10 @@
 			"en_us":"LG G7"
 		},
 		"state":{
-			"uefi":"p"
+			"fullsystem":"y",
+			"bluetooth":"u"
 		},
 		"message":{
-			"uefi":{
-				"zh_cn":"WatchDog导致的重启可能已经修复",
-				"en_us":"The reboot caused by WatchDog may have been fixed"
-			}
 		}
 	},{
 		"codename":"trident",
@@ -184,7 +196,9 @@
 			"en_us":"Smartisan R1"
 		},
 		"state":{
-			"fullsystem":"y"
+			"fullsystem":"y",
+			"touchscreen":"w",
+			"bluetooth":"u"
 		},
 		"message":{
 		}
@@ -195,7 +209,8 @@
 			"en_us":"BlackShark One"
 		},
 		"state":{
-			"fullsystem":"y"
+			"fullsystem":"y",
+			"bluetooth":"u"
 		},
 		"message":{
 		}
@@ -206,6 +221,7 @@
 			"en_us":"OPPO Find X"
 		},
 		"state":{
+			"bluetooth":"u"
 		},
 		"message":{
 		}
@@ -217,7 +233,8 @@
 		},
 		"state":{
 			"usb":"u",
-			"windowspe":"u"
+			"windowspe":"u",
+			"bluetooth":"u"
 		},
 		"message":{
 		}
@@ -229,7 +246,8 @@
 		},
 		"state":{
 			"usb":"u",
-			"windowspe":"u"
+			"windowspe":"u",
+			"bluetooth":"u"
 		},
 		"message":{
 		}
@@ -242,7 +260,8 @@
 		"state":{
 			"uefi":"u",
 			"usb":"u",
-			"windowspe":"u"
+			"windowspe":"u",
+			"bluetooth":"u"
 		},
 		"message":{
 		}
@@ -254,12 +273,32 @@
 		},
 		"state":{
 			"fullsystem":"n",
-			"ufs":"n"
+			"ufs":"n",
+			"bluetooth":"u"
 		},
 		"message":{
 			"ufs":{
 				"zh_cn":"你的UFS将会被擦除!",
 				"en_us":"Your UFS will be ERASED!"
+			}
+		}
+	},{
+		"codename":" ",
+		"name":{
+			"zh_cn":"索尼设备",
+			"en_us":"Sony devices"
+		},
+		"state":{
+			"uefi":"u",
+			"fullsystem":"n",
+			"usb":"u",
+			"ufs":"n",
+			"bluetooth":"u"
+		},
+		"message":{
+			"ufs":{
+				"zh_cn":"你的UFS（理论上）将会被擦除!",
+				"en_us":"Your UFS will be ERASED theoretically!"
 			}
 		}
 	}

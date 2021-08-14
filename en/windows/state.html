@@ -3,10 +3,10 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-		<meta name="description" content="Windows Device Support State" />
+		<meta name="description" content="Windows Status Matrix" />
 		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0" />
 		<link rel="stylesheet" href="/res/vue.css" />
-		<title>Windows Device Support Status</title>
+		<title>Windows Status Matrix</title>
 		<style>
 			td.state-y,td.state-n,td.state-p,td.state-w,td.state-t,td.state-u{
 				text-align:center;
@@ -135,7 +135,7 @@
 		</script>
 	</head>
 	<body class="markdown-section">
-		<h2>Windows Device Support Status</h2>
+		<h2>Windows Status Matrix</h2>
 		<table border="1" cellspacing="0">
 			<thead>
 				<tr>
@@ -176,23 +176,23 @@
 				</tr>
 				<tr>
 					<td class="state-n">N</td>
-					<td>Impossible to support at now</td>
+					<td>Currently impossible to be supported</td>
 				</tr>
 				<tr>
 					<td class="state-p">P</td>
-					<td>May be supported but not necessarily available</td>
+					<td>Problematic, might be supported but not necessarily available</td>
 				</tr>
 				<tr>
 					<td class="state-w">W</td>
-					<td>Other devices have been supported, but the device has not yet been adapted</td>
+					<td>Tested on other devices, not verified to be working on this device</td>
 				</tr>
 				<tr>
 					<td class="state-t">T</td>
-					<td>Hopeful support, under test or waiting for adaptation</td>
+					<td>Will get supported hopefully, under testing or being ported</td>
 				</tr>
 				<tr>
 					<td class="state-u">U</td>
-					<td>Unknown status, waiting to be added</td>
+					<td>Unknown status</td>
 				</tr>
 			</tbody>
 		</table>
