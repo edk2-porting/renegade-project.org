@@ -1,0 +1,20 @@
+td.state-y,td.state-n,td.state-p,td.state-w,td.state-t,td.state-u{
+	text-align:center;
+}
+td.state-y{background-color:#CFFFBF;}
+td.state-n{background-color:#FF6060;}
+td.state-p{background-color:yellow;}
+td.state-w{background-color:#8080FF;}
+td.state-t{background-color:#E000E0;}
+td.state-u{background-color:#A0A0A0;}
+th{
+	padding-left:5px;
+	padding-right:5px;
+	white-space:nowrap;
+}
+body{
+	overflow:auto !important;
+}
+.markdown-section{
+	max-width:100%;
+}
