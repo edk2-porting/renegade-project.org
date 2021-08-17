@@ -47,7 +47,7 @@
 		},
 		"state":{
 			"fullsystem":"y",
-			"touchscreen":"t",
+			"touchscreen":"y",
 			"wifi":"y",
 			"bluetooth":"p",
 			"battery":"y",
