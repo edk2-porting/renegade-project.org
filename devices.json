@@ -54,6 +54,10 @@
 			"charging":"y"
 		},
 		"message":{
+			"touchscreen":{
+				"zh_cn":"你需要使用fastboot刷写devcfg分区，devcfg链接：http://files.renegade-project.org/devcfg-polaris_FixTS.img",
+				"en_us":"You need to flash devcfg partition with the provided image. Link: http://files.renegade-project.org/devcfg-polaris_FixTS.img"
+			}
 		}
 	},{
 		"codename":"perseus",
