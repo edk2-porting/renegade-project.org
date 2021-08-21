@@ -51,12 +51,22 @@
 			"wifi":"y",
 			"bluetooth":"p",
 			"battery":"y",
-			"charging":"y"
+			"charging":"y",
+			"gpu":"p",
+			"usb":"p"
 		},
 		"message":{
 			"touchscreen":{
 				"zh_cn":"你需要使用fastboot刷写devcfg分区，devcfg链接：http://files.renegade-project.org/devcfg-polaris_FixTS.img",
 				"en_us":"You need to flash devcfg partition with the provided image. Link: http://files.renegade-project.org/devcfg-polaris_FixTS.img"
+			},
+			"gpu":{
+				"zh_cn":"GPU和USB目前不能同时工作，GPU目前仅适用于polaris-gpu。",
+				"en_us":"GPU and USB doesn't work simultaneously right now so GPU currently works only on the polaris-gpu boot image."
+			},
+			"usb":{
+				"zh_cn":"GPU和USB目前不能同时工作，USB目前仅适用于polaris-gpu。",
+				"en_us":"GPU and USB doesn't work simultaneously right now so USB currently works only on the polaris-usb boot image."
 			}
 		}
 	},{
