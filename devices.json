@@ -40,7 +40,7 @@
 			}
 		}
 	},{
-		"codename":"polaris",
+		"codename":"polaris-usb",
 		"name":{
 			"zh_cn":"小米MIX2S",
 			"en_us":"Xiaomi MIX2S"
@@ -52,6 +52,28 @@
 			"bluetooth":"p",
 			"battery":"y",
 			"charging":"y"
+		},
+		"message":{
+			"touchscreen":{
+				"zh_cn":"你需要使用fastboot刷写devcfg分区，devcfg链接：http://files.renegade-project.org/devcfg-polaris_FixTS.img",
+				"en_us":"You need to flash devcfg partition with the provided image. Link: http://files.renegade-project.org/devcfg-polaris_FixTS.img"
+			}
+		}
+	},{
+		"codename":"polaris-gpu",
+		"name":{
+			"zh_cn":"小米MIX2S",
+			"en_us":"Xiaomi MIX2S"
+		},
+		"state":{
+			"fullsystem":"y",
+			"touchscreen":"y",
+			"wifi":"y",
+			"bluetooth":"y",
+			"battery":"y",
+			"charging":"y",
+			"usb":"p",
+			"gpu":"y",
 		},
 		"message":{
 			"touchscreen":{
