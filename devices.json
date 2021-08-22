@@ -92,7 +92,8 @@
 			"wifi":"y",
 			"bluetooth":"p",
 			"battery":"y",
-			"charging":"y"
+			"charging":"y",
+			"gpu":"y"
 		},
 		"message":{
 			"touchscreen":{
