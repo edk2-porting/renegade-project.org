@@ -32,7 +32,8 @@
 			"wifi":"y",
 			"bluetooth":"y",
 			"battery":"y",
-			"charging":"p"
+			"charging":"p",
+			"gpu":"y"
 		},
 		"message":{
 			"charging":{
@@ -113,7 +114,8 @@
 			"battery":"y",
 			"charging":"y",
 			"bluetooth":"u",
-			"touchscreen":"t"
+			"touchscreen":"t",
+			"gpu":"y"
 		},
 		"message":{
 		}
