@@ -11,7 +11,8 @@
 			"wifi":"y",
 			"bluetooth":"y",
 			"battery":"y",
-			"charging":"p"
+			"charging":"p",
+			"gpu":"y"
 		},
 		"message":{
 			"charging":{
