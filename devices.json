@@ -113,11 +113,15 @@
 			"wifi":"y",
 			"battery":"y",
 			"charging":"y",
-			"bluetooth":"u",
+			"bluetooth":"y",
 			"touchscreen":"t",
 			"gpu":"y"
 		},
 		"message":{
+			"gpu":{
+				"zh_cn":"仅支持天马面板； 需要找到一种方法来添加 EBBG 而不需要为每个面板拆分设备"
+				"en_us":"There is only support for Tianma panel; need to find a way to add EBBG without splitting device per panel"
+			}
 		}
 	},{
 		"codename":"nx616j",
