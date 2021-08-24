@@ -73,7 +73,8 @@
 			"fullsystem":"y",
 			"touchscreen":"n",
 			"wifi":"y",
-			"bluetooth":"p"
+			"bluetooth":"p",
+			"gpu":"y"
 		},
 		"message":{
 			"touchscreen":{
