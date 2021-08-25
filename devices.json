@@ -131,7 +131,8 @@
 			"en_us":"Nubia X"
 		},
 		"state":{
-			"usb":"w",
+			"fullsystem":"y",
+			"usb":"y",
 			"bluetooth":"u"
 		},
 		"message":{
