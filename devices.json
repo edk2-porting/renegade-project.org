@@ -234,14 +234,14 @@
 		"message":{
 		}
 	},{
-		"codename":"olympic",
+		"codename":"beholder",
 		"name":{
 			"zh_cn":"诺基亚9 PureView",
 			"en_us":"Nokia 9 PureView"
 		},
 		"state":{
 			"usb":"u",
-			"windowspe":"u"
+			"windowspe":"y"
 		},
 		"message":{
 		}
@@ -252,8 +252,9 @@
 			"en_us":"Asus ZenFone 5Z"
 		},
 		"state":{
-			"usb":"u",
-			"windowspe":"u"
+			"usb":"y",
+			"windowspe":"y",
+			"fullsystem":"y"
 		},
 		"message":{
 		}
