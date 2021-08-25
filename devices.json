@@ -125,6 +125,40 @@
 			}
 		}
 	},{
+		"codename":"ayn-odin",
+		"name":{
+			"zh_cn":"AYN Odin Handheld",
+			"en_us":"AYN Odin Handheld"
+		},
+		"state":{
+			"fullsystem":"y",
+			"bluetooth":"w",
+			"touchscreen":"w",
+			"virtualization":"w",
+			"camera":"n",
+			"lte":"n",
+			"call":"n",
+			"sms":"n"
+		},
+		"message":{
+			"camera":{
+				"zh_cn":"该设备没有此功能",
+				"en_us":"This device does not have this feature"
+			},
+			"lte":{
+				"zh_cn":"该设备没有此功能",
+				"en_us":"This device does not have this feature"
+			},
+			"call":{
+				"zh_cn":"该设备没有此功能",
+				"en_us":"This device does not have this feature"
+			},
+			"sms":{
+				"zh_cn":"该设备没有此功能",
+				"en_us":"This device does not have this feature"
+			}
+		}
+	},{
 		"codename":"nx616j",
 		"name":{
 			"zh_cn":"努比亚X",
