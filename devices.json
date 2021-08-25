@@ -132,8 +132,7 @@
 		},
 		"state":{
 			"fullsystem":"y",
-			"usb":"y",
-			"bluetooth":"u"
+			"usb":"y"
 		},
 		"message":{
 		}
@@ -145,8 +144,7 @@
 		},
 		"state":{
 			"fullsystem":"y",
-			"display":"p",
-			"bluetooth":"u"
+			"display":"p"
 		},
 		"message":{
 			"display":{
@@ -163,8 +161,7 @@
 		"state":{
 			"fullsystem":"y",
 			"display":"p",
-			"touchscreen":"w",
-			"bluetooth":"u"
+			"touchscreen":"w"
 		},
 		"message":{
 			"display":{
@@ -180,8 +177,7 @@
 		},
 		"state":{
 			"usb":"p",
-			"ufs":"p",
-			"bluetooth":"u"
+			"ufs":"p"
 		},
 		"message":{
 			"ufs":{
@@ -200,8 +196,7 @@
 			"en_us":"LG G7"
 		},
 		"state":{
-			"fullsystem":"y",
-			"bluetooth":"u"
+			"fullsystem":"y"
 		},
 		"message":{
 		}
@@ -213,8 +208,7 @@
 		},
 		"state":{
 			"fullsystem":"y",
-			"touchscreen":"w",
-			"bluetooth":"u"
+			"touchscreen":"w"
 		},
 		"message":{
 		}
@@ -225,8 +219,7 @@
 			"en_us":"BlackShark One"
 		},
 		"state":{
-			"fullsystem":"y",
-			"bluetooth":"u"
+			"fullsystem":"y"
 		},
 		"message":{
 		}
@@ -237,7 +230,6 @@
 			"en_us":"OPPO Find X"
 		},
 		"state":{
-			"bluetooth":"u"
 		},
 		"message":{
 		}
@@ -249,8 +241,7 @@
 		},
 		"state":{
 			"usb":"u",
-			"windowspe":"u",
-			"bluetooth":"u"
+			"windowspe":"u"
 		},
 		"message":{
 		}
@@ -262,8 +253,7 @@
 		},
 		"state":{
 			"usb":"u",
-			"windowspe":"u",
-			"bluetooth":"u"
+			"windowspe":"u"
 		},
 		"message":{
 		}
@@ -276,8 +266,7 @@
 		"state":{
 			"uefi":"u",
 			"usb":"u",
-			"windowspe":"u",
-			"bluetooth":"u"
+			"windowspe":"u"
 		},
 		"message":{
 		}
@@ -289,8 +278,7 @@
 		},
 		"state":{
 			"fullsystem":"n",
-			"ufs":"n",
-			"bluetooth":"u"
+			"ufs":"n"
 		},
 		"message":{
 			"ufs":{
@@ -308,8 +296,7 @@
 			"uefi":"u",
 			"fullsystem":"n",
 			"usb":"u",
-			"ufs":"n",
-			"bluetooth":"u"
+			"ufs":"n"
 		},
 		"message":{
 			"ufs":{

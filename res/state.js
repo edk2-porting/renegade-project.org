@@ -65,7 +65,7 @@ function add_device(device){
 	add_state(tr,state.buttons       ,"y",message.buttons);
 	add_state(tr,state.touchscreen   ,"u",message.touchscreen);
 	add_state(tr,state.wifi          ,"w",message.wifi);
-	add_state(tr,state.bluetooth     ,"w",message.bluetooth);
+	add_state(tr,state.bluetooth     ,"u",message.bluetooth);
 	add_state(tr,state.battery       ,"w",message.battery);
 	add_state(tr,state.charging      ,"w",message.charging);
 	add_state(tr,state.virtualization,"n",message.virtualization);
