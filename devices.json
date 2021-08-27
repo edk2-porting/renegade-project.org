@@ -196,6 +196,8 @@
 			"display":"p",
 			"touchscreen":"w",
 			"wifi":"y",
+			"battery":"y",
+			"charging":"y",
 			"gpu":"y"
 		},
 		"message":{
