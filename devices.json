@@ -92,7 +92,7 @@
 			"fullsystem":"y",
 			"touchscreen":"n",
 			"wifi":"y",
-			"bluetooth":"p",
+			"bluetooth":"y",
 			"battery":"y",
 			"charging":"y",
 			"gpu":"y"
