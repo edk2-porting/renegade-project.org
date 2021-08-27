@@ -74,6 +74,7 @@
 			"touchscreen":"n",
 			"wifi":"y",
 			"bluetooth":"y",
+			"battery":"y",
 			"charging":"y",
 			"gpu":"y"
 		},
