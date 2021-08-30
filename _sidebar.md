@@ -36,3 +36,4 @@
   - Windows
     - [Device Support Status](en/windows/state-frame.html)
     - [Touch](en/windows/touch.md)
+    - [Installation Guide](en/windows/Installation-guide.md)
