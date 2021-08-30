@@ -91,7 +91,7 @@ ii:open File>Apply Image
 
 iii:select iso where that is located
 
-iv:select `C:` // disk where we have to install
+iv:select `C: (or D: if c: was pe partition` // disk where we have to install
 
 v:check the slot '`AddBoot`'
 
