@@ -19,6 +19,10 @@
 			"charging":{
 				"zh_cn":"对充电器要求较高，lumia 5v3a充电器效果最佳",
 				"en_us":"could be picky about chargers, 5v3a charger from Lumia is preferred"
+			},
+			"lte":{
+				"zh_cn":"使用前请备份基带EFS",
+				"en_us":"Please backup modem EFS before use"
 			}
 		}
 	},{
@@ -63,6 +67,10 @@
 			"touchscreen":{
 				"zh_cn":"你需要使用fastboot刷写devcfg分区，devcfg链接：http://files.renegade-project.org/devcfg-polaris_FixTS.img",
 				"en_us":"You need to flash devcfg partition with the provided image. Link: http://files.renegade-project.org/devcfg-polaris_FixTS.img"
+			},
+			"lte":{
+				"zh_cn":"使用前请备份基带EFS",
+				"en_us":"Please backup modem EFS before use"
 			}
 		}
 	},{
