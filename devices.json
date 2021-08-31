@@ -12,7 +12,8 @@
 			"bluetooth":"y",
 			"battery":"y",
 			"charging":"p",
-			"gpu":"y"
+			"gpu":"y",
+			"lte":"y"
 		},
 		"message":{
 			"charging":{
