@@ -70,7 +70,7 @@ function add_device(device){
 	add_state(tr,state.charging      ,"w",message.charging);
 	add_state(tr,state.virtualization,"n",message.virtualization);
 	add_state(tr,state.gpu           ,"w",message.gpu);
-	add_state(tr,state.lte           ,"t",message.lte);
+	add_state(tr,state.lte           ,"w",message.lte);
 	add_state(tr,state.call          ,"t",message.call);
 	add_state(tr,state.sms           ,"t",message.sms);
 	add_state(tr,state.gps           ,"t",message.gps);
