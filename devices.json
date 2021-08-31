@@ -55,7 +55,8 @@
 			"battery":"y",
 			"charging":"y",
 			"gpu":"y",
-			"usb":"y"
+			"usb":"y",
+			"lte":"y"
 		},
 		"message":{
 			"touchscreen":{
