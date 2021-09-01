@@ -21,8 +21,8 @@
 				"en_us":"could be picky about chargers, 5v3a charger from Lumia is preferred"
 			},
 			"lte":{
-				"zh_cn":"使用前请备份基带EFS",
-				"en_us":"Please backup modem EFS before use"
+				"zh_cn":"使用前请备份基带EFS/QCN",
+				"en_us":"Please backup modem EFS/QCN before use"
 			}
 		}
 	},{
@@ -69,8 +69,8 @@
 				"en_us":"You need to flash devcfg partition with the provided image. Link: http://files.renegade-project.org/devcfg-polaris_FixTS.img"
 			},
 			"lte":{
-				"zh_cn":"使用前请备份基带EFS",
-				"en_us":"Please backup modem EFS before use"
+				"zh_cn":"使用前请备份基带EFS/QCN",
+				"en_us":"Please backup modem EFS/QCN before use"
 			}
 		}
 	},{
