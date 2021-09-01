@@ -38,12 +38,17 @@
 			"bluetooth":"y",
 			"battery":"y",
 			"charging":"p",
-			"gpu":"y"
+			"gpu":"y",
+			"lte":"y"
 		},
 		"message":{
 			"charging":{
 				"zh_cn":"对充电器要求较高，lumia 5v3a充电器效果最佳",
 				"en_us":"could be picky about chargers, 5v3a charger from Lumia is preferred"
+			},
+			"lte":{
+				"zh_cn":"使用前请备份基带EFS/QCN",
+				"en_us":"Please backup modem EFS/QCN before use"
 			}
 		}
 	},{
