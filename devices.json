@@ -270,7 +270,9 @@
 		},
 		"state":{
 			"fullsystem":"y",
-			"touchscreen":"w"
+			"touchscreen":"w",
+			"gpu":"y",
+			"wifi":"y"
 		},
 		"message":{
 		}
