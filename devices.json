@@ -272,7 +272,11 @@
 			"fullsystem":"y",
 			"touchscreen":"w",
 			"gpu":"y",
-			"wifi":"y"
+			"wifi":"y",
+			"bluetooth":"y",
+			"battery":"y",
+			"charging":"y",
+			"lte":"y"
 		},
 		"message":{
 		}
