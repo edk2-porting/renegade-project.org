@@ -46,7 +46,9 @@ quit
 format new partition
 
 ```
-mkfs.fat -F32 -s1 /dev/block/sda17 mkfs.fat -F32 -s1 /dev/block/sda18 mkfs.ntfs -f /dev/block/sda19 
+mkfs.fat -F32 -s1 /dev/block/sda17
+mkfs.fat -F32 -s1 /dev/block/sda18
+mkfs.ntfs -f /dev/block/sda19 
 mke2fs -t ext4 /dev/block/sda20
 mount /dev/block/by-name/pe /mnt
 exit
