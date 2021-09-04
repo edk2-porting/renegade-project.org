@@ -131,6 +131,32 @@
 			}
 		}
 	},{
+		"codename":"equuleus",
+		"name":{
+			"zh_cn":"小米8UD屏幕指纹版",
+			"en_us":"Xiaomi MI8 UD"
+		},
+		"state":{
+			"fullsystem":"y",
+			"touchscreen":"n",
+			"wifi":"y",
+			"bluetooth":"y",
+			"battery":"y",
+			"charging":"y",
+			"gpu":"y",
+			"lte":"y"
+		},
+		"message":{
+			"touchscreen":{
+				"zh_cn":"STM FTS触摸屏无可用驱动",
+				"en_us":"No driver available for STM FTS touch screen"
+			},
+			"lte":{
+				"zh_cn":"使用前请备份基带EFS/QCN",
+				"en_us":"Please backup modem EFS/QCN before use"
+			}
+		}
+	},{
 		"codename":"beryllium",
 		"name":{
 			"zh_cn":"小米PocoPhone F1",
