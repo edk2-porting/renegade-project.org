@@ -307,6 +307,20 @@
 		"message":{
 		}
 	},{
+		"codename":"akershus",
+		"name":{
+			"zh_cn":"中兴天机Axon 9 Pro",
+			"en_us":"ZTE Axon 9 Pro"
+		},
+		"state":{
+			"fullsystem":"y",
+			"bluetooth":"y",
+			"battery":"y",
+			"charging":"y"
+		},
+		"message":{
+		}
+	},{
 		"codename":"skr-a0",
 		"name":{
 			"zh_cn":"黑鲨手机一代",
