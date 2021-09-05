@@ -61,7 +61,7 @@
 			"fullsystem":"y",
 			"touchscreen":"y",
 			"wifi":"y",
-			"bluetooth":"p",
+			"bluetooth":"y",
 			"battery":"y",
 			"charging":"y",
 			"gpu":"y",
