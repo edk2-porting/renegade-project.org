@@ -174,8 +174,12 @@
 		},
 		"message":{
 			"touchscreen":{
-				"zh_cn":"该设备没有此功能",
+				"zh_cn":"仅适用于使用 EBBG/FTS 面板的型号",
 				"en_us":"Only works with models that use EBBG/FTS panel"
+			},
+			"lte":{
+				"zh_cn":"使用前请备份基带EFS/QCN",
+				"en_us":"Please backup modem EFS/QCN before use"
 			}
 		}
 	},{
