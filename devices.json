@@ -169,7 +169,7 @@
 			"charging":"y",
 			"bluetooth":"y",
 			"touchscreen":"p",
-			"gpu":"y"
+			"gpu":"y",
 			"lte":"y"
 		},
 		"message":{
