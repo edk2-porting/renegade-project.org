@@ -168,11 +168,15 @@
 			"battery":"y",
 			"charging":"y",
 			"bluetooth":"y",
-			"touchscreen":"t",
+			"touchscreen":"p",
 			"gpu":"y"
+			"lte":"y"
 		},
 		"message":{
-			
+			"touchscreen":{
+				"zh_cn":"该设备没有此功能",
+				"en_us":"Only works with models that use EBBG/FTS panel"
+			}
 		}
 	},{
 		"codename":"ayn-odin",
