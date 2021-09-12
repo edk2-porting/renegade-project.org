@@ -1,120 +1,168 @@
-### first
-Download these files to your U disk
+# Windows Installation Guide
 
-Download Tools
+**This guild is only for devices with working USB!**
 
-i: Download [20h2pe_new.zip](https://pan.baidu.com/s/1Pgaz-bdTiOKFXGAxgYCX6A)
+Please check the [Device Support Status](en/windows/state-frame.html).
 
-ii: Download [Dism++](http://www.chuyu.me/zh-Hans/index.html)
+### Download Tools
 
-iii: Download [GitHub -WOA-Drivers](https://github.com/edk2-porting/WOA-Drivers)
+Download these files to your USB flash drive:
 
-iv: Download [parted](https://pwdx.lanzoux.com/iUgSEmkrlmh)
+1. Download Windows PE
+   
+   [20h2pe_new.zip](https://pan.baidu.com/s/1Pgaz-bdTiOKFXGAxgYCX6A)
+   
+   Password：1234
+    
+2. Download dism++
 
-v: Download [Releases · edk2-porting/edk2-sdm845 · GitHub](https://github.com/edk2-porting/edk2-sdm845/releases)
+   [Dism++](https://www.chuyu.me/en/index.html)
 
-Download windows10 arm64 iso
+3. Download SDM845 Drivers
+   
+   [GitHub WOA-Drivers](https://github.com/edk2-porting/WOA-Drivers)
 
-uupdump.ml or uup.rg-adguard.net
+   You need to extract drivers for your device here, check README.
 
-second
+4. Download Windows 10 arm64 iso
 
-connect your phone to your PC
+   [UUP dump](https://uupdump.net/?lang=en-us)
 
-open Command Prompt As Administrator
+5. Download UEFI
 
-Run `adb push parted /sdcard/`
+   [Releases · edk2-porting/edk2-sdm845 · GitHub](https://github.com/edk2-porting/edk2-sdm845/releases)
 
-partition your device
+6. Download parted
+   
+   [parted](https://pwdx.lanzoux.com/iUgSEmkrlmh)
 
-WARNING: Don't Use letters/numbers after the "#" 
+7. Create a text file, you may need it to copy-paste commands on the phone
 
-```
+   ```sh
+   diskpart
+   select disk 0
+   list part
+   select part 17    # 17 is the number of your ESP partition
+   assign letter=Y
+   exit
+   
+   bcdedit /store Y:\efi\microsoft\boot\bcd /set {Default} testsigning on
+   bcdedit /store Y:\efi\microsoft\boot\bcd /set {Default} nointegritychecks on
+   
+   shutdown -s -t 0
+   ```
+
+### Pre-Installation
+
+Some devices may need additional steps. Before you proceed, please check your device page at *Devices* section.
+
+### Create Partitions
+
+Enter TWRP Recovery on your phone and connect it to PC.
+
+Open Command Prompt as Administrator and run:
+
+```sh
+adb push parted /sdcard/
 adb shell
-cp /sdcard/parted /sbin/ && chmod 755 /sbin/parted
-umount /data && umount /sdcard
-parted /dev/block/sda
-rm 17 # remove userdata
-mkpart esp fat32 6559MB 7000MB # 441 MB
-mkpart pe fat32 7000MB 10000MB # 3 GB
-mkpart win ntfs 10000MB 70GB # 61,680 MB ( 61.68 GB )
-mkpart userdata ext4 70GB 125GB # 56,320 MB ( 56.32 GB )
-set 17 esp on # mark as active partition
-quit
 ```
 
-format new partition
+1. Repartition device
 
-```
-mkfs.fat -F32 -s1 /dev/block/sda17
-mkfs.fat -F32 -s1 /dev/block/sda18
-mkfs.ntfs -f /dev/block/sda19 
-mke2fs -t ext4 /dev/block/sda20
-mount /dev/block/by-name/pe /mnt
-exit
-```
+   The following partition layout commands is example for OnePlus 6T 128GB. 
+   You may need to change the ranges for your own device or your own preferences.
 
-copy iso ,20h2pe_new ,Dism++ Folder to usb otg
-and connect otg to phone (don't remove till progress finishes ,needs iso to flash wim )
+   !> This may damage your device if done wrong. Please use 9008 to restore your device if it becomes bricked accidentally.
 
-`cp -r /usbstorage/20h2pe_new/* /mnt # in twrp Advanced>Terminal`
+   > WARNING: Ignore the text after the `#`, it's just a comment.
 
-reboot to system with twrp
+   ```sh
+   cp /sdcard/parted /sbin/ && chmod 755 /sbin/parted
+   umount /data && umount /sdcard
+   parted /dev/block/sda
+   rm 17                           # remove userdata
+   mkpart esp fat32 6559MB 7000MB    # 441 MB
+   mkpart pe fat32 7000MB 10000MB    # 3 GB
+   mkpart win ntfs 10000MB 70GB      # 61,680 MB ( 61.68 GB )
+   mkpart userdata ext4 70GB 125GB   # 56,320 MB ( 56.32 GB )
+   set 17 esp on                   # mark as active partition
+   quit
+   ```
 
-try to boot Android
+2. Format new partitions
 
-if it works ,android is ok
+   ```sh
+   mkfs.fat -F32 -s1 /dev/block/by-name/pe
+   mkfs.fat -F32 -s1 /dev/block/by-name/esp
+   mkfs.ntfs -f /dev/block/by-name/win
+   mke2fs -t ext4 /dev/block/by-name/userdata
+   ```
 
-Third
-shutdown android and go to fastboot mode
+3. Mount PE partition as `/mnt`
 
-boot uefi
+   ```sh
+   mount /dev/block/by-name/pe /mnt
+   ```
 
-`fastboot boot uefi.img`
+4. Connect USB flash drive to device's OTG and copy PE
 
-enter PE system
+   ```
+   cp -r /usbstorage/20h2pe_new/* /mnt
+   ```
 
-mount esp part on Y:
+5. Reboot to system with TWRP
 
-```
-diskpart
-select disk 0
-list part
-select part 17
-assign letter=Y
-exit
-```
+   Try to boot Android first. If it works, Android is ok and we can proceed.
 
-install windows arm64:
+### Install Windows
 
-i:open dism++
+Reboot device to fastboot mode.
 
-ii:open File>Apply Image
+1. Boot UEFI
 
-iii:select iso where that is located
+   ```sh
+   fastboot boot boot-DEVICE.img
+   ```
 
-iv:select `C: (or D: if c: was pe partition` // disk where we have to install
+2. Enter Windows PE
 
-v:check the slot '`AddBoot`'
+   Assign Y letter to your ESP partition:
 
-vi:select 'Ok' to Apply Image //wait some time
+   ```sh
+   diskpart
+   select disk 0
+   list part
+   select part 17    # 17 is the number of your ESP partition
+   assign letter=Y
+   exit
+   ```
 
-now, install drivers
+3. Install Windows ARM64
+   
+   Open dism++ and install Windows:
 
-i:after opened session ,select Drivers under Control Panel
+   1. Open File > Apply Image
+   2. Select iso where that is located
+   3. Select the `C:\` root (or `D:\` if `C:\` is the PE partition), the destination disk where windows will be applied
+   4. Check `Add Boot`
+   5. Press `OK` and wait untill image applied
+   
+   Install drivers:
 
-ii:and wait and it asks you to select driver.
+   1. Select new Windows installation on top and click `Open session`
+   2. Enter `Drivers` section under `Control Panel`
+   3. Click `Add` and select SDM845 Drivers folder
+   4. Wait untill drivers installed
 
-iii:click 'Add' and Open the driver folder
+4. Enable Test-Signing mode
 
-iv:and it will install drivers
+   ```sh
+   bcdedit /store Y:\efi\microsoft\boot\bcd /set {Default} testsigning on
+   bcdedit /store Y:\efi\microsoft\boot\bcd /set {Default} nointegritychecks on
+   ```
 
-now ,stop the Driver signature enforcement:
+5. Reboot to UEFI again, enjoy your Windows!
 
-```
-bcdedit /store Y:\efi\microsoft\boot\bcd /set {Default} testsigning on
-
-bcdedit /store Y:\efi\microsoft\boot\bcd /set {Default} nointegritychecks on
-```
-
-reboot and boot uefi, enjoy!
+   ```sh
+   shutdown -s -t 0
+   ```

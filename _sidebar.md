@@ -12,6 +12,8 @@
     - [SDM845](zh/devices/sdm845/status.md)
       - [dipper (小米8)](zh/devices/sdm845/dipper/status.md)
       - [polaris (小米MIX2S)](zh/devices/sdm845/polaris/status.md)
+      - [enchilada (加6)](zh/devices/sdm845/enchilada/status.md)
+      - [fajita (加6T)](zh/devices/sdm845/fajita/status.md)
     - MSM8998
       - [sagit (小米6)](zh/devices/msm8998/sagit/status.md)
   - Windows
@@ -31,9 +33,11 @@
     - [SDM845](en/devices/sdm845/status.md)
       - [dipper (Xiaomi MI8)](en/devices/sdm845/dipper/status.md)
       - [polaris (Xiaomi MIX2S)](en/devices/sdm845/polaris/status.md)
+      - [enchilada (OnePlus 6)](en/devices/sdm845/enchilada/status.md)
+      - [fajita (OnePlus 6T)](en/devices/sdm845/fajita/status.md)
     - MSM8998
       - [sagit (Xiaomi MI6)](en/devices/msm8998/sagit/status.md)
   - Windows
+    - [Installation Guide](en/windows/Installation-guide.md)
     - [Device Support Status](en/windows/state-frame.html)
     - [Touch](en/windows/touch.md)
-    - [Installation Guide](en/windows/Installation-guide.md)
