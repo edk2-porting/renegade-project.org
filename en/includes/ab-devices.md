@@ -26,12 +26,21 @@ At this point you can proceed to [Installation Guide](en/windows/Installation-gu
 Once you got both Windows installed and booting successfully from fastboot and Android booting successfully after full Windows installation (check it!), now you can reboot to fastboot and finally flash EDK2 to the second slot.
 
 If you have Android on slot A, flash EDK2 to B:
+
 ```bash
 fastboot flash boot_b boot_DEVICE.img
 ```
+
 If you have Android on slot B, flash EDK2 to A:
+
 ```bash
 fastboot flash boot_a boot_DEVICE.img
+```
+
+Once flashed, do not change the slot right after that, reboot to Android first at least once:
+
+```bash
+fastboot reboot
 ```
 
 ### Slot Switching
