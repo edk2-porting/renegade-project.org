@@ -1,15 +1,16 @@
 # Windows安装指南
 
-#### first
-
 **本教程仅支持usb正常工作的设备**
 
-请查看右侧*设备支持状态* 
+请查看右侧[设备支持状态](zh/windows/state-frame.html)
+
+### Download Tools
 
 下载这些文件到你的U盘
 
 1. 下载PE
-    [20h2pe_new.zip](https://pan.baidu.com/s/1Pgaz-bdTiOKFXGAxgYCX6A)
+
+   [20h2pe_new.zip](https://pan.baidu.com/s/1Pgaz-bdTiOKFXGAxgYCX6A)
    
    提取码：1234
    
@@ -19,9 +20,11 @@
 
 3. 下载SDM845 驱动
 
-   [GitHub -WOA-Drivers](https://github.com/edk2-porting/WOA-Drivers)
+   [GitHub WOA-Drivers](https://github.com/edk2-porting/WOA-Drivers)
 
-4. 下载windows10 arm64 iso
+   You need to extract drivers for your device here, check README.
+
+4. 下载windows10/windows11 arm64 iso
 
    [UUP dump](https://uupdump.net/?lang=zh-cn)
 
@@ -35,7 +38,7 @@
 
 7. 新建new.txt 文件
 
-   ```
+   ```sh
    diskpart
    sel disk 0
    sel part 17 #注意17是你的esp分区号
@@ -49,56 +52,63 @@
    
    ```
 
+### Pre-Installation
 
+Some devices may need additional steps. Before you proceed, please check your device page at *Devices* section.
 
-#### second
+### Create Partitions
 
 ​	电脑连接手机进入TWRP
 
 1. 分区（仅限一加6T复制粘贴）
 
-> 这可能会损坏你的设备，不慎变砖请使用9008恢复你的设备
+   !> 这可能会损坏你的设备，不慎变砖请使用9008恢复你的设备
 
-```sh
-  cp /sdcard/parted /sbin/ && chmod 755 /sbin/parted
-  umount /data && umount /sdcard
-  parted /dev/block/sda
-  rm 17 #17是userdata分区号 
-  mkpart esp fat32 6559MB 7000MB
-  mkpart pe fat32 7000MB 10000MB
-  mkpart win ntfs 10000MB 70GB
-  mkpart userdata ext4 70GB 125GB
-  #设置17分区为esp分区，这步很重要
-  set 17 esp on
-```
+   ```sh
+   cp /sdcard/parted /sbin/ && chmod 755 /sbin/parted
+   umount /data && umount /sdcard
+   parted /dev/block/sda
+   rm 17 #17是userdata分区号 
+   mkpart esp fat32 6559MB 7000MB
+   mkpart pe fat32 7000MB 10000MB
+   mkpart win ntfs 10000MB 70GB
+   mkpart userdata ext4 70GB 125GB
+   #设置17分区为esp分区，这步很重要
+   set 17 esp on
+   quit
+   ```
 
 2. 重启TWRP，格式化新分区
 
-```sh
-#某些TWRP是 mkfs.fat -F32 -s1 /dev/block/bootdevice/by-name/pe
-mkfs.fat -F32 -s1 /dev/block/by-name/pe
-mkfs.fat -F32 -s1 /dev/block/by-name/esp
-mkfs.ntfs -f /dev/block/by-name/win
-mke2fs -t ext4 /dev/block/by-name/userdata
-```
+   ```sh
+   #某些TWRP是 mkfs.fat -F32 -s1 /dev/block/bootdevice/by-name/pe
+   mkfs.fat -F32 -s1 /dev/block/by-name/pe
+   mkfs.fat -F32 -s1 /dev/block/by-name/esp
+   mkfs.ntfs -f /dev/block/by-name/win
+   mke2fs -t ext4 /dev/block/by-name/userdata
+   ```
 
-3. 挂载PE分区到 /mnt
+3. 挂载PE分区到 `/mnt`
 
-```sh
-mount /dev/block/by-name/pe /mnt
-```
+   ```sh
+   mount /dev/block/by-name/pe /mnt
+   ```
 
 4. OTG连接U盘，复制pe文件到PE分区
 
-```
-cp -r /usbstorage/20h2pe_new/* /mnt
-```
+   ```
+   cp -r /usbstorage/20h2pe_new/* /mnt
+   ```
 
-5. 重启进入 fastboot
+5. Reboot to system with TWRP
 
-#### Third
+   Try to boot Android first. If it works, Android is ok and we can proceed.
 
-1. 进入fastboot，boot uefi 
+6. 重启进入 fastboot
+
+### Install Windows
+
+1. 进入fastboot，boot UEFI
 
    ```sh
    fastboot boot boot-xxx.img
@@ -112,7 +122,7 @@ cp -r /usbstorage/20h2pe_new/* /mnt
    diskpart
    select disk 0
    list part
-   select part 17 //17为你的esp分区号
+   select part 17 #17为你的esp分区号
    assign letter=Y
    exit
    ```
@@ -131,4 +141,6 @@ cp -r /usbstorage/20h2pe_new/* /mnt
 
 5. 重启，boot uefi 进入完整Windows系统
 
-   
+   ```sh
+   shutdown -s -t 0
+   ```
