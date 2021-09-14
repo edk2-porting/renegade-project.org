@@ -174,8 +174,8 @@
 		},
 		"message":{
 			"touchscreen":{
-				"zh_cn":"仅适用于使用 EBBG/FTS 面板的型号  你需要使用fastboot刷写devcfg分区，devcfg链接：https://cdn.discordapp.com/attachments/736563712466616391/880541358178320454/devcfg.img",
-				"en_us":"Only works with models that use EBBG/FTS panel + you need to flash devcfg partition with the provided image. Link: https://cdn.discordapp.com/attachments/736563712466616391/880541358178320454/devcfg.img"
+				"zh_cn":"仅适用于使用 EBBG/FTS 面板的型号  你需要使用fastboot刷写devcfg分区，devcfg链接：https://files.renegade-project.org/devcfg-beryllium_FixTS.img",
+				"en_us":"Only works with models that use EBBG/FTS panel + you need to flash devcfg partition with the provided image. Link: https://files.renegade-project.org/devcfg-beryllium_FixTS.img"
 			},
 			"lte":{
 				"zh_cn":"使用前请备份基带EFS/QCN",
