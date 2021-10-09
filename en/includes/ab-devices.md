@@ -9,7 +9,7 @@ In some cases second inactive slot can be unpopulated or contain much older firm
 
 To do this, sideload the `copy-partitions-20210323_1922.zip` package by doing the following:
 
-1. Download the `copy-partitions-20210323_1922.zip` file from [here](assets/copy-partitions-20210323_1922.zip ':ignore');
+1. Download the `copy-partitions-20210323_1922.zip` file from [here](https://files.renegade-project.org/copy-partitions-20210323_1922.zip ':ignore');
 2. Sideload the `copy-partitions-20210323_1922.zip` package:
     * On the device, switch recovery to sideload mode:
       * For TWRP: select "Advanced", "ADB Sideload", then swipe to begin sideload;
