@@ -445,10 +445,10 @@
 			}
 		}
 	},{
-		"codename":" ",
+		"codename":"akari",
 		"name":{
-			"zh_cn":"索尼设备",
-			"en_us":"Sony devices"
+			"zh_cn":"索尼Xperia XZ2",
+			"en_us":"Sony Xperia XZ2"
 		},
 		"state":{
 			"uefi":"u",
