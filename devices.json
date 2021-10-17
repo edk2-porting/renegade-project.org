@@ -1,6 +1,7 @@
 [
 	{
 		"codename":"fajita",
+		"soc":"SDM845",
 		"name":{
 			"zh_cn":"一加6T",
 			"en_us":"Oneplus 6T"
@@ -32,6 +33,7 @@
 		}
 	},{
 		"codename":"enchilada",
+		"soc":"SDM845",
 		"name":{
 			"zh_cn":"一加6",
 			"en_us":"Oneplus 6"
@@ -63,6 +65,7 @@
 		}
 	},{
 		"codename":"dumpling",
+		"soc":"MSM8998",
 		"name":{
 			"zh_cn":"一加5T",
 			"en_us":"Oneplus 5T"
@@ -84,6 +87,7 @@
 		}
 	},{
 		"codename":"cheeseburger",
+		"soc":"MSM8998",
 		"name":{
 			"zh_cn":"一加5",
 			"en_us":"Oneplus 5"
@@ -105,6 +109,7 @@
 		}
 	},{
 		"codename":"polaris",
+		"soc":"SDM845",
 		"name":{
 			"zh_cn":"小米MIX2S",
 			"en_us":"Xiaomi MIX2S"
@@ -137,6 +142,7 @@
 		}
 	},{
 		"codename":"chiron",
+		"soc":"MSM8998",
 		"name":{
 			"zh_cn":"小米MIX2",
 			"en_us":"Xiaomi MIX2"
@@ -158,6 +164,7 @@
 		}
 	},{
 		"codename":"perseus",
+		"soc":"SDM845",
 		"name":{
 			"zh_cn":"小米MIX3",
 			"en_us":"Xiaomi MIX3"
@@ -189,6 +196,7 @@
 		}
 	},{
 		"codename":"dipper",
+		"soc":"SDM845",
 		"name":{
 			"zh_cn":"小米8",
 			"en_us":"Xiaomi MI8"
@@ -220,6 +228,7 @@
 		}
 	},{
 		"codename":"equuleus",
+		"soc":"SDM845",
 		"name":{
 			"zh_cn":"小米8UD屏幕指纹版",
 			"en_us":"Xiaomi MI8 UD"
@@ -251,6 +260,7 @@
 		}
 	},{
 		"codename":"sagit",
+		"soc":"MSM8998",
 		"name":{
 			"zh_cn":"小米6",
 			"en_us":"Xiaomi MI6"
@@ -272,6 +282,7 @@
 		}
 	},{
 		"codename":"beryllium",
+		"soc":"SDM845",
 		"name":{
 			"zh_cn":"小米PocoPhone F1",
 			"en_us":"Xiaomi PocoPhone F1"
@@ -303,6 +314,7 @@
 		}
 	},{
 		"codename":"ayn-odin",
+		"soc":"SDM845",
 		"name":{
 			"zh_cn":"ayn odin handheld",
 			"en_us":"ayn odin handheld"
@@ -343,6 +355,7 @@
 		}
 	},{
 		"codename":"nx616j",
+		"soc":"SDM845",
 		"name":{
 			"zh_cn":"努比亚X",
 			"en_us":"Nubia X"
@@ -355,6 +368,7 @@
 		}
 	},{
 		"codename":"m1882",
+		"soc":"SDM845",
 		"name":{
 			"zh_cn":"魅族16th",
 			"en_us":"Meizu 16th"
@@ -371,6 +385,7 @@
 		}
 	},{
 		"codename":"m1892",
+		"soc":"SDM845",
 		"name":{
 			"zh_cn":"魅族16th Plus",
 			"en_us":"Meizu 16th Plus"
@@ -392,6 +407,7 @@
 		}
 	},{
 		"codename":"star2qltechn",
+		"soc":"SDM845",
 		"name":{
 			"zh_cn":"三星 Galaxy S9+",
 			"en_us":"Samsung Galaxy S9+"
@@ -412,6 +428,7 @@
 		}
 	},{
 		"codename":"judyln",
+		"soc":"SDM845",
 		"name":{
 			"zh_cn":"LG G7",
 			"en_us":"LG G7"
@@ -423,6 +440,7 @@
 		}
 	},{
 		"codename":"joan",
+		"soc":"MSM8998",
 		"name":{
 			"zh_cn":"LG V30",
 			"en_us":"LG V30"
@@ -444,6 +462,7 @@
 		}
 	},{
 		"codename":"trident",
+		"soc":"SDM845",
 		"name":{
 			"zh_cn":"锤子坚果R1",
 			"en_us":"Smartisan R1"
@@ -462,6 +481,7 @@
 		}
 	},{
 		"codename":"akershus",
+		"soc":"SDM845",
 		"name":{
 			"zh_cn":"中兴天机Axon 9 Pro",
 			"en_us":"ZTE Axon 9 Pro"
@@ -476,6 +496,7 @@
 		}
 	},{
 		"codename":"skr-a0",
+		"soc":"SDM845",
 		"name":{
 			"zh_cn":"黑鲨手机一代",
 			"en_us":"BlackShark One"
@@ -487,6 +508,7 @@
 		}
 	},{
 		"codename":"pafm00",
+		"soc":"SDM845",
 		"name":{
 			"zh_cn":"OPPO Find X",
 			"en_us":"OPPO Find X"
@@ -497,6 +519,7 @@
 		}
 	},{
 		"codename":"beholder",
+		"soc":"SDM845",
 		"name":{
 			"zh_cn":"诺基亚9 PureView",
 			"en_us":"Nokia 9 PureView"
@@ -509,6 +532,7 @@
 		}
 	},{
 		"codename":"draco",
+		"soc":"SDM845",
 		"name":{
 			"zh_cn":"华硕 ZenFone 5Z",
 			"en_us":"Asus ZenFone 5Z"
@@ -522,6 +546,7 @@
 		}
 	},{
 		"codename":"nash",
+		"soc":"MSM8998",
 		"name":{
 			"zh_cn":"摩托罗拉Moto Z2 Force",
 			"en_us":"Motorola Moto Z2 Force"
@@ -543,6 +568,7 @@
 		}
 	},{
 		"codename":"pd1821",
+		"soc":"SDM845",
 		"name":{
 			"zh_cn":"Vivo NEX 双屏版",
 			"en_us":"Vivo NEX Dual Display"
@@ -556,6 +582,7 @@
 		}
 	},{
 		"codename":"blueline",
+		"soc":"SDM845",
 		"name":{
 			"zh_cn":"谷歌 Pixel 3",
 			"en_us":"Google Pixel 3"
@@ -572,6 +599,7 @@
 		}
 	},{
 		"codename":"akari",
+		"soc":"SDM845",
 		"name":{
 			"zh_cn":"索尼Xperia XZ2",
 			"en_us":"Sony Xperia XZ2"

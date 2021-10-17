@@ -55,6 +55,7 @@ function add_device(device){
 	if(!message)message={};
 	add_col(tr,device.name[locale.lang],null);
 	add_col(tr,device.codename,null);
+	add_col(tr,device.soc,null);
 	cont.appendChild(tr);
 	add_state(tr,state.uefi          ,"y",message.uefi);
 	add_state(tr,state.windowspe     ,"y",message.windowspe);
