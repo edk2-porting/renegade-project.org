@@ -62,6 +62,48 @@
 			}
 		}
 	},{
+		"codename":"dumpling",
+		"name":{
+			"zh_cn":"一加5T",
+			"en_us":"Oneplus 5T"
+		},
+		"state":{
+			"usb":"y",
+			"windowspe":"y",
+			"fullsystem":"y",
+			"buttons":"t",
+			"wifi":"t",
+			"touchscreen":"t",
+			"bluetooth":"t",
+			"charging":"t",
+			"battery":"t",
+			"gpu":"t",
+			"lte":"t"
+		},
+		"message":{
+		}
+	},{
+		"codename":"cheeseburger",
+		"name":{
+			"zh_cn":"一加5",
+			"en_us":"Oneplus 5"
+		},
+		"state":{
+			"usb":"y",
+			"windowspe":"y",
+			"fullsystem":"y",
+			"buttons":"t",
+			"wifi":"t",
+			"touchscreen":"t",
+			"bluetooth":"t",
+			"charging":"t",
+			"battery":"t",
+			"gpu":"t",
+			"lte":"t"
+		},
+		"message":{
+		}
+	},{
 		"codename":"polaris",
 		"name":{
 			"zh_cn":"小米MIX2S",
@@ -92,6 +134,27 @@
 				"zh_cn":"使用前请备份基带EFS/QCN",
 				"en_us":"Please backup modem EFS/QCN before use"
 			}
+		}
+	},{
+		"codename":"chiron",
+		"name":{
+			"zh_cn":"小米MIX2",
+			"en_us":"Xiaomi MIX2"
+		},
+		"state":{
+			"usb":"y",
+			"windowspe":"y",
+			"fullsystem":"y",
+			"buttons":"t",
+			"wifi":"t",
+			"touchscreen":"t",
+			"bluetooth":"t",
+			"charging":"t",
+			"battery":"t",
+			"gpu":"t",
+			"lte":"t"
+		},
+		"message":{
 		}
 	},{
 		"codename":"perseus",
@@ -185,6 +248,27 @@
 				"zh_cn":"使用前请备份基带EFS/QCN",
 				"en_us":"Please backup modem EFS/QCN before use"
 			}
+		}
+	},{
+		"codename":"sagit",
+		"name":{
+			"zh_cn":"小米6",
+			"en_us":"Xiaomi MI6"
+		},
+		"state":{
+			"usb":"y",
+			"windowspe":"y",
+			"fullsystem":"y",
+			"buttons":"t",
+			"wifi":"t",
+			"touchscreen":"t",
+			"bluetooth":"t",
+			"charging":"t",
+			"battery":"t",
+			"gpu":"t",
+			"lte":"t"
+		},
+		"message":{
 		}
 	},{
 		"codename":"beryllium",
@@ -338,6 +422,27 @@
 		"message":{
 		}
 	},{
+		"codename":"joan",
+		"name":{
+			"zh_cn":"LG V30",
+			"en_us":"LG V30"
+		},
+		"state":{
+			"usb":"y",
+			"windowspe":"y",
+			"fullsystem":"y",
+			"buttons":"t",
+			"wifi":"t",
+			"touchscreen":"t",
+			"bluetooth":"t",
+			"charging":"t",
+			"battery":"t",
+			"gpu":"t",
+			"lte":"t"
+		},
+		"message":{
+		}
+	},{
 		"codename":"trident",
 		"name":{
 			"zh_cn":"锤子坚果R1",
@@ -412,6 +517,27 @@
 			"usb":"y",
 			"windowspe":"y",
 			"fullsystem":"y"
+		},
+		"message":{
+		}
+	},{
+		"codename":"nash",
+		"name":{
+			"zh_cn":"摩托罗拉Moto Z2 Force",
+			"en_us":"Motorola Moto Z2 Force"
+		},
+		"state":{
+			"usb":"y",
+			"windowspe":"y",
+			"fullsystem":"y",
+			"buttons":"t",
+			"wifi":"t",
+			"touchscreen":"t",
+			"bluetooth":"t",
+			"charging":"t",
+			"battery":"t",
+			"gpu":"t",
+			"lte":"t"
 		},
 		"message":{
 		}
