@@ -314,7 +314,7 @@
 		}
 	},{
 		"codename":"ayn-odin",
-		"soc":"SDM845",
+		"soc":"SDA845",
 		"name":{
 			"zh_cn":"ayn odin handheld",
 			"en_us":"ayn odin handheld"
