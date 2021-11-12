@@ -1,7 +1,7 @@
 UEFI-NTFS
 ===========
 
-## Introductoon
+## Introduction
 
 This tool helps you to boot EFI application located in an NTFS filesystem.
 
