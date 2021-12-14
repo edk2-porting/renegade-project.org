@@ -16,6 +16,16 @@
 			.content{
 				padding-top:0px;
 			}
+			.beian{
+				position: fixed;
+				right: 0px;
+				bottom: 0px;
+				margin: 8px;
+			}
+			.beian a{
+				text-decoration: none;
+				color: gray;
+			}
 		</style>
 	</head>
 	<body>
@@ -38,4 +48,15 @@
 		</script>
 		<script language="javascript" src="/res/docsify.js"></script>
 	</body>
+	<script language="javascript">
+		if(document.domain=="renegade-project.cn"){
+			let beian=document.createElement("div");
+			beian.setAttribute("class","beian");
+			let link=document.createElement("a");
+			link.href="http://beian.miit.gov.cn/";
+			link.innerText="闽ICP备2021000369号-3"
+			beian.appendChild(link);
+			document.body.appendChild(beian);
+		}
+	</script>
 </html>
