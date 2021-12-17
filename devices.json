@@ -64,6 +64,73 @@
 			}
 		}
 	},{
+		"codename":"guacamole",
+		"soc":"SM8150",
+		"name":{
+			"zh_cn":"一加7Pro",
+			"en_us":"Oneplus 7 Pro"
+		},
+		"state":{
+			"fullsystem":"y",
+			"touchscreen":"u",
+			"buttons":"u",
+			"wifi":"t",
+			"bluetooth":"t",
+			"battery":"t",
+			"charging":"t",
+			"gpu":"t",
+			"lte":"t",
+			"usb":"y"
+		},
+		"message":{
+		}
+	},{
+		"codename":"guacamoleb",
+		"soc":"SM8150",
+		"name":{
+			"zh_cn":"一加7",
+			"en_us":"Oneplus 7"
+		},
+		"state":{
+			"fullsystem":"y",
+			"touchscreen":"u",
+			"buttons":"u",
+			"wifi":"t",
+			"bluetooth":"t",
+			"battery":"t",
+			"charging":"t",
+			"gpu":"t",
+			"lte":"t",
+			"usb":"y"
+		},
+		"message":{
+		}
+	},{
+		"codename":"qrd720",
+		"soc":"SM7125",
+		"name":{
+			"zh_cn":"高通QRD720",
+			"en_us":"Qualcomm QRD720"
+		},
+		"state":{
+			"audio":"y",
+			"fullsystem":"y",
+			"touchscreen":"u",
+			"charging":"u",
+			"buttons":"u",
+			"wifi":"y",
+			"battery":"u",
+			"gpu":"y",
+			"lte":"y",
+			"usb":"p"
+		},
+		"message":{
+			"usb":{
+				"zh_cn":"USB可能需要外接供电",
+				"en_us":"External power supply might be needed for USB"
+			}
+		}
+	},{
 		"codename":"dumpling",
 		"soc":"MSM8998",
 		"name":{
@@ -221,6 +288,27 @@
 			}
 		}
 	},{
+		"codename":"andromeda",
+		"soc":"SM8150",
+		"name":{
+			"zh_cn":"小米MIX3 5G",
+			"en_us":"Xiaomi MIX3 5G"
+		},
+		"state":{
+			"fullsystem":"y",
+			"touchscreen":"u",
+			"buttons":"u",
+			"wifi":"t",
+			"bluetooth":"t",
+			"battery":"t",
+			"charging":"t",
+			"gpu":"t",
+			"lte":"t",
+			"usb":"y"
+		},
+		"message":{
+		}
+	},{
 		"codename":"dipper",
 		"soc":"SDM845",
 		"name":{
@@ -285,6 +373,27 @@
 			}
 		}
 	},{
+		"codename":"cepheus",
+		"soc":"SM8150",
+		"name":{
+			"zh_cn":"小米9",
+			"en_us":"Xiaomi MI9"
+		},
+		"state":{
+			"fullsystem":"y",
+			"touchscreen":"u",
+			"buttons":"u",
+			"wifi":"t",
+			"bluetooth":"t",
+			"battery":"t",
+			"charging":"t",
+			"gpu":"t",
+			"lte":"t",
+			"usb":"y"
+		},
+		"message":{
+		}
+	},{
 		"codename":"sagit",
 		"soc":"MSM8998",
 		"name":{
@@ -337,6 +446,70 @@
 				"zh_cn":"使用前请备份基带EFS/QCN",
 				"en_us":"Please backup modem EFS/QCN before use"
 			}
+		}
+	},{
+		"codename":"raphael",
+		"soc":"SM8150",
+		"name":{
+			"zh_cn":"红米K20Pro",
+			"en_us":"Redmi K20 Pro"
+		},
+		"state":{
+			"fullsystem":"y",
+			"touchscreen":"u",
+			"buttons":"u",
+			"wifi":"t",
+			"bluetooth":"t",
+			"battery":"t",
+			"charging":"t",
+			"gpu":"t",
+			"lte":"t",
+			"usb":"y"
+		},
+		"message":{
+		}
+	},{
+		"codename":"clover",
+		"soc":"SDM660",
+		"name":{
+			"zh_cn":"小米平板4",
+			"en_us":"Xiaomi Pad 4"
+		},
+		"state":{
+			"pe":"t",
+			"fullsystem":"t",
+			"touchscreen":"t",
+			"buttons":"t",
+			"wifi":"t",
+			"bluetooth":"t",
+			"battery":"t",
+			"charging":"t",
+			"gpu":"t",
+			"lte":"t",
+			"usb":"t"
+		},
+		"message":{
+		}
+	},{
+		"codename":"clover",
+		"soc":"SM8150AC",
+		"name":{
+			"zh_cn":"小米平板5",
+			"en_us":"Xiaomi Pad 5"
+		},
+		"state":{
+			"fullsystem":"y",
+			"touchscreen":"t",
+			"buttons":"t",
+			"wifi":"t",
+			"bluetooth":"t",
+			"battery":"t",
+			"charging":"t",
+			"gpu":"t",
+			"lte":"t",
+			"usb":"y"
+		},
+		"message":{
 		}
 	},{
 		"codename":"ayn-odin",
