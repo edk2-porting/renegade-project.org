@@ -64,31 +64,6 @@
 			}
 		}
 	},{
-		"codename":"sm7125",
-		"soc":"SM7125",
-		"name":{
-			"zh_cn":"骁龙720G",
-			"en_us":"Snapdragon 720G"
-		},
-		"state":{
-			"audio":"u",
-			"fullsystem":"y",
-			"touchscreen":"u",
-			"charging":"u",
-			"buttons":"u",
-			"wifi":"u",
-			"battery":"u",
-			"gpu":"u",
-			"lte":"u",
-			"usb":"p"
-		},
-		"message":{
-			"usb":{
-				"zh_cn":"USB可能需要外接供电",
-				"en_us":"External power supply might be needed for USB"
-			}
-		}
-	},{
 		"codename":"dumpling",
 		"soc":"MSM8998",
 		"name":{
@@ -131,6 +106,32 @@
 			"lte":"t"
 		},
 		"message":{
+		}
+	},{
+		"codename":"qrd720",
+		"soc":"SM7125",
+		"name":{
+			"zh_cn":"高通QRD720",
+			"en_us":"Qualcomm QRD720"
+		},
+		"state":{
+			"audio":"y",
+			"fullsystem":"y",
+			"virtualization":"w",
+			"touchscreen":"u",
+			"charging":"u",
+			"buttons":"u",
+			"wifi":"y",
+			"battery":"u",
+			"gpu":"y",
+			"lte":"y",
+			"usb":"p"
+		},
+		"message":{
+			"usb":{
+				"zh_cn":"USB可能需要外接供电",
+				"en_us":"External power supply might be needed for USB"
+			}
 		}
 	},{
 		"codename":"polaris",
