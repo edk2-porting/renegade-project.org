@@ -7,7 +7,6 @@
 			"en_us":"Oneplus 6T"
 		},
 		"state":{
-			"audio":"n",
 			"fullsystem":"y",
 			"touchscreen":"y",
 			"wifi":"y",
@@ -18,10 +17,6 @@
 			"lte":"y"
 		},
 		"message":{
-			"audio":{
-				"zh_cn":"没有可用驱动",
-				"en_us":"No driver available"
-			},
 			"charging":{
 				"zh_cn":"对充电器要求较高，lumia 5v3a充电器效果最佳",
 				"en_us":"could be picky about chargers, 5v3a charger from Lumia is preferred"
@@ -39,7 +34,6 @@
 			"en_us":"Oneplus 6"
 		},
 		"state":{
-			"audio":"n",
 			"fullsystem":"y",
 			"touchscreen":"y",
 			"wifi":"y",
@@ -50,10 +44,6 @@
 			"lte":"y"
 		},
 		"message":{
-			"audio":{
-				"zh_cn":"没有可用驱动",
-				"en_us":"No driver available"
-			},
 			"charging":{
 				"zh_cn":"对充电器要求较高，lumia 5v3a充电器效果最佳",
 				"en_us":"could be picky about chargers, 5v3a charger from Lumia is preferred"
@@ -183,7 +173,6 @@
 			"en_us":"Xiaomi MIX2S"
 		},
 		"state":{
-			"audio":"n",
 			"fullsystem":"y",
 			"touchscreen":"y",
 			"wifi":"y",
@@ -195,10 +184,6 @@
 			"lte":"y"
 		},
 		"message":{
-			"audio":{
-				"zh_cn":"没有可用驱动",
-				"en_us":"No driver available"
-			},
 			"touchscreen":{
 				"zh_cn":"你需要使用fastboot刷写devcfg分区，devcfg链接：http://files.renegade-project.org/devcfg-polaris_FixTS.img",
 				"en_us":"You need to flash devcfg partition with the provided image. Link: http://files.renegade-project.org/devcfg-polaris_FixTS.img"
@@ -238,7 +223,6 @@
 			"en_us":"Xiaomi MIX3"
 		},
 		"state":{
-			"audio":"n",
 			"fullsystem":"y",
 			"touchscreen":"n",
 			"wifi":"y",
@@ -249,10 +233,6 @@
 			"lte":"y"
 		},
 		"message":{
-			"audio":{
-				"zh_cn":"没有可用驱动",
-				"en_us":"No driver available"
-			},
 			"touchscreen":{
 				"zh_cn":"没有可用驱动",
 				"en_us":"No driver available"
@@ -291,7 +271,6 @@
 			"en_us":"Xiaomi MI8"
 		},
 		"state":{
-			"audio":"n",
 			"fullsystem":"y",
 			"touchscreen":"n",
 			"wifi":"y",
@@ -302,10 +281,6 @@
 			"lte":"y"
 		},
 		"message":{
-			"audio":{
-				"zh_cn":"没有可用驱动",
-				"en_us":"No driver available"
-			},
 			"touchscreen":{
 				"zh_cn":"没有可用驱动",
 				"en_us":"No driver available"
@@ -323,7 +298,6 @@
 			"en_us":"Xiaomi MI8 UD"
 		},
 		"state":{
-			"audio":"n",
 			"fullsystem":"y",
 			"touchscreen":"n",
 			"wifi":"y",
@@ -334,10 +308,6 @@
 			"lte":"y"
 		},
 		"message":{
-			"audio":{
-				"zh_cn":"没有可用驱动",
-				"en_us":"No driver available"
-			},
 			"touchscreen":{
 				"zh_cn":"没有可用驱动",
 				"en_us":"No driver available"
@@ -398,7 +368,6 @@
 			"en_us":"Xiaomi PocoPhone F1"
 		},
 		"state":{
-			"audio":"n",
 			"fullsystem":"y",
 			"wifi":"y",
 			"battery":"y",
@@ -409,10 +378,6 @@
 			"lte":"y"
 		},
 		"message":{
-			"audio":{
-				"zh_cn":"没有可用驱动",
-				"en_us":"No driver available"
-			},
 			"touchscreen":{
 				"zh_cn":"仅适用于使用 EBBG/FTS 面板的型号  你需要使用fastboot刷写devcfg分区，devcfg链接：https://files.renegade-project.org/devcfg-beryllium_FixTS.img",
 				"en_us":"Only works with models that use EBBG/FTS panel + you need to flash devcfg partition with the provided image. Link: https://files.renegade-project.org/devcfg-beryllium_FixTS.img"
