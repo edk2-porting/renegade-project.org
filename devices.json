@@ -140,11 +140,11 @@
 		"message":{
 		}
 	},{
-		"codename":"qrd720",
+		"codename":"qrd6250",
 		"soc":"SM7125",
 		"name":{
-			"zh_cn":"高通QRD720",
-			"en_us":"Qualcomm QRD720"
+			"zh_cn":"骁龙720G QRD",
+			"en_us":"Snapdragon 720G QRD"
 		},
 		"state":{
 			"audio":"y",
