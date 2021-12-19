@@ -550,6 +550,55 @@
 			"en_us":"LG G7"
 		},
 		"state":{
+			"audio":"n",
+			"fullsystem":"y",
+			"wifi":"t",
+			"battery":"t",
+			"charging":"y",
+			"bluetooth":"y",
+			"touchscreen":"t",
+			"gpu":"y",
+			"lte":"t"
+		},
+		"message":{
+		}
+	},{
+		"codename":"judyp",
+		"soc":"SDM845",
+		"name":{
+			"zh_cn":"LG V35",
+			"en_us":"LG V35"
+		},
+		"state":{
+			"audio":"n",
+			"fullsystem":"y",
+			"wifi":"t",
+			"battery":"t",
+			"charging":"y",
+			"bluetooth":"y",
+			"touchscreen":"t",
+			"gpu":"y",
+			"lte":"t"
+		},
+		"message":{
+		}
+	},{
+		"codename":"judypn",
+		"soc":"SDM845",
+		"name":{
+			"zh_cn":"LG V40",
+			"en_us":"LG V40"
+		},
+		"state":{
+			"audio":"n",
+			"fullsystem":"y",
+			"wifi":"t",
+			"battery":"t",
+			"charging":"y",
+			"bluetooth":"y",
+			"touchscreen":"t",
+			"gpu":"y",
+			"lte":"t"
 		},
 		"message":{
 		}
