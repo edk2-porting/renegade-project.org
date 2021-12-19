@@ -57,9 +57,6 @@ function add_device(device){
 	add_col(tr,device.codename,null);
 	add_col(tr,device.soc,null);
 	cont.appendChild(tr);
-	add_state(tr,state.uefi          ,"y",message.uefi);
-	add_state(tr,state.windowspe     ,"y",message.windowspe);
-	add_state(tr,state.fullsystem    ,"u",message.fullsystem);
 	add_state(tr,state.usb           ,"y",message.usb);
 	add_state(tr,state.ufs           ,"y",message.ufs);
 	add_state(tr,state.display       ,"y",message.display);
@@ -72,9 +69,7 @@ function add_device(device){
 	add_state(tr,state.virtualization,"n",message.virtualization);
 	add_state(tr,state.gpu           ,"w",message.gpu);
 	add_state(tr,state.lte           ,"w",message.lte);
-	add_state(tr,state.audio         ,"t",message.audio);
-	add_state(tr,state.call          ,"t",message.call);
-	add_state(tr,state.sms           ,"t",message.sms);
+	add_state(tr,state.audio         ,"n",message.audio);
 	add_state(tr,state.gps           ,"t",message.gps);
 	add_state(tr,state.sensor        ,"t",message.sensor);
 	add_state(tr,state.camera        ,"t",message.camera);

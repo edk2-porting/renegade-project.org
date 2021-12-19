@@ -7,8 +7,6 @@
 			"en_us":"Oneplus 6T"
 		},
 		"state":{
-			"audio":"n",
-			"fullsystem":"y",
 			"touchscreen":"y",
 			"wifi":"y",
 			"bluetooth":"y",
@@ -18,13 +16,13 @@
 			"lte":"y"
 		},
 		"message":{
-			"audio":{
-				"zh_cn":"该设备使用的音频Codec没有可用驱动",
-				"en_us":"the audio codec used by this device has no available driver"
-			},
 			"charging":{
 				"zh_cn":"对充电器要求较高，lumia 5v3a充电器效果最佳",
 				"en_us":"could be picky about chargers, 5v3a charger from Lumia is preferred"
+			},
+			"touchscreen":{
+				"zh_cn":"长按右键存在问题",
+				"en_us":"Hold for right-clicking is broken"
 			},
 			"lte":{
 				"zh_cn":"使用前请备份基带EFS/QCN",
@@ -39,8 +37,6 @@
 			"en_us":"Oneplus 6"
 		},
 		"state":{
-			"audio":"n",
-			"fullsystem":"y",
 			"touchscreen":"y",
 			"wifi":"y",
 			"bluetooth":"y",
@@ -50,13 +46,13 @@
 			"lte":"y"
 		},
 		"message":{
-			"audio":{
-				"zh_cn":"该设备使用的音频Codec没有可用驱动",
-				"en_us":"the audio codec used by this device has no available driver"
-			},
 			"charging":{
 				"zh_cn":"对充电器要求较高，lumia 5v3a充电器效果最佳",
 				"en_us":"could be picky about chargers, 5v3a charger from Lumia is preferred"
+			},
+			"touchscreen":{
+				"zh_cn":"长按右键存在问题",
+				"en_us":"Hold for right-clicking is broken"
 			},
 			"lte":{
 				"zh_cn":"使用前请备份基带EFS/QCN",
@@ -71,7 +67,6 @@
 			"en_us":"Oneplus 7 Pro"
 		},
 		"state":{
-			"fullsystem":"y",
 			"touchscreen":"u",
 			"buttons":"u",
 			"wifi":"t",
@@ -92,7 +87,6 @@
 			"en_us":"Oneplus 7"
 		},
 		"state":{
-			"fullsystem":"y",
 			"touchscreen":"u",
 			"buttons":"u",
 			"wifi":"t",
@@ -114,12 +108,10 @@
 		},
 		"state":{
 			"usb":"y",
-			"windowspe":"y",
-			"fullsystem":"y",
 			"buttons":"t",
 			"wifi":"t",
-			"touchscreen":"t",
-			"bluetooth":"t",
+			"touchscreen":"y",
+			"bluetooth":"y",
 			"charging":"t",
 			"battery":"t",
 			"gpu":"t",
@@ -136,12 +128,10 @@
 		},
 		"state":{
 			"usb":"y",
-			"windowspe":"y",
-			"fullsystem":"y",
 			"buttons":"t",
 			"wifi":"t",
-			"touchscreen":"t",
-			"bluetooth":"t",
+			"touchscreen":"y",
+			"bluetooth":"y",
 			"charging":"t",
 			"battery":"t",
 			"gpu":"t",
@@ -150,15 +140,14 @@
 		"message":{
 		}
 	},{
-		"codename":"qrd720",
+		"codename":"qrd6250",
 		"soc":"SM7125",
 		"name":{
-			"zh_cn":"高通QRD720",
-			"en_us":"Qualcomm QRD720"
+			"zh_cn":"骁龙720G QRD",
+			"en_us":"Snapdragon 720G QRD"
 		},
 		"state":{
 			"audio":"y",
-			"fullsystem":"y",
 			"virtualization":"w",
 			"touchscreen":"u",
 			"charging":"u",
@@ -183,8 +172,6 @@
 			"en_us":"Xiaomi MIX2S"
 		},
 		"state":{
-			"audio":"n",
-			"fullsystem":"y",
 			"touchscreen":"y",
 			"wifi":"y",
 			"bluetooth":"y",
@@ -195,10 +182,6 @@
 			"lte":"y"
 		},
 		"message":{
-			"audio":{
-				"zh_cn":"该设备使用的音频Codec没有可用驱动",
-				"en_us":"the audio codec used by this device has no available driver"
-			},
 			"touchscreen":{
 				"zh_cn":"你需要使用fastboot刷写devcfg分区，devcfg链接：http://files.renegade-project.org/devcfg-polaris_FixTS.img",
 				"en_us":"You need to flash devcfg partition with the provided image. Link: http://files.renegade-project.org/devcfg-polaris_FixTS.img"
@@ -217,8 +200,6 @@
 		},
 		"state":{
 			"usb":"y",
-			"windowspe":"y",
-			"fullsystem":"y",
 			"buttons":"t",
 			"wifi":"t",
 			"touchscreen":"t",
@@ -238,8 +219,6 @@
 			"en_us":"Xiaomi MIX3"
 		},
 		"state":{
-			"audio":"n",
-			"fullsystem":"y",
 			"touchscreen":"n",
 			"wifi":"y",
 			"bluetooth":"y",
@@ -249,13 +228,9 @@
 			"lte":"y"
 		},
 		"message":{
-			"audio":{
-				"zh_cn":"该设备使用的音频Codec没有可用驱动",
-				"en_us":"the audio codec used by this device has no available driver"
-			},
 			"touchscreen":{
-				"zh_cn":"STM FTS触摸屏无可用驱动",
-				"en_us":"No driver available for STM FTS touch screen"
+				"zh_cn":"没有可用驱动",
+				"en_us":"No driver available"
 			},
 			"lte":{
 				"zh_cn":"使用前请备份基带EFS/QCN",
@@ -270,7 +245,6 @@
 			"en_us":"Xiaomi MIX3 5G"
 		},
 		"state":{
-			"fullsystem":"y",
 			"touchscreen":"u",
 			"buttons":"u",
 			"wifi":"t",
@@ -291,8 +265,6 @@
 			"en_us":"Xiaomi MI8"
 		},
 		"state":{
-			"audio":"n",
-			"fullsystem":"y",
 			"touchscreen":"n",
 			"wifi":"y",
 			"bluetooth":"y",
@@ -302,13 +274,9 @@
 			"lte":"y"
 		},
 		"message":{
-			"audio":{
-				"zh_cn":"该设备使用的音频Codec没有可用驱动",
-				"en_us":"the audio codec used by this device has no available driver"
-			},
 			"touchscreen":{
-				"zh_cn":"STM FTS触摸屏无可用驱动",
-				"en_us":"No driver available for STM FTS touch screen"
+				"zh_cn":"没有可用驱动",
+				"en_us":"No driver available"
 			},
 			"lte":{
 				"zh_cn":"使用前请备份基带EFS/QCN",
@@ -323,8 +291,6 @@
 			"en_us":"Xiaomi MI8 UD"
 		},
 		"state":{
-			"audio":"n",
-			"fullsystem":"y",
 			"touchscreen":"n",
 			"wifi":"y",
 			"bluetooth":"y",
@@ -334,13 +300,9 @@
 			"lte":"y"
 		},
 		"message":{
-			"audio":{
-				"zh_cn":"该设备使用的音频Codec没有可用驱动",
-				"en_us":"the audio codec used by this device has no available driver"
-			},
 			"touchscreen":{
-				"zh_cn":"STM FTS触摸屏无可用驱动",
-				"en_us":"No driver available for STM FTS touch screen"
+				"zh_cn":"没有可用驱动",
+				"en_us":"No driver available"
 			},
 			"lte":{
 				"zh_cn":"使用前请备份基带EFS/QCN",
@@ -355,7 +317,6 @@
 			"en_us":"Xiaomi MI9"
 		},
 		"state":{
-			"fullsystem":"y",
 			"touchscreen":"u",
 			"buttons":"u",
 			"wifi":"t",
@@ -377,8 +338,6 @@
 		},
 		"state":{
 			"usb":"y",
-			"windowspe":"y",
-			"fullsystem":"y",
 			"buttons":"t",
 			"wifi":"t",
 			"touchscreen":"t",
@@ -398,8 +357,6 @@
 			"en_us":"Xiaomi PocoPhone F1"
 		},
 		"state":{
-			"audio":"n",
-			"fullsystem":"y",
 			"wifi":"y",
 			"battery":"y",
 			"charging":"y",
@@ -409,10 +366,6 @@
 			"lte":"y"
 		},
 		"message":{
-			"audio":{
-				"zh_cn":"该设备使用的音频Codec没有可用驱动",
-				"en_us":"the audio codec used by this device has no available driver"
-			},
 			"touchscreen":{
 				"zh_cn":"仅适用于使用 EBBG/FTS 面板的型号  你需要使用fastboot刷写devcfg分区，devcfg链接：https://files.renegade-project.org/devcfg-beryllium_FixTS.img",
 				"en_us":"Only works with models that use EBBG/FTS panel + you need to flash devcfg partition with the provided image. Link: https://files.renegade-project.org/devcfg-beryllium_FixTS.img"
@@ -430,7 +383,6 @@
 			"en_us":"Redmi K20 Pro"
 		},
 		"state":{
-			"fullsystem":"y",
 			"touchscreen":"u",
 			"buttons":"u",
 			"wifi":"t",
@@ -451,8 +403,6 @@
 			"en_us":"Xiaomi Pad 4"
 		},
 		"state":{
-			"pe":"t",
-			"fullsystem":"t",
 			"touchscreen":"t",
 			"buttons":"t",
 			"wifi":"t",
@@ -477,7 +427,6 @@
 			"en_us":"Xiaomi Pad 5"
 		},
 		"state":{
-			"fullsystem":"y",
 			"touchscreen":"t",
 			"buttons":"t",
 			"wifi":"t",
@@ -494,11 +443,10 @@
 		"codename":"ayn-odin",
 		"soc":"SDA845",
 		"name":{
-			"zh_cn":"ayn odin handheld",
-			"en_us":"ayn odin handheld"
+			"zh_cn":"奥丁掌机",
+			"en_us":"AYN Odin handheld"
 		},
 		"state":{
-			"fullsystem":"y",
 			"bluetooth":"y",
 			"battery":"y",
 			"charging":"y",
@@ -507,28 +455,26 @@
 			"audio":"y",
 			"sensor":"y",
 			"touchscreen":"y",
-			"virtualization":"w",
+			"virtualization":"p",
 			"camera":"n",
-			"lte":"n",
-			"call":"n",
-			"sms":"n"
+			"lte":"n"
 		},
 		"message":{
 			"camera":{
-				"zh_cn":"该设备没有此功能",
-				"en_us":"This device does not have this feature"
+				"zh_cn":"该设备不支持此功能",
+				"en_us":"Not supported by the device"
+			},
+			"touchscreen":{
+				"zh_cn":"长按右键存在问题",
+				"en_us":"Hold for right-clicking is broken"
+			},
+			"virtualization":{
+				"zh_cn":"需要WP固件以使用虚拟化特性",
+				"en_us":"WP firmware is required to enable virtualization"
 			},
 			"lte":{
-				"zh_cn":"该设备没有此功能",
-				"en_us":"This device does not have this feature"
-			},
-			"call":{
-				"zh_cn":"该设备没有此功能",
-				"en_us":"This device does not have this feature"
-			},
-			"sms":{
-				"zh_cn":"该设备没有此功能",
-				"en_us":"This device does not have this feature"
+				"zh_cn":"该设备不支持此功能",
+				"en_us":"Not supported by the device"
 			}
 		}
 	},{
@@ -539,7 +485,6 @@
 			"en_us":"Nubia X"
 		},
 		"state":{
-			"fullsystem":"y",
 			"usb":"y"
 		},
 		"message":{
@@ -552,13 +497,12 @@
 			"en_us":"Meizu 16th"
 		},
 		"state":{
-			"fullsystem":"y",
-			"display":"p"
+			"gpu":"y"
 		},
 		"message":{
-			"display":{
-				"zh_cn":"显示Framebuffer非常慢 (大约1fps)",
-				"en_us":"Framebuffer is very slow (~1fps)"
+			"gpu":{
+				"zh_cn":"请暂时使用魅族16th Plus的驱动",
+				"en_us":"Please use drivers for Meizu 16th Plus temporarily"
 			}
 		}
 	},{
@@ -569,8 +513,6 @@
 			"en_us":"Meizu 16th Plus"
 		},
 		"state":{
-			"fullsystem":"y",
-			"display":"p",
 			"touchscreen":"w",
 			"wifi":"y",
 			"battery":"y",
@@ -578,10 +520,6 @@
 			"gpu":"y"
 		},
 		"message":{
-			"display":{
-				"zh_cn":"显示Framebuffer非常慢 (大约1fps)",
-				"en_us":"Framebuffer is very slow (~1fps)"
-			}
 		}
 	},{
 		"codename":"star2qltechn",
@@ -673,8 +611,6 @@
 		},
 		"state":{
 			"usb":"y",
-			"windowspe":"y",
-			"fullsystem":"y",
 			"buttons":"t",
 			"wifi":"t",
 			"touchscreen":"t",
@@ -694,7 +630,6 @@
 			"en_us":"Smartisan R1"
 		},
 		"state":{
-			"fullsystem":"y",
 			"touchscreen":"w",
 			"gpu":"y",
 			"wifi":"y",
@@ -713,7 +648,6 @@
 			"en_us":"ZTE Axon 9 Pro"
 		},
 		"state":{
-			"fullsystem":"y",
 			"bluetooth":"y",
 			"battery":"y",
 			"charging":"y"
@@ -728,7 +662,6 @@
 			"en_us":"BlackShark One"
 		},
 		"state":{
-			"fullsystem":"y"
 		},
 		"message":{
 		}
@@ -751,8 +684,7 @@
 			"en_us":"Nokia 9 PureView"
 		},
 		"state":{
-			"usb":"u",
-			"windowspe":"y"
+			"usb":"u"
 		},
 		"message":{
 		}
@@ -764,9 +696,7 @@
 			"en_us":"Asus ZenFone 5Z"
 		},
 		"state":{
-			"usb":"y",
-			"windowspe":"y",
-			"fullsystem":"y"
+			"usb":"y"
 		},
 		"message":{
 		}
@@ -779,8 +709,6 @@
 		},
 		"state":{
 			"usb":"y",
-			"windowspe":"y",
-			"fullsystem":"y",
 			"buttons":"t",
 			"wifi":"t",
 			"touchscreen":"t",
@@ -800,9 +728,7 @@
 			"en_us":"Vivo NEX Dual Display"
 		},
 		"state":{
-			"uefi":"u",
-			"usb":"u",
-			"windowspe":"u"
+			"usb":"u"
 		},
 		"message":{
 		}
@@ -814,7 +740,6 @@
 			"en_us":"Google Pixel 3"
 		},
 		"state":{
-			"fullsystem":"n",
 			"ufs":"n"
 		},
 		"message":{
@@ -831,8 +756,6 @@
 			"en_us":"Sony Xperia XZ2"
 		},
 		"state":{
-			"uefi":"u",
-			"fullsystem":"n",
 			"usb":"u",
 			"ufs":"n"
 		},
