@@ -19,8 +19,8 @@
 		},
 		"message":{
 			"audio":{
-				"zh_cn":"该设备使用的音频Codec没有可用驱动",
-				"en_us":"the audio codec used by this device has no available driver"
+				"zh_cn":"没有可用驱动",
+				"en_us":"No driver available"
 			},
 			"charging":{
 				"zh_cn":"对充电器要求较高，lumia 5v3a充电器效果最佳",
@@ -51,8 +51,8 @@
 		},
 		"message":{
 			"audio":{
-				"zh_cn":"该设备使用的音频Codec没有可用驱动",
-				"en_us":"the audio codec used by this device has no available driver"
+				"zh_cn":"没有可用驱动",
+				"en_us":"No driver available"
 			},
 			"charging":{
 				"zh_cn":"对充电器要求较高，lumia 5v3a充电器效果最佳",
@@ -196,8 +196,8 @@
 		},
 		"message":{
 			"audio":{
-				"zh_cn":"该设备使用的音频Codec没有可用驱动",
-				"en_us":"the audio codec used by this device has no available driver"
+				"zh_cn":"没有可用驱动",
+				"en_us":"No driver available"
 			},
 			"touchscreen":{
 				"zh_cn":"你需要使用fastboot刷写devcfg分区，devcfg链接：http://files.renegade-project.org/devcfg-polaris_FixTS.img",
@@ -250,12 +250,12 @@
 		},
 		"message":{
 			"audio":{
-				"zh_cn":"该设备使用的音频Codec没有可用驱动",
-				"en_us":"the audio codec used by this device has no available driver"
+				"zh_cn":"没有可用驱动",
+				"en_us":"No driver available"
 			},
 			"touchscreen":{
-				"zh_cn":"STM FTS触摸屏无可用驱动",
-				"en_us":"No driver available for STM FTS touch screen"
+				"zh_cn":"没有可用驱动",
+				"en_us":"No driver available"
 			},
 			"lte":{
 				"zh_cn":"使用前请备份基带EFS/QCN",
@@ -303,12 +303,12 @@
 		},
 		"message":{
 			"audio":{
-				"zh_cn":"该设备使用的音频Codec没有可用驱动",
-				"en_us":"the audio codec used by this device has no available driver"
+				"zh_cn":"没有可用驱动",
+				"en_us":"No driver available"
 			},
 			"touchscreen":{
-				"zh_cn":"STM FTS触摸屏无可用驱动",
-				"en_us":"No driver available for STM FTS touch screen"
+				"zh_cn":"没有可用驱动",
+				"en_us":"No driver available"
 			},
 			"lte":{
 				"zh_cn":"使用前请备份基带EFS/QCN",
@@ -335,12 +335,12 @@
 		},
 		"message":{
 			"audio":{
-				"zh_cn":"该设备使用的音频Codec没有可用驱动",
-				"en_us":"the audio codec used by this device has no available driver"
+				"zh_cn":"没有可用驱动",
+				"en_us":"No driver available"
 			},
 			"touchscreen":{
-				"zh_cn":"STM FTS触摸屏无可用驱动",
-				"en_us":"No driver available for STM FTS touch screen"
+				"zh_cn":"没有可用驱动",
+				"en_us":"No driver available"
 			},
 			"lte":{
 				"zh_cn":"使用前请备份基带EFS/QCN",
@@ -410,8 +410,8 @@
 		},
 		"message":{
 			"audio":{
-				"zh_cn":"该设备使用的音频Codec没有可用驱动",
-				"en_us":"the audio codec used by this device has no available driver"
+				"zh_cn":"没有可用驱动",
+				"en_us":"No driver available"
 			},
 			"touchscreen":{
 				"zh_cn":"仅适用于使用 EBBG/FTS 面板的型号  你需要使用fastboot刷写devcfg分区，devcfg链接：https://files.renegade-project.org/devcfg-beryllium_FixTS.img",
@@ -513,12 +513,12 @@
 		},
 		"message":{
 			"camera":{
-				"zh_cn":"该设备没有此功能",
-				"en_us":"This device does not have this feature"
+				"zh_cn":"该设备不支持此功能",
+				"en_us":"Not supported by the device"
 			},
 			"lte":{
-				"zh_cn":"该设备没有此功能",
-				"en_us":"This device does not have this feature"
+				"zh_cn":"该设备不支持此功能",
+				"en_us":"Not supported by the device"
 			}
 		}
 	},{
