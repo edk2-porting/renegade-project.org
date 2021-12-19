@@ -469,8 +469,8 @@
 				"en_us":"Hold for right-clicking is broken"
 			},
 			"virtualization":{
-				"zh-cn":"需要WP固件以使用虚拟化特性",
-				"en-us":"WP firmware is required to enable virtualization"
+				"zh_cn":"需要WP固件以使用虚拟化特性",
+				"en_us":"WP firmware is required to enable virtualization"
 			},
 			"lte":{
 				"zh_cn":"该设备不支持此功能",
@@ -497,12 +497,12 @@
 			"en_us":"Meizu 16th"
 		},
 		"state":{
-			"display":"p"
+			"gpu":"y"
 		},
 		"message":{
-			"display":{
-				"zh_cn":"显示Framebuffer非常慢 (大约1fps)",
-				"en_us":"Framebuffer is very slow (~1fps)"
+			"gpu":{
+				"zh_cn":"请暂时使用魅族16th Plus的驱动",
+				"en_us":"Please use drivers for Meizu 16th Plus temporarily"
 			}
 		}
 	},{
@@ -513,7 +513,6 @@
 			"en_us":"Meizu 16th Plus"
 		},
 		"state":{
-			"display":"p",
 			"touchscreen":"w",
 			"wifi":"y",
 			"battery":"y",
@@ -521,10 +520,6 @@
 			"gpu":"y"
 		},
 		"message":{
-			"display":{
-				"zh_cn":"显示Framebuffer非常慢 (大约1fps)",
-				"en_us":"Framebuffer is very slow (~1fps)"
-			}
 		}
 	},{
 		"codename":"star2qltechn",
