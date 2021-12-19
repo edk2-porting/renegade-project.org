@@ -509,9 +509,7 @@
 			"touchscreen":"y",
 			"virtualization":"w",
 			"camera":"n",
-			"lte":"n",
-			"call":"n",
-			"sms":"n"
+			"lte":"n"
 		},
 		"message":{
 			"camera":{
@@ -519,14 +517,6 @@
 				"en_us":"This device does not have this feature"
 			},
 			"lte":{
-				"zh_cn":"该设备没有此功能",
-				"en_us":"This device does not have this feature"
-			},
-			"call":{
-				"zh_cn":"该设备没有此功能",
-				"en_us":"This device does not have this feature"
-			},
-			"sms":{
 				"zh_cn":"该设备没有此功能",
 				"en_us":"This device does not have this feature"
 			}
