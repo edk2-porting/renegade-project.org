@@ -21,6 +21,10 @@
 				"zh_cn":"对充电器要求较高，lumia 5v3a充电器效果最佳",
 				"en_us":"could be picky about chargers, 5v3a charger from Lumia is preferred"
 			},
+			"touchscreen":{
+				"zh_cn":"长按右键存在问题",
+				"en_us":"Hold for right-clicking is broken"
+			},
 			"lte":{
 				"zh_cn":"使用前请备份基带EFS/QCN",
 				"en_us":"Please backup modem EFS/QCN before use"
@@ -47,6 +51,10 @@
 			"charging":{
 				"zh_cn":"对充电器要求较高，lumia 5v3a充电器效果最佳",
 				"en_us":"could be picky about chargers, 5v3a charger from Lumia is preferred"
+			},
+			"touchscreen":{
+				"zh_cn":"长按右键存在问题",
+				"en_us":"Hold for right-clicking is broken"
 			},
 			"lte":{
 				"zh_cn":"使用前请备份基带EFS/QCN",
@@ -480,6 +488,10 @@
 			"camera":{
 				"zh_cn":"该设备不支持此功能",
 				"en_us":"Not supported by the device"
+			},
+			"touchscreen":{
+				"zh_cn":"长按右键存在问题",
+				"en_us":"Hold for right-clicking is broken"
 			},
 			"lte":{
 				"zh_cn":"该设备不支持此功能",
