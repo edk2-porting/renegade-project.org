@@ -57,9 +57,6 @@ function add_device(device){
 	add_col(tr,device.codename,null);
 	add_col(tr,device.soc,null);
 	cont.appendChild(tr);
-	add_state(tr,state.uefi          ,"y",message.uefi);
-	add_state(tr,state.windowspe     ,"y",message.windowspe);
-	add_state(tr,state.fullsystem    ,"u",message.fullsystem);
 	add_state(tr,state.usb           ,"y",message.usb);
 	add_state(tr,state.ufs           ,"y",message.ufs);
 	add_state(tr,state.display       ,"y",message.display);

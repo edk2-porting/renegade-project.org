@@ -7,7 +7,6 @@
 			"en_us":"Oneplus 6T"
 		},
 		"state":{
-			"fullsystem":"y",
 			"touchscreen":"y",
 			"wifi":"y",
 			"bluetooth":"y",
@@ -38,7 +37,6 @@
 			"en_us":"Oneplus 6"
 		},
 		"state":{
-			"fullsystem":"y",
 			"touchscreen":"y",
 			"wifi":"y",
 			"bluetooth":"y",
@@ -69,7 +67,6 @@
 			"en_us":"Oneplus 7 Pro"
 		},
 		"state":{
-			"fullsystem":"y",
 			"touchscreen":"u",
 			"buttons":"u",
 			"wifi":"t",
@@ -90,7 +87,6 @@
 			"en_us":"Oneplus 7"
 		},
 		"state":{
-			"fullsystem":"y",
 			"touchscreen":"u",
 			"buttons":"u",
 			"wifi":"t",
@@ -112,8 +108,6 @@
 		},
 		"state":{
 			"usb":"y",
-			"windowspe":"y",
-			"fullsystem":"y",
 			"buttons":"t",
 			"wifi":"t",
 			"touchscreen":"t",
@@ -134,8 +128,6 @@
 		},
 		"state":{
 			"usb":"y",
-			"windowspe":"y",
-			"fullsystem":"y",
 			"buttons":"t",
 			"wifi":"t",
 			"touchscreen":"t",
@@ -156,7 +148,6 @@
 		},
 		"state":{
 			"audio":"y",
-			"fullsystem":"y",
 			"virtualization":"w",
 			"touchscreen":"u",
 			"charging":"u",
@@ -181,7 +172,6 @@
 			"en_us":"Xiaomi MIX2S"
 		},
 		"state":{
-			"fullsystem":"y",
 			"touchscreen":"y",
 			"wifi":"y",
 			"bluetooth":"y",
@@ -210,8 +200,6 @@
 		},
 		"state":{
 			"usb":"y",
-			"windowspe":"y",
-			"fullsystem":"y",
 			"buttons":"t",
 			"wifi":"t",
 			"touchscreen":"t",
@@ -231,7 +219,6 @@
 			"en_us":"Xiaomi MIX3"
 		},
 		"state":{
-			"fullsystem":"y",
 			"touchscreen":"n",
 			"wifi":"y",
 			"bluetooth":"y",
@@ -258,7 +245,6 @@
 			"en_us":"Xiaomi MIX3 5G"
 		},
 		"state":{
-			"fullsystem":"y",
 			"touchscreen":"u",
 			"buttons":"u",
 			"wifi":"t",
@@ -279,7 +265,6 @@
 			"en_us":"Xiaomi MI8"
 		},
 		"state":{
-			"fullsystem":"y",
 			"touchscreen":"n",
 			"wifi":"y",
 			"bluetooth":"y",
@@ -306,7 +291,6 @@
 			"en_us":"Xiaomi MI8 UD"
 		},
 		"state":{
-			"fullsystem":"y",
 			"touchscreen":"n",
 			"wifi":"y",
 			"bluetooth":"y",
@@ -333,7 +317,6 @@
 			"en_us":"Xiaomi MI9"
 		},
 		"state":{
-			"fullsystem":"y",
 			"touchscreen":"u",
 			"buttons":"u",
 			"wifi":"t",
@@ -355,8 +338,6 @@
 		},
 		"state":{
 			"usb":"y",
-			"windowspe":"y",
-			"fullsystem":"y",
 			"buttons":"t",
 			"wifi":"t",
 			"touchscreen":"t",
@@ -376,7 +357,6 @@
 			"en_us":"Xiaomi PocoPhone F1"
 		},
 		"state":{
-			"fullsystem":"y",
 			"wifi":"y",
 			"battery":"y",
 			"charging":"y",
@@ -403,7 +383,6 @@
 			"en_us":"Redmi K20 Pro"
 		},
 		"state":{
-			"fullsystem":"y",
 			"touchscreen":"u",
 			"buttons":"u",
 			"wifi":"t",
@@ -424,8 +403,6 @@
 			"en_us":"Xiaomi Pad 4"
 		},
 		"state":{
-			"pe":"t",
-			"fullsystem":"t",
 			"touchscreen":"t",
 			"buttons":"t",
 			"wifi":"t",
@@ -450,7 +427,6 @@
 			"en_us":"Xiaomi Pad 5"
 		},
 		"state":{
-			"fullsystem":"y",
 			"touchscreen":"t",
 			"buttons":"t",
 			"wifi":"t",
@@ -467,11 +443,10 @@
 		"codename":"ayn-odin",
 		"soc":"SDA845",
 		"name":{
-			"zh_cn":"ayn odin handheld",
-			"en_us":"ayn odin handheld"
+			"zh_cn":"奥丁掌机",
+			"en_us":"AYN Odin handheld"
 		},
 		"state":{
-			"fullsystem":"y",
 			"bluetooth":"y",
 			"battery":"y",
 			"charging":"y",
@@ -480,7 +455,7 @@
 			"audio":"y",
 			"sensor":"y",
 			"touchscreen":"y",
-			"virtualization":"w",
+			"virtualization":"p",
 			"camera":"n",
 			"lte":"n"
 		},
@@ -492,6 +467,10 @@
 			"touchscreen":{
 				"zh_cn":"长按右键存在问题",
 				"en_us":"Hold for right-clicking is broken"
+			},
+			"virtualization":{
+				"zh-cn":"需要WP固件以使用虚拟化特性",
+				"en-us":"WP firmware is required to enable virtualization"
 			},
 			"lte":{
 				"zh_cn":"该设备不支持此功能",
@@ -506,7 +485,6 @@
 			"en_us":"Nubia X"
 		},
 		"state":{
-			"fullsystem":"y",
 			"usb":"y"
 		},
 		"message":{
@@ -519,7 +497,6 @@
 			"en_us":"Meizu 16th"
 		},
 		"state":{
-			"fullsystem":"y",
 			"display":"p"
 		},
 		"message":{
@@ -536,7 +513,6 @@
 			"en_us":"Meizu 16th Plus"
 		},
 		"state":{
-			"fullsystem":"y",
 			"display":"p",
 			"touchscreen":"w",
 			"wifi":"y",
@@ -579,7 +555,6 @@
 			"en_us":"LG G7"
 		},
 		"state":{
-			"fullsystem":"y"
 		},
 		"message":{
 		}
@@ -592,8 +567,6 @@
 		},
 		"state":{
 			"usb":"y",
-			"windowspe":"y",
-			"fullsystem":"y",
 			"buttons":"t",
 			"wifi":"t",
 			"touchscreen":"t",
@@ -613,7 +586,6 @@
 			"en_us":"Smartisan R1"
 		},
 		"state":{
-			"fullsystem":"y",
 			"touchscreen":"w",
 			"gpu":"y",
 			"wifi":"y",
@@ -632,7 +604,6 @@
 			"en_us":"ZTE Axon 9 Pro"
 		},
 		"state":{
-			"fullsystem":"y",
 			"bluetooth":"y",
 			"battery":"y",
 			"charging":"y"
@@ -647,7 +618,6 @@
 			"en_us":"BlackShark One"
 		},
 		"state":{
-			"fullsystem":"y"
 		},
 		"message":{
 		}
@@ -670,8 +640,7 @@
 			"en_us":"Nokia 9 PureView"
 		},
 		"state":{
-			"usb":"u",
-			"windowspe":"y"
+			"usb":"u"
 		},
 		"message":{
 		}
@@ -683,9 +652,7 @@
 			"en_us":"Asus ZenFone 5Z"
 		},
 		"state":{
-			"usb":"y",
-			"windowspe":"y",
-			"fullsystem":"y"
+			"usb":"y"
 		},
 		"message":{
 		}
@@ -698,8 +665,6 @@
 		},
 		"state":{
 			"usb":"y",
-			"windowspe":"y",
-			"fullsystem":"y",
 			"buttons":"t",
 			"wifi":"t",
 			"touchscreen":"t",
@@ -719,9 +684,7 @@
 			"en_us":"Vivo NEX Dual Display"
 		},
 		"state":{
-			"uefi":"u",
-			"usb":"u",
-			"windowspe":"u"
+			"usb":"u"
 		},
 		"message":{
 		}
@@ -733,7 +696,6 @@
 			"en_us":"Google Pixel 3"
 		},
 		"state":{
-			"fullsystem":"n",
 			"ufs":"n"
 		},
 		"message":{
@@ -750,8 +712,6 @@
 			"en_us":"Sony Xperia XZ2"
 		},
 		"state":{
-			"uefi":"u",
-			"fullsystem":"n",
 			"usb":"u",
 			"ufs":"n"
 		},
