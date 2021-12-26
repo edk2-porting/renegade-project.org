@@ -25,6 +25,7 @@
   - EDK2
     - [Overview](en/edk2/Overview.md)
     - [Porting](en/edk2/port.md)
+    - [Porting (MSM8998)](en/edk2/port-msm8998.md)
   - Tools
     - [UEFI-NTFS](en/tools/uefi-ntfs/index.md)
   - Linux
