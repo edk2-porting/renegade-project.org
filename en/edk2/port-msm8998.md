@@ -6,20 +6,61 @@
  3. Download any OTA update for your phone
  4. Extract payload.bin to `extract_android_ota_payload-master` folder
  5. Open terminal in the same folder and execute `python3 extract_android_ota_payload.py payload.bin`
- 6. Execute `uefi-firmware-parser -b -e xbl.img`
- 7. Change directory to `volume-******/file-9e21fd93-9c72-4c15-8c4b-e77f1db2d792`
- 8. Execute `7z x -oextracted section0.guid`
- 9. Open UEFITool and open the file `section0` in folder `extracted`
+ 6. Create a text file with nano or something with data:
+```
+set device=$1
+if [ -z $device ]; then
+echo error: usage: $0 devicecodename
+exit 2
+fi
+
+7z x xbl.elf -r -o./xbl > /dev/null 2>&1
+7z x ./xbl/11 -r -o./xbl/uefi_fv > /dev/null 2>&1
+uefi-firmware-parser -e -b -o ./xbl/fv_extracted ./xbl/uefi_fv/11~ > /dev/null 2>&1
+base="0.extracted"
+folders=`ls -1d xbl/fv_extracted/volume-8/*/ | grep -v fffffff`
+
+for folder in $folders
+do
+if ls $folder*.ui 1> /dev/null 2>&1; then
+name=`cat $folder*.ui | tr -d '\0'`
+if [ -z $name ]; then
+continue
+else
+if ls $folder*.depex 1> /dev/null 2>&1; then
+echo "Creating: $name"
+mkdir -p $base/$name
+
+cp -rf $folder/section1.pe $base/$name/$name.efi
+uuid=`basename $folder | awk -Ffile- {'print $2'}`
+echo -ne "\n FILE DRIVER = $uuid { \n\t SECTION DXE_DEPEX = $DEVICE/Binary/$name/$name.depex \n\t SECTION PE32 = $DEVICE/Binary/$name/$name.efi \n\t SECTION UI = \"$name\" \n }\n" >> $base/gen_config.fdf
+else
+if ls $folder*.pe 1> /dev/null 2>&1; then
+echo "Copying $name to $device"
+mkdir -p $base/$name
+basename $folder > $base/$name/uuid.txt
+uuid=`basename $folder | awk -Ffile- {'print $2'}`
+echo -ne "\n FILE DRIVER = $uuid { \n\t SECTION PE32 = $DEVICE/Binary/$name/$name.efi \n\t SECTION UI = \"$name\" \n }\n" >> $base/gen_config.fdf
+if ls $folder/section0.pe 1> /dev/null 2>&1; then
+cp -rf $folder/section0.pe $base/$name/$name.efi
+else
+cp -rf $folder/section1.pe $base/$name/$name.efi
+fi
+else
+uuid=`basename $folder`
+cp -rf $folder/section1.raw $base/$uuid-$name
+fi
+fi
+fi
+else
+continue
+fi
+done
+```
+ and name it as `copy-uefidrivers.sh`
+ 7. Execute `bash copy-uefidrivers.sh codename-of-your-device`
  10. In a file manager, open `edk2-msm8998/MSM8998Pkg/Binary`, duplicate `nash` folder and rename it to your device's codename
- 11. In UEFITool, expand `UEFI image` and the volume underneath
- 12. For each file in your device's folder replace it with UEFITool by:
-     - expanding the DXE Driver in UEFITool with the same name as the file you are replacing
-     - in case of file that ends with `.depex` right clicking on DXE dependency
-     - in case of file that ends with `.efi` right clicking on PE32 Image
-     - clicking `Extract body`
-     - deleting the original file
-     - saving the one you are extracting and naming it same as the deleted one
-     - In case a part (ex. DXE Dependency) is missing in UEFITool, just delete that file
+ 11. 
  13. Open `edk2-msm8998/MSM8998Pkg` in a file manager
  14. Duplicate `nash.dsc` and `nash.fdf` and rename both to your device's codename
  15. Open the `.dsc` file, replace values 1440 and 2560 with your device's display width and height and save
