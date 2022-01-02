@@ -12,8 +12,8 @@
     - [SDM845](zh/devices/sdm845/status.md)
       - [dipper (小米8)](zh/devices/sdm845/dipper/status.md)
       - [polaris (小米MIX2S)](zh/devices/sdm845/polaris/status.md)
-      - [enchilada (加6)](zh/devices/sdm845/enchilada/status.md)
-      - [fajita (加6T)](zh/devices/sdm845/fajita/status.md)
+      - [enchilada (一加6)](zh/devices/sdm845/enchilada/status.md)
+      - [fajita (一加6T)](zh/devices/sdm845/fajita/status.md)
     - MSM8998
       - [sagit (小米6)](zh/devices/msm8998/sagit/status.md)
   - Windows
