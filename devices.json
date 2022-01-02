@@ -140,7 +140,7 @@
 		"message":{
 		}
 	},{
-		"codename":"qrd6250",
+		"codename":"Rennell",
 		"soc":"SM7125",
 		"name":{
 			"zh_cn":"骁龙720G QRD",
@@ -154,6 +154,7 @@
 			"buttons":"u",
 			"camera":"y",
 			"wifi":"y",
+                        "bluetooth":"y",
 			"battery":"u",
 			"gpu":"y",
 			"lte":"y",
