@@ -148,10 +148,11 @@
 		},
 		"state":{
 			"audio":"y",
-			"virtualization":"w",
+			"virtualization":"y",
 			"touchscreen":"u",
 			"charging":"u",
 			"buttons":"u",
+			"camera":"y",
 			"wifi":"y",
 			"battery":"u",
 			"gpu":"y",
