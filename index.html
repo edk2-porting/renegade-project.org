@@ -26,6 +26,12 @@
 				text-decoration: none;
 				color: gray;
 			}
+			.beian div{
+				text-align: center;
+			}
+			.beian img{
+				vertical-align: middle;
+			}
 		</style>
 	</head>
 	<body>
@@ -49,13 +55,24 @@
 		<script language="javascript" src="/res/docsify.js"></script>
 	</body>
 	<script language="javascript">
-		if(document.domain=="renegade-project.cn"){
+		if(document.domain==="renegade-project.cn"){
 			let beian=document.createElement("div");
 			beian.setAttribute("class","beian");
-			let link=document.createElement("a");
-			link.href="http://beian.miit.gov.cn/";
-			link.innerText="闽ICP备2021000369号-3"
-			beian.appendChild(link);
+			let d1=document.createElement("div");
+			let d2=document.createElement("div");
+			let l1=document.createElement("a");
+			let l2=document.createElement("a");
+			let img=document.createElement("img");
+			l1.href="http://beian.miit.gov.cn/";
+			l1.innerText="闽ICP备2021000369号-3"
+			l2.href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35052102000381";
+			l2.innerText="闽公网安备 35052102000381号";
+			img.src="/res/beian.png";
+			d1.appendChild(l1);
+			d2.appendChild(img);
+			d2.appendChild(l2);
+			beian.appendChild(d1);
+			beian.appendChild(d2);
 			document.body.appendChild(beian);
 		}
 	</script>
