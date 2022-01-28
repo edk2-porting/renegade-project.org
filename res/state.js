@@ -60,9 +60,9 @@ function add_device(device){
 	add_state(tr,state.usb           ,"y",message.usb);
 	add_state(tr,state.ufs           ,"y",message.ufs);
 	add_state(tr,state.display       ,"y",message.display);
-	add_state(tr,state.buttons       ,"y",message.buttons);
-	add_state(tr,state.touchscreen   ,"u",message.touchscreen);
-	add_state(tr,state.wifi          ,"w",message.wifi);
+	add_state(tr,state.buttons       ,"w",message.buttons);
+	add_state(tr,state.touchscreen   ,"n",message.touchscreen);
+	add_state(tr,state.wifi          ,"n",message.wifi);
 	add_state(tr,state.bluetooth     ,"u",message.bluetooth);
 	add_state(tr,state.battery       ,"w",message.battery);
 	add_state(tr,state.charging      ,"w",message.charging);
@@ -70,9 +70,9 @@ function add_device(device){
 	add_state(tr,state.gpu           ,"w",message.gpu);
 	add_state(tr,state.lte           ,"w",message.lte);
 	add_state(tr,state.audio         ,"n",message.audio);
-	add_state(tr,state.gps           ,"t",message.gps);
-	add_state(tr,state.sensor        ,"t",message.sensor);
-	add_state(tr,state.camera        ,"t",message.camera);
+	add_state(tr,state.gps           ,"u",message.gps);
+	add_state(tr,state.sensor        ,"n",message.sensor);
+	add_state(tr,state.camera        ,"n",message.camera);
 }
 function update_size(){
 	if(!parent)return;

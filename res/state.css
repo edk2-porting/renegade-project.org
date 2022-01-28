@@ -4,8 +4,8 @@ td.state-y,td.state-n,td.state-p,td.state-w,td.state-t,td.state-u{
 td.state-y{background-color:#CFFFBF;}
 td.state-n{background-color:#FF6060;}
 td.state-p{background-color:yellow;}
-td.state-w{background-color:#8080FF;}
-td.state-t{background-color:#E000E0;}
+td.state-w{background-color:lightskyblue;}
+td.state-t{background-color:orange;}
 td.state-u{background-color:#A0A0A0;}
 th{
 	padding-left:5px;

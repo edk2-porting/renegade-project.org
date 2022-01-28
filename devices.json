@@ -1,5 +1,61 @@
 [
 	{
+		"codename":"polaris",
+		"soc":"SDM845",
+		"name":{
+			"zh_cn":"小米MIX2S",
+			"en_us":"Xiaomi MIX2S"
+		},
+		"state":{
+			"touchscreen":"y",
+			"audio":"t",
+			"buttons":"y",
+			"wifi":"y",
+			"bluetooth":"y",
+			"battery":"y",
+			"charging":"y",
+			"gpu":"y",
+			"usb":"y",
+			"lte":"y"
+		},
+		"message":{
+			"touchscreen":{
+				"zh_cn":"你需要使用fastboot刷写devcfg分区，devcfg链接：http://files.renegade-project.org/devcfg-polaris_FixTS.img",
+				"en_us":"You need to flash devcfg partition with the provided image. Link: http://files.renegade-project.org/devcfg-polaris_FixTS.img"
+			},
+			"lte":{
+				"zh_cn":"使用前请备份基带EFS/QCN",
+				"en_us":"Please backup modem EFS/QCN before use"
+			}
+		}
+	},{
+		"codename":"beryllium",
+		"soc":"SDM845",
+		"name":{
+			"zh_cn":"小米PocoPhone F1",
+			"en_us":"Xiaomi PocoPhone F1"
+		},
+		"state":{
+			"wifi":"y",
+			"battery":"y",
+			"buttons":"y",
+			"charging":"y",
+			"bluetooth":"y",
+			"touchscreen":"p",
+			"gpu":"y",
+			"lte":"y"
+		},
+		"message":{
+			"touchscreen":{
+				"zh_cn":"仅适用于使用 EBBG/FTS 面板的型号  你需要使用fastboot刷写devcfg分区，devcfg链接：https://files.renegade-project.org/devcfg-beryllium_FixTS.img",
+				"en_us":"Only works with models that use EBBG/FTS panel + you need to flash devcfg partition with the provided image. Link: https://files.renegade-project.org/devcfg-beryllium_FixTS.img"
+			},
+			"lte":{
+				"zh_cn":"使用前请备份基带EFS/QCN",
+				"en_us":"Please backup modem EFS/QCN before use"
+			}
+		}
+	},{
 		"codename":"fajita",
 		"soc":"SDM845",
 		"name":{
@@ -13,6 +69,7 @@
 			"battery":"y",
 			"charging":"p",
 			"gpu":"y",
+			"buttons":"y",
 			"lte":"y"
 		},
 		"message":{
@@ -42,6 +99,7 @@
 			"bluetooth":"y",
 			"battery":"y",
 			"charging":"p",
+			"buttons":"y",
 			"gpu":"y",
 			"lte":"y"
 		},
@@ -60,160 +118,6 @@
 			}
 		}
 	},{
-		"codename":"guacamole",
-		"soc":"SM8150",
-		"name":{
-			"zh_cn":"一加7Pro",
-			"en_us":"Oneplus 7 Pro"
-		},
-		"state":{
-			"touchscreen":"u",
-			"buttons":"u",
-			"wifi":"t",
-			"bluetooth":"t",
-			"battery":"t",
-			"charging":"t",
-			"gpu":"t",
-			"lte":"t",
-			"usb":"y"
-		},
-		"message":{
-		}
-	},{
-		"codename":"guacamoleb",
-		"soc":"SM8150",
-		"name":{
-			"zh_cn":"一加7",
-			"en_us":"Oneplus 7"
-		},
-		"state":{
-			"touchscreen":"u",
-			"buttons":"u",
-			"wifi":"t",
-			"bluetooth":"t",
-			"battery":"t",
-			"charging":"t",
-			"gpu":"t",
-			"lte":"t",
-			"usb":"y"
-		},
-		"message":{
-		}
-	},{
-		"codename":"dumpling",
-		"soc":"MSM8998",
-		"name":{
-			"zh_cn":"一加5T",
-			"en_us":"Oneplus 5T"
-		},
-		"state":{
-			"usb":"y",
-			"buttons":"t",
-			"wifi":"t",
-			"touchscreen":"y",
-			"bluetooth":"y",
-			"charging":"t",
-			"battery":"t",
-			"gpu":"t",
-			"lte":"t"
-		},
-		"message":{
-		}
-	},{
-		"codename":"cheeseburger",
-		"soc":"MSM8998",
-		"name":{
-			"zh_cn":"一加5",
-			"en_us":"Oneplus 5"
-		},
-		"state":{
-			"usb":"y",
-			"buttons":"t",
-			"wifi":"t",
-			"touchscreen":"y",
-			"bluetooth":"y",
-			"charging":"t",
-			"battery":"t",
-			"gpu":"t",
-			"lte":"t"
-		},
-		"message":{
-		}
-	},{
-		"codename":"rennell",
-		"soc":"SM7125",
-		"name":{
-			"zh_cn":"骁龙720G QRD",
-			"en_us":"Snapdragon 720G QRD"
-		},
-		"state":{
-			"audio":"y",
-			"virtualization":"y",
-			"touchscreen":"u",
-			"charging":"u",
-			"buttons":"u",
-			"camera":"y",
-			"wifi":"y",
-                        "bluetooth":"y",
-			"battery":"u",
-			"gpu":"y",
-			"lte":"y",
-			"usb":"p"
-		},
-		"message":{
-			"usb":{
-				"zh_cn":"USB可能需要外接供电",
-				"en_us":"External power supply might be needed for USB"
-			}
-		}
-	},{
-		"codename":"polaris",
-		"soc":"SDM845",
-		"name":{
-			"zh_cn":"小米MIX2S",
-			"en_us":"Xiaomi MIX2S"
-		},
-		"state":{
-			"touchscreen":"y",
-			"wifi":"y",
-			"bluetooth":"y",
-			"battery":"y",
-			"charging":"y",
-			"gpu":"y",
-			"usb":"y",
-			"lte":"y"
-		},
-		"message":{
-			"touchscreen":{
-				"zh_cn":"你需要使用fastboot刷写devcfg分区，devcfg链接：http://files.renegade-project.org/devcfg-polaris_FixTS.img",
-				"en_us":"You need to flash devcfg partition with the provided image. Link: http://files.renegade-project.org/devcfg-polaris_FixTS.img"
-			},
-			"lte":{
-				"zh_cn":"使用前请备份基带EFS/QCN",
-				"en_us":"Please backup modem EFS/QCN before use"
-			}
-		}
-	},{
-		"codename":"chiron",
-		"soc":"MSM8998",
-		"name":{
-			"zh_cn":"小米MIX2",
-			"en_us":"Xiaomi MIX2"
-		},
-		"state":{
-			"usb":"y",
-			"buttons":"t",
-			"wifi":"t",
-			"touchscreen":"t",
-			"bluetooth":"t",
-			"charging":"t",
-			"battery":"t",
-			"gpu":"t",
-			"lte":"t"
-		},
-		"message":{
-		}
-	},{
 		"codename":"perseus",
 		"soc":"SDM845",
 		"name":{
@@ -221,43 +125,20 @@
 			"en_us":"Xiaomi MIX3"
 		},
 		"state":{
-			"touchscreen":"n",
+			"touchscreen":"t",
 			"wifi":"y",
 			"bluetooth":"y",
 			"battery":"y",
 			"charging":"y",
 			"gpu":"y",
+			"buttons":"y",
 			"lte":"y"
 		},
 		"message":{
-			"touchscreen":{
-				"zh_cn":"没有可用驱动",
-				"en_us":"No driver available"
-			},
 			"lte":{
 				"zh_cn":"使用前请备份基带EFS/QCN",
 				"en_us":"Please backup modem EFS/QCN before use"
 			}
-		}
-	},{
-		"codename":"andromeda",
-		"soc":"SM8150",
-		"name":{
-			"zh_cn":"小米MIX3 5G",
-			"en_us":"Xiaomi MIX3 5G"
-		},
-		"state":{
-			"touchscreen":"u",
-			"buttons":"u",
-			"wifi":"t",
-			"bluetooth":"t",
-			"battery":"t",
-			"charging":"t",
-			"gpu":"t",
-			"lte":"t",
-			"usb":"y"
-		},
-		"message":{
 		}
 	},{
 		"codename":"dipper",
@@ -267,7 +148,7 @@
 			"en_us":"Xiaomi MI8"
 		},
 		"state":{
-			"touchscreen":"n",
+			"touchscreen":"t",
 			"wifi":"y",
 			"bluetooth":"y",
 			"battery":"y",
@@ -276,10 +157,6 @@
 			"lte":"y"
 		},
 		"message":{
-			"touchscreen":{
-				"zh_cn":"没有可用驱动",
-				"en_us":"No driver available"
-			},
 			"lte":{
 				"zh_cn":"使用前请备份基带EFS/QCN",
 				"en_us":"Please backup modem EFS/QCN before use"
@@ -293,7 +170,7 @@
 			"en_us":"Xiaomi MI8 UD"
 		},
 		"state":{
-			"touchscreen":"n",
+			"touchscreen":"t",
 			"wifi":"y",
 			"bluetooth":"y",
 			"battery":"y",
@@ -302,142 +179,62 @@
 			"lte":"y"
 		},
 		"message":{
-			"touchscreen":{
-				"zh_cn":"没有可用驱动",
-				"en_us":"No driver available"
-			},
 			"lte":{
 				"zh_cn":"使用前请备份基带EFS/QCN",
 				"en_us":"Please backup modem EFS/QCN before use"
 			}
 		}
 	},{
-		"codename":"cepheus",
-		"soc":"SM8150",
-		"name":{
-			"zh_cn":"小米9",
-			"en_us":"Xiaomi MI9"
-		},
-		"state":{
-			"touchscreen":"u",
-			"buttons":"u",
-			"wifi":"t",
-			"bluetooth":"t",
-			"battery":"t",
-			"charging":"t",
-			"gpu":"t",
-			"lte":"t",
-			"usb":"y"
-		},
-		"message":{
-		}
-	},{
-		"codename":"sagit",
-		"soc":"MSM8998",
-		"name":{
-			"zh_cn":"小米6",
-			"en_us":"Xiaomi MI6"
-		},
-		"state":{
-			"usb":"y",
-			"buttons":"t",
-			"wifi":"t",
-			"touchscreen":"t",
-			"bluetooth":"t",
-			"charging":"t",
-			"battery":"t",
-			"gpu":"t",
-			"lte":"t"
-		},
-		"message":{
-		}
-	},{
-		"codename":"beryllium",
+		"codename":"trident",
 		"soc":"SDM845",
 		"name":{
-			"zh_cn":"小米PocoPhone F1",
-			"en_us":"Xiaomi PocoPhone F1"
+			"zh_cn":"锤子坚果R1",
+			"en_us":"Smartisan R1"
 		},
 		"state":{
+			"touchscreen":"w",
+			"buttons":"y",
+			"gpu":"y",
 			"wifi":"y",
+			"bluetooth":"y",
 			"battery":"y",
 			"charging":"y",
-			"bluetooth":"y",
-			"touchscreen":"p",
-			"gpu":"y",
 			"lte":"y"
 		},
 		"message":{
-			"touchscreen":{
-				"zh_cn":"仅适用于使用 EBBG/FTS 面板的型号  你需要使用fastboot刷写devcfg分区，devcfg链接：https://files.renegade-project.org/devcfg-beryllium_FixTS.img",
-				"en_us":"Only works with models that use EBBG/FTS panel + you need to flash devcfg partition with the provided image. Link: https://files.renegade-project.org/devcfg-beryllium_FixTS.img"
-			},
-			"lte":{
-				"zh_cn":"使用前请备份基带EFS/QCN",
-				"en_us":"Please backup modem EFS/QCN before use"
+		}
+	},{
+		"codename":"m1882",
+		"soc":"SDM845",
+		"name":{
+			"zh_cn":"魅族16th",
+			"en_us":"Meizu 16th"
+		},
+		"state":{
+			"gpu":"y",
+			"bluetooth":"y",
+			"wifi":"w"
+		},
+		"message":{
+			"gpu":{
+				"zh_cn":"请暂时使用魅族16th Plus的驱动",
+				"en_us":"Please use drivers for Meizu 16th Plus temporarily"
 			}
 		}
 	},{
-		"codename":"raphael",
-		"soc":"SM8150",
+		"codename":"m1892",
+		"soc":"SDM845",
 		"name":{
-			"zh_cn":"红米K20Pro",
-			"en_us":"Redmi K20 Pro"
+			"zh_cn":"魅族16th Plus",
+			"en_us":"Meizu 16th Plus"
 		},
 		"state":{
-			"touchscreen":"u",
-			"buttons":"u",
-			"wifi":"t",
-			"bluetooth":"t",
-			"battery":"t",
-			"charging":"t",
-			"gpu":"t",
-			"lte":"t",
-			"usb":"y"
-		},
-		"message":{
-		}
-	},{
-		"codename":"clover",
-		"soc":"SDM660",
-		"name":{
-			"zh_cn":"小米平板4",
-			"en_us":"Xiaomi Pad 4"
-		},
-		"state":{
-			"touchscreen":"t",
-			"buttons":"t",
-			"wifi":"t",
-			"bluetooth":"t",
-			"battery":"t",
-			"charging":"t",
-			"gpu":"t",
-			"lte":"t",
-			"usb":"t"
-		},
-		"message":{
-			"ufs":{
-				"zh_cn":"该设备使用eMMC",
-				"en_us":"This device use eMMC."
-			}
-		}
-	},{
-		"codename":"nabu",
-		"soc":"SM8150AC",
-		"name":{
-			"zh_cn":"小米平板5",
-			"en_us":"Xiaomi Pad 5"
-		},
-		"state":{
-			"touchscreen":"t",
-			"buttons":"t",
-			"wifi":"t",
-			"bluetooth":"t",
-			"battery":"t",
-			"charging":"t",
-			"gpu":"t",
-			"lte":"t",
-			"usb":"y"
+			"touchscreen":"w",
+			"wifi":"y",
+			"battery":"y",
+			"charging":"y",
+			"buttons":"y",
+			"gpu":"y"
 		},
 		"message":{
 		}
@@ -451,6 +248,7 @@
 		"state":{
 			"bluetooth":"y",
 			"battery":"y",
+			"buttons":"y",
 			"charging":"y",
 			"wifi":"y",
 			"gpu":"y",
@@ -487,39 +285,9 @@
 			"en_us":"Nubia X"
 		},
 		"state":{
-			"usb":"y"
-		},
-		"message":{
-		}
-	},{
-		"codename":"m1882",
-		"soc":"SDM845",
-		"name":{
-			"zh_cn":"魅族16th",
-			"en_us":"Meizu 16th"
-		},
-		"state":{
-			"gpu":"y"
-		},
-		"message":{
-			"gpu":{
-				"zh_cn":"请暂时使用魅族16th Plus的驱动",
-				"en_us":"Please use drivers for Meizu 16th Plus temporarily"
-			}
-		}
-	},{
-		"codename":"m1892",
-		"soc":"SDM845",
-		"name":{
-			"zh_cn":"魅族16th Plus",
-			"en_us":"Meizu 16th Plus"
-		},
-		"state":{
-			"touchscreen":"w",
-			"wifi":"y",
-			"battery":"y",
-			"charging":"y",
-			"gpu":"y"
+			"usb":"y",
+			"bluetooth":"w",
+			"wifi":"w"
 		},
 		"message":{
 		}
@@ -532,17 +300,9 @@
 		},
 		"state":{
 			"usb":"p",
-			"ufs":"p"
+			"ufs":"u"
 		},
 		"message":{
-			"ufs":{
-				"zh_cn":"如果你在磁盘管理中使其强制联机，你的UFS将会被擦除",
-				"en_us":"Your UFS will be ERASED if you make UFS online in diskmgmt"
-			},
-			"usb":{
-				"zh_cn":"USB需外接供电才能正常工作",
-				"en_us":"USB working only with powered hub"
-			}
 		}
 	},{
 		"codename":"judyln",
@@ -554,13 +314,13 @@
 		"state":{
 			"audio":"n",
 			"fullsystem":"y",
-			"wifi":"t",
-			"battery":"t",
-			"charging":"y",
-			"bluetooth":"y",
-			"touchscreen":"t",
-			"gpu":"y",
-			"lte":"t"
+			"wifi":"w",
+			"battery":"w",
+			"charging":"w",
+			"bluetooth":"w",
+			"touchscreen":"n",
+			"gpu":"w",
+			"lte":"w"
 		},
 		"message":{
 		}
@@ -574,13 +334,13 @@
 		"state":{
 			"audio":"n",
 			"fullsystem":"y",
-			"wifi":"t",
-			"battery":"t",
-			"charging":"y",
-			"bluetooth":"y",
-			"touchscreen":"t",
-			"gpu":"y",
-			"lte":"t"
+			"wifi":"w",
+			"battery":"w",
+			"charging":"w",
+			"bluetooth":"w",
+			"touchscreen":"n",
+			"gpu":"w",
+			"lte":"w"
 		},
 		"message":{
 		}
@@ -594,51 +354,13 @@
 		"state":{
 			"audio":"n",
 			"fullsystem":"y",
-			"wifi":"t",
-			"battery":"t",
-			"charging":"y",
-			"bluetooth":"y",
-			"touchscreen":"t",
-			"gpu":"y",
-			"lte":"t"
-		},
-		"message":{
-		}
-	},{
-		"codename":"joan",
-		"soc":"MSM8998",
-		"name":{
-			"zh_cn":"LG V30",
-			"en_us":"LG V30"
-		},
-		"state":{
-			"usb":"y",
-			"buttons":"t",
-			"wifi":"t",
-			"touchscreen":"t",
-			"bluetooth":"t",
-			"charging":"t",
-			"battery":"t",
-			"gpu":"t",
-			"lte":"t"
-		},
-		"message":{
-		}
-	},{
-		"codename":"trident",
-		"soc":"SDM845",
-		"name":{
-			"zh_cn":"锤子坚果R1",
-			"en_us":"Smartisan R1"
-		},
-		"state":{
-			"touchscreen":"w",
-			"gpu":"y",
-			"wifi":"y",
-			"bluetooth":"y",
-			"battery":"y",
-			"charging":"y",
-			"lte":"y"
+			"wifi":"w",
+			"battery":"w",
+			"charging":"w",
+			"bluetooth":"w",
+			"touchscreen":"n",
+			"gpu":"w",
+			"lte":"w"
 		},
 		"message":{
 		}
@@ -652,7 +374,8 @@
 		"state":{
 			"bluetooth":"y",
 			"battery":"y",
-			"charging":"y"
+			"charging":"y",
+			"wifi":"w"
 		},
 		"message":{
 		}
@@ -664,6 +387,7 @@
 			"en_us":"BlackShark One"
 		},
 		"state":{
+			"wifi":"w"
 		},
 		"message":{
 		}
@@ -675,6 +399,7 @@
 			"en_us":"OPPO Find X"
 		},
 		"state":{
+			"wifi":"w"
 		},
 		"message":{
 		}
@@ -686,7 +411,8 @@
 			"en_us":"Nokia 9 PureView"
 		},
 		"state":{
-			"usb":"u"
+			"usb":"u",
+			"wifi":"w"
 		},
 		"message":{
 		}
@@ -698,7 +424,172 @@
 			"en_us":"Asus ZenFone 5Z"
 		},
 		"state":{
-			"usb":"y"
+			"usb":"y",
+			"wifi":"w"
+		},
+		"message":{
+		}
+	},{
+		"codename":"pd1821",
+		"soc":"SDM845",
+		"name":{
+			"zh_cn":"Vivo NEX 双屏版",
+			"en_us":"Vivo NEX Dual Display"
+		},
+		"state":{
+			"usb":"u",
+			"wifi":"w"
+		},
+		"message":{
+		}
+	},{
+		"codename":"blueline",
+		"soc":"SDM845",
+		"name":{
+			"zh_cn":"谷歌 Pixel 3",
+			"en_us":"Google Pixel 3"
+		},
+		"state":{
+			"ufs":"n",
+			"battery":"n",
+			"bluetooth":"n",
+			"charging":"n",
+			"gpu":"n",
+			"lte":"n",
+			"gps":"n"
+		},
+		"message":{
+			"ufs":{
+				"zh_cn":"你的UFS将会被Windows的storufs驱动擦除!",
+				"en_us":"Your UFS will be ERASED by Windows storufs driver!"
+			}
+		}
+	},{
+		"codename":"akari",
+		"soc":"SDM845",
+		"name":{
+			"zh_cn":"索尼 Xperia XZ2",
+			"en_us":"Sony Xperia XZ2"
+		},
+		"state":{
+			"ufs":"n",
+			"battery":"n",
+			"bluetooth":"n",
+			"charging":"n",
+			"gpu":"n",
+			"lte":"n",
+			"gps":"n"
+		},
+		"message":{
+			"ufs":{
+				"zh_cn":"你的UFS将会被Windows的storufs驱动擦除!",
+				"en_us":"Your UFS will be ERASED by Windows storufs driver!"
+			}
+		}
+	},{
+		"codename":"rennell",
+		"soc":"SM7125",
+		"name":{
+			"zh_cn":"骁龙720G QRD",
+			"en_us":"Snapdragon 720G QRD"
+		},
+		"state":{
+			"audio":"y",
+			"virtualization":"y",
+			"touchscreen":"t",
+			"charging":"u",
+			"buttons":"u",
+			"camera":"y",
+			"wifi":"y",
+            "bluetooth":"y",
+			"battery":"u",
+			"gpu":"y",
+			"lte":"y",
+			"usb":"p"
+		},
+		"message":{
+			"usb":{
+				"zh_cn":"USB可能需要外接供电",
+				"en_us":"External power supply might be needed for USB"
+			}
+		}
+	},{
+		"codename":"cheeseburger",
+		"soc":"MSM8998",
+		"name":{
+			"zh_cn":"一加5",
+			"en_us":"Oneplus 5"
+		},
+		"state":{
+			"usb":"y",
+			"wifi":"n",
+			"touchscreen":"y",
+			"bluetooth":"y",
+			"charging":"u",
+			"battery":"u",
+			"gpu":"n",
+			"buttons":"u",
+			"lte":"n"
+		},
+		"message":{
+		}
+	},{
+		"codename":"dumpling",
+		"soc":"MSM8998",
+		"name":{
+			"zh_cn":"一加5T",
+			"en_us":"Oneplus 5T"
+		},
+		"state":{
+			"usb":"y",
+			"buttons":"u",
+			"wifi":"n",
+			"touchscreen":"y",
+			"bluetooth":"y",
+			"charging":"u",
+			"battery":"u",
+			"gpu":"n",
+			"lte":"n"
+		},
+		"message":{
+		}
+	},{
+		"codename":"sagit",
+		"soc":"MSM8998",
+		"name":{
+			"zh_cn":"小米6",
+			"en_us":"Xiaomi MI6"
+		},
+		"state":{
+			"usb":"y",
+			"buttons":"u",
+			"wifi":"n",
+			"touchscreen":"w",
+			"bluetooth":"u",
+			"charging":"u",
+			"battery":"u",
+			"gpu":"n",
+			"lte":"n"
+		},
+		"message":{
+		}
+	},{
+		"codename":"chiron",
+		"soc":"MSM8998",
+		"name":{
+			"zh_cn":"小米MIX2",
+			"en_us":"Xiaomi MIX2"
+		},
+		"state":{
+			"usb":"y",
+			"buttons":"u",
+			"wifi":"n",
+			"touchscreen":"w",
+			"bluetooth":"u",
+			"charging":"u",
+			"battery":"u",
+			"gpu":"n",
+			"lte":"n"
 		},
 		"message":{
 		}
@@ -711,61 +602,159 @@
 		},
 		"state":{
 			"usb":"y",
-			"buttons":"t",
-			"wifi":"t",
-			"touchscreen":"t",
-			"bluetooth":"t",
-			"charging":"t",
-			"battery":"t",
-			"gpu":"t",
-			"lte":"t"
+			"buttons":"u",
+			"wifi":"n",
+			"touchscreen":"n",
+			"bluetooth":"u",
+			"charging":"u",
+			"battery":"u",
+			"gpu":"n",
+			"lte":"n"
 		},
 		"message":{
 		}
 	},{
-		"codename":"pd1821",
-		"soc":"SDM845",
+		"codename":"joan",
+		"soc":"MSM8998",
 		"name":{
-			"zh_cn":"Vivo NEX 双屏版",
-			"en_us":"Vivo NEX Dual Display"
+			"zh_cn":"LG V30",
+			"en_us":"LG V30"
 		},
 		"state":{
-			"usb":"u"
+			"usb":"y",
+			"buttons":"u",
+			"wifi":"n",
+			"touchscreen":"n",
+			"bluetooth":"u",
+			"charging":"u",
+			"battery":"u",
+			"gpu":"n",
+			"lte":"n"
 		},
 		"message":{
 		}
 	},{
-		"codename":"blueline",
-		"soc":"SDM845",
+		"codename":"cepheus",
+		"soc":"SM8150",
 		"name":{
-			"zh_cn":"谷歌 Pixel 3",
-			"en_us":"Google Pixel 3"
+			"zh_cn":"小米9",
+			"en_us":"Xiaomi MI9"
 		},
 		"state":{
-			"ufs":"n"
+			"touchscreen":"n",
+			"buttons":"u",
+			"wifi":"n",
+			"bluetooth":"u",
+			"battery":"n",
+			"charging":"n",
+			"gpu":"n",
+			"lte":"n",
+			"usb":"y"
 		},
 		"message":{
-			"ufs":{
-				"zh_cn":"你的UFS将会被擦除!",
-				"en_us":"Your UFS will be ERASED!"
-			}
 		}
 	},{
-		"codename":"akari",
-		"soc":"SDM845",
+		"codename":"raphael",
+		"soc":"SM8150",
 		"name":{
-			"zh_cn":"索尼Xperia XZ2",
-			"en_us":"Sony Xperia XZ2"
+			"zh_cn":"红米K20Pro",
+			"en_us":"Redmi K20 Pro"
 		},
 		"state":{
-			"usb":"u",
-			"ufs":"n"
+			"touchscreen":"n",
+			"buttons":"u",
+			"wifi":"n",
+			"bluetooth":"u",
+			"battery":"n",
+			"charging":"n",
+			"gpu":"n",
+			"lte":"n",
+			"usb":"y"
 		},
 		"message":{
-			"ufs":{
-				"zh_cn":"你的UFS（理论上）将会被擦除!",
-				"en_us":"Your UFS will be ERASED theoretically!"
-			}
+		}
+	},{
+		"codename":"andromeda",
+		"soc":"SM8150",
+		"name":{
+			"zh_cn":"小米MIX3 5G",
+			"en_us":"Xiaomi MIX3 5G"
+		},
+		"state":{
+			"touchscreen":"n",
+			"buttons":"u",
+			"wifi":"n",
+			"bluetooth":"u",
+			"battery":"n",
+			"charging":"n",
+			"gpu":"n",
+			"lte":"n",
+			"usb":"y"
+		},
+		"message":{
+		}
+	},{
+		"codename":"nabu",
+		"soc":"SM8150AC",
+		"name":{
+			"zh_cn":"小米平板5",
+			"en_us":"Xiaomi Pad 5"
+		},
+		"state":{
+			"touchscreen":"n",
+			"buttons":"u",
+			"wifi":"n",
+			"bluetooth":"u",
+			"battery":"n",
+			"charging":"n",
+			"gpu":"n",
+			"lte":"n",
+			"usb":"y",
+			"gps":"n"
+		},
+		"message":{
+		}
+	},{
+		"codename":"guacamoleb",
+		"soc":"SM8150",
+		"name":{
+			"zh_cn":"一加7",
+			"en_us":"Oneplus 7"
+		},
+		"state":{
+			"touchscreen":"n",
+			"buttons":"u",
+			"wifi":"n",
+			"bluetooth":"u",
+			"battery":"n",
+			"charging":"n",
+			"gpu":"n",
+			"lte":"n",
+			"usb":"y",
+			"gps":"n"
+		},
+		"message":{
+		}
+	},{
+		"codename":"guacamole",
+		"soc":"SM8150",
+		"name":{
+			"zh_cn":"一加7Pro",
+			"en_us":"Oneplus 7 Pro"
+		},
+		"state":{
+			"touchscreen":"n",
+			"buttons":"u",
+			"wifi":"n",
+			"bluetooth":"u",
+			"battery":"n",
+			"charging":"n",
+			"gpu":"n",
+			"lte":"n",
+			"usb":"y",
+			"gps":"n"
+		},
+		"message":{
 		}
 	}
 ]
