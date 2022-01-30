@@ -60,7 +60,7 @@
 		"soc":"SDM845",
 		"name":{
 			"zh_cn":"一加6T",
-			"en_us":"Oneplus 6T"
+			"en_us":"OnePlus 6T"
 		},
 		"state":{
 			"touchscreen":"y",
@@ -76,10 +76,6 @@
 			"charging":{
 				"zh_cn":"对充电器要求较高，lumia 5v3a充电器效果最佳",
 				"en_us":"could be picky about chargers, 5v3a charger from Lumia is preferred"
-			},
-			"touchscreen":{
-				"zh_cn":"长按右键存在问题",
-				"en_us":"Hold for right-clicking is broken"
 			},
 			"lte":{
 				"zh_cn":"使用前请备份基带EFS/QCN",
@@ -91,7 +87,7 @@
 		"soc":"SDM845",
 		"name":{
 			"zh_cn":"一加6",
-			"en_us":"Oneplus 6"
+			"en_us":"OnePlus 6"
 		},
 		"state":{
 			"touchscreen":"y",
@@ -107,10 +103,6 @@
 			"charging":{
 				"zh_cn":"对充电器要求较高，lumia 5v3a充电器效果最佳",
 				"en_us":"could be picky about chargers, 5v3a charger from Lumia is preferred"
-			},
-			"touchscreen":{
-				"zh_cn":"长按右键存在问题",
-				"en_us":"Hold for right-clicking is broken"
 			},
 			"lte":{
 				"zh_cn":"使用前请备份基带EFS/QCN",
