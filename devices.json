@@ -140,7 +140,7 @@
 			"en_us":"Xiaomi MI8"
 		},
 		"state":{
-			"touchscreen":"t",
+			"touchscreen":"y",
 			"wifi":"y",
 			"bluetooth":"y",
 			"battery":"y",
