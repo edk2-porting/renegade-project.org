@@ -140,7 +140,7 @@
 			"en_us":"Xiaomi MI8"
 		},
 		"state":{
-			"touchscreen":"t",
+			"touchscreen":"y",
 			"wifi":"y",
 			"bluetooth":"y",
 			"battery":"y",
@@ -149,6 +149,10 @@
 			"lte":"y"
 		},
 		"message":{
+			"touchscreen":{
+				"zh_cn":"请在设备管理器中把“允许计算机关闭此设备”取消勾选",
+				"en_us":"Please uncheck power saving features in Device Manager"
+			},
 			"lte":{
 				"zh_cn":"使用前请备份基带EFS/QCN",
 				"en_us":"Please backup modem EFS/QCN before use"
