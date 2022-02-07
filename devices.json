@@ -150,8 +150,8 @@
 		},
 		"message":{
 			"touchscreen":{
-				"zh_cn":"请在设备管理器中把“允许计算机关闭此设备”取消勾选",
-				"en_us":"Please uncheck power saving features in Device Manager"
+				"zh_cn":"请在设备管理器中把“允许计算机关闭此设备”取消勾选，并且你需要使用fastboot刷写devcfg分区，devcfg链接：http://files.renegade-project.org/devcfg-dipper_FixTS.img",
+				"en_us":"Please uncheck power saving features in Device Manager, and flash devcfg partition with the provided image. Link: http://files.renegade-project.org/devcfg-dipper_FixTS.img"
 			},
 			"lte":{
 				"zh_cn":"使用前请备份基带EFS/QCN",
