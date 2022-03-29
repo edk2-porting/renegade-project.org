@@ -546,9 +546,9 @@
 			"wifi":"n",
 			"touchscreen":"y",
 			"bluetooth":"y",
-			"charging":"u",
-			"battery":"u",
-			"gpu":"n",
+			"charging":"y",
+			"battery":"y",
+			"gpu":"y",
 			"lte":"n"
 		},
 		"message":{
