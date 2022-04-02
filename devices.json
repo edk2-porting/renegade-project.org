@@ -48,7 +48,7 @@
 		"message":{
 			"touchscreen":{
 				"zh_cn":"仅适用于使用 EBBG/FTS 面板的型号  你需要使用fastboot刷写devcfg分区，devcfg链接：https://files.renegade-project.org/devcfg-beryllium_FixTS.img",
-				"en_us":"Only works with models that use EBBG/FTS panel + you need to flash devcfg partition with the provided image. Link: https://files.renegade-project.org/devcfg-beryllium_FixTS.img and run the beryllium 2246x1080 focaltech _fix.reg REG file within Windows. Link: https://drive.google.com/file/d/17m8-wYrdhjZMjeMenb9La_aldIQapjI_/view?usp=sharing"
+				"en_us":"Only works with models that use EBBG/FTS panel + you need to flash devcfg partition with the provided image. Link: https://files.renegade-project.org/devcfg-beryllium_FixTS.img and run the beryllium 2246x1080 focaltech _fix.reg REG file within Windows. Link: https://files.renegade-project.org/beryllium_2246x1080_focaltech_fix.reg"
 			},
 			"lte":{
 				"zh_cn":"使用前请备份基带EFS/QCN",
