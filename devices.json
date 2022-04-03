@@ -71,6 +71,7 @@
 			"gpu":"y",
 			"buttons":"y",
 			"lte":"y"
+                        "camera":"t",
 		},
 		"message":{
 			"charging":{
@@ -264,10 +265,6 @@
 				"zh_cn":"该设备不支持此功能",
 				"en_us":"Not supported by the device"
 			},
-			"touchscreen":{
-				"zh_cn":"长按右键存在问题",
-				"en_us":"Hold for right-clicking is broken"
-			},
 			"virtualization":{
 				"zh_cn":"需要WP固件以使用虚拟化特性",
 				"en_us":"WP firmware is required to enable virtualization"
@@ -312,15 +309,15 @@
 			"en_us":"LG G7"
 		},
 		"state":{
-			"audio":"n",
+			"audio":"u",
 			"fullsystem":"y",
-			"wifi":"w",
-			"battery":"w",
-			"charging":"w",
-			"bluetooth":"w",
-			"touchscreen":"n",
-			"gpu":"w",
-			"lte":"w"
+			"wifi":"t",
+			"battery":"y",
+			"charging":"y",
+			"bluetooth":"t",
+			"touchscreen":"u",
+			"gpu":"y",
+			"lte":"t"
 		},
 		"message":{
 		}
@@ -334,13 +331,13 @@
 		"state":{
 			"audio":"n",
 			"fullsystem":"y",
-			"wifi":"w",
-			"battery":"w",
-			"charging":"w",
-			"bluetooth":"w",
-			"touchscreen":"n",
-			"gpu":"w",
-			"lte":"w"
+			"wifi":"t",
+			"battery":"t",
+			"charging":"t",
+			"bluetooth":"t",
+			"touchscreen":"u",
+			"gpu":"y",
+			"lte":"t"
 		},
 		"message":{
 		}
@@ -354,13 +351,13 @@
 		"state":{
 			"audio":"n",
 			"fullsystem":"y",
-			"wifi":"w",
-			"battery":"w",
-			"charging":"w",
-			"bluetooth":"w",
-			"touchscreen":"n",
-			"gpu":"w",
-			"lte":"w"
+			"wifi":"t",
+			"battery":"y",
+			"charging":"y",
+			"bluetooth":"t",
+			"touchscreen":"u",
+			"gpu":"y",
+			"lte":"t"
 		},
 		"message":{
 		}
@@ -487,6 +484,37 @@
 			}
 		}
 	},{
+		"codename":"Rog1",
+		"soc":"SDM845+",
+		"name":{
+			"zh_cn":"Rog Phone 1",
+			"en_us":"Rog Phone 1"
+		},
+		"state":{
+			"touchscreen":"p",
+			"audio":"u",
+			"buttons":"y",
+			"wifi":"t",
+			"bluetooth":"y",
+			"battery":"y",
+			"charging":"y",
+			"gpu":"y",
+			"usb":"y",
+			"lte":"t"
+		},
+		"message":{
+			"touchscreen":{
+				"zh_cn":"有点毛病",
+				"en_us":"There are some problems"
+			},
+			"usb":{
+				"zh_cn":"副usb暂时没修，暂时不工作",
+				"en_us":"The secondary usb has not been repaired for the time being, and it is not working at present."
+			}
+		}
+	},
+
+{
 		"codename":"rennell",
 		"soc":"SM7125",
 		"name":{
@@ -495,10 +523,10 @@
 		},
 		"state":{
 			"audio":"y",
-			"virtualization":"y",
+			"virtualization":"p",
 			"touchscreen":"t",
-			"charging":"u",
-			"buttons":"u",
+			"charging":"y",
+			"buttons":"y",
 			"camera":"y",
 			"wifi":"y",
             "bluetooth":"y",
@@ -525,11 +553,11 @@
 			"wifi":"n",
 			"touchscreen":"y",
 			"bluetooth":"y",
-			"charging":"u",
-			"battery":"u",
-			"gpu":"n",
-			"buttons":"u",
-			"lte":"n"
+			"charging":"y",
+			"battery":"y",
+			"gpu":"y",
+			"buttons":"t",
+			"lte":"t"
 		},
 		"message":{
 		}
@@ -542,14 +570,14 @@
 		},
 		"state":{
 			"usb":"y",
-			"buttons":"u",
-			"wifi":"n",
+			"buttons":"t",
+			"wifi":"t",
 			"touchscreen":"y",
 			"bluetooth":"y",
 			"charging":"y",
 			"battery":"y",
 			"gpu":"y",
-			"lte":"n"
+			"lte":"y"
 		},
 		"message":{
 		}
@@ -562,14 +590,14 @@
 		},
 		"state":{
 			"usb":"y",
-			"buttons":"u",
-			"wifi":"n",
-			"touchscreen":"w",
+			"buttons":"t",
+			"wifi":"t",
+			"touchscreen":"y",
 			"bluetooth":"u",
-			"charging":"u",
-			"battery":"u",
-			"gpu":"n",
-			"lte":"n"
+			"charging":"t",
+			"battery":"t",
+			"gpu":"t",
+			"lte":"t"
 		},
 		"message":{
 		}
@@ -583,13 +611,13 @@
 		"state":{
 			"usb":"y",
 			"buttons":"u",
-			"wifi":"n",
-			"touchscreen":"w",
-			"bluetooth":"u",
-			"charging":"u",
-			"battery":"u",
-			"gpu":"n",
-			"lte":"n"
+			"wifi":"t",
+			"touchscreen":"t",
+			"bluetooth":"y",
+			"charging":"t",
+			"battery":"t",
+			"gpu":"t",
+			"lte":"t"
 		},
 		"message":{
 		}
@@ -623,13 +651,13 @@
 		"state":{
 			"usb":"y",
 			"buttons":"u",
-			"wifi":"n",
+			"wifi":"t",
 			"touchscreen":"n",
 			"bluetooth":"u",
 			"charging":"u",
 			"battery":"u",
-			"gpu":"n",
-			"lte":"n"
+			"gpu":"t",
+			"lte":"t"
 		},
 		"message":{
 		}
@@ -641,15 +669,17 @@
 			"en_us":"Xiaomi MI9"
 		},
 		"state":{
-			"touchscreen":"n",
-			"buttons":"u",
-			"wifi":"n",
-			"bluetooth":"u",
-			"battery":"n",
-			"charging":"n",
-			"gpu":"n",
-			"lte":"n",
+			"touchscreen":"t",
+			"buttons":"t",
+			"wifi":"t",
+			"bluetooth":"t",
+			"battery":"t",
+			"charging":"t",
+			"gpu":"t",
+			"lte":"t",
 			"usb":"y"
+                        "camera":"t",
+
 		},
 		"message":{
 		}
@@ -662,14 +692,15 @@
 		},
 		"state":{
 			"touchscreen":"n",
-			"buttons":"u",
-			"wifi":"n",
-			"bluetooth":"u",
-			"battery":"n",
-			"charging":"n",
-			"gpu":"n",
-			"lte":"n",
+			"buttons":"y",
+			"wifi":"t",
+			"bluetooth":"t",
+			"battery":"t",
+			"charging":"t",
+			"gpu":"t",
+			"lte":"t",
 			"usb":"y"
+                        "camera":"t",
 		},
 		"message":{
 		}
@@ -681,14 +712,14 @@
 			"en_us":"Xiaomi MIX3 5G"
 		},
 		"state":{
-			"touchscreen":"n",
-			"buttons":"u",
-			"wifi":"n",
-			"bluetooth":"u",
-			"battery":"n",
-			"charging":"n",
-			"gpu":"n",
-			"lte":"n",
+			"touchscreen":"t",
+			"buttons":"t",
+			"wifi":"t",
+			"bluetooth":"t",
+			"battery":"t",
+			"charging":"t",
+			"gpu":"t",
+			"lte":"t",
 			"usb":"y"
 		},
 		"message":{
@@ -701,13 +732,13 @@
 			"en_us":"Xiaomi Pad 5"
 		},
 		"state":{
-			"touchscreen":"n",
+			"touchscreen":"u",
 			"buttons":"u",
-			"wifi":"n",
-			"bluetooth":"u",
-			"battery":"n",
-			"charging":"n",
-			"gpu":"n",
+			"wifi":"t",
+			"bluetooth":"t",
+			"battery":"t",
+			"charging":"t",
+			"gpu":"t",
 			"lte":"n",
 			"usb":"y",
 			"gps":"n"
@@ -722,21 +753,48 @@
 			"en_us":"Oneplus 7"
 		},
 		"state":{
-			"touchscreen":"n",
-			"buttons":"u",
-			"wifi":"n",
-			"bluetooth":"u",
-			"battery":"n",
-			"charging":"n",
-			"gpu":"n",
+			"touchscreen":"t",
+			"buttons":"y",
+			"wifi":"t",
+			"bluetooth":"t",
+			"battery":"t",
+			"charging":"t",
+			"gpu":"t",
 			"lte":"n",
 			"usb":"y",
 			"gps":"n"
 		},
 		"message":{
 		}
-	},{
-		"codename":"guacamole",
+	},
+{
+		"codename":"star",
+		"soc":"SM8350",
+		"name":{
+			"zh_cn":"小米11",
+			"en_us":"Xiaomi 11"
+		},
+		"state":{
+			"touchscreen":"n",
+                        "fullsystem":"t",
+			"audio":"n",
+			"buttons":"n",
+			"wifi":"n",
+			"bluetooth":"n",
+			"battery":"n",
+			"charging":"n",
+		
+			"usb":"t",
+		},
+		"message":{
+			"fullsystem":{
+				"zh_cn":"需要找到方法来突破vm来运行否则只能Linux",
+				"en_us":"We need to find a way to break through vm to allow it to run, otherwise it can only be Linux."
+			},
+		}
+	},
+{
+	"codename":"guacamole",
 		"soc":"SM8150",
 		"name":{
 			"zh_cn":"一加7Pro",
