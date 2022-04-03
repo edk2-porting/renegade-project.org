@@ -70,8 +70,8 @@
 			"charging":"p",
 			"gpu":"y",
 			"buttons":"y",
-			"lte":"y"
-                        "camera":"t",
+			"lte":"y",
+                        "camera":"t"
 		},
 		"message":{
 			"charging":{
@@ -677,8 +677,8 @@
 			"charging":"t",
 			"gpu":"t",
 			"lte":"t",
-			"usb":"y"
-                        "camera":"t",
+			"usb":"y",
+                        "camera":"t"
 
 		},
 		"message":{
@@ -699,8 +699,8 @@
 			"charging":"t",
 			"gpu":"t",
 			"lte":"t",
-			"usb":"y"
-                        "camera":"t",
+			"usb":"y",
+                        "camera":"t"
 		},
 		"message":{
 		}
@@ -783,18 +783,16 @@
 			"bluetooth":"n",
 			"battery":"n",
 			"charging":"n",
-		
-			"usb":"t",
+			"usb":"t"
 		},
 		"message":{
 			"fullsystem":{
 				"zh_cn":"需要找到方法来突破vm来运行否则只能Linux",
 				"en_us":"We need to find a way to break through vm to allow it to run, otherwise it can only be Linux."
-			},
+			}
 		}
-	},
-{
-	"codename":"guacamole",
+	},{
+		"codename":"guacamole",
 		"soc":"SM8150",
 		"name":{
 			"zh_cn":"一加7Pro",
