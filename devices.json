@@ -712,8 +712,8 @@
 			"en_us":"Xiaomi MIX3 5G"
 		},
 		"state":{
-			"touchscreen":"t",
-			"buttons":"t",
+			"touchscreen":"y",
+			"buttons":"y",
 			"wifi":"t",
 			"bluetooth":"t",
 			"battery":"t",
