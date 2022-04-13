@@ -309,15 +309,15 @@
 			"en_us":"LG G7"
 		},
 		"state":{
-			"audio":"u",
+			"audio":"n",
 			"fullsystem":"y",
-			"wifi":"t",
+			"wifi":"n",
 			"battery":"y",
 			"charging":"y",
-			"bluetooth":"t",
-			"touchscreen":"u",
+			"bluetooth":"y",
+			"touchscreen":"n",
 			"gpu":"y",
-			"lte":"t"
+			"lte":"n"
 		},
 		"message":{
 		}
@@ -331,13 +331,13 @@
 		"state":{
 			"audio":"n",
 			"fullsystem":"y",
-			"wifi":"t",
-			"battery":"t",
-			"charging":"t",
-			"bluetooth":"t",
-			"touchscreen":"u",
+			"wifi":"n",
+			"battery":"n",
+			"charging":"n",
+			"bluetooth":"y",
+			"touchscreen":"n",
 			"gpu":"y",
-			"lte":"t"
+			"lte":"n"
 		},
 		"message":{
 		}
@@ -351,13 +351,13 @@
 		"state":{
 			"audio":"n",
 			"fullsystem":"y",
-			"wifi":"t",
+			"wifi":"n",
 			"battery":"y",
 			"charging":"y",
-			"bluetooth":"t",
-			"touchscreen":"u",
+			"bluetooth":"y",
+			"touchscreen":"n",
 			"gpu":"y",
-			"lte":"t"
+			"lte":"n"
 		},
 		"message":{
 		}
@@ -650,13 +650,13 @@
 		},
 		"state":{
 			"usb":"y",
-			"buttons":"u",
+			"buttons":"y",
 			"wifi":"t",
 			"touchscreen":"n",
-			"bluetooth":"u",
+			"bluetooth":"y",
 			"charging":"u",
 			"battery":"u",
-			"gpu":"t",
+			"gpu":"y",
 			"lte":"t"
 		},
 		"message":{
