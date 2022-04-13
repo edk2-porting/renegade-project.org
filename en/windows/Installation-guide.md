@@ -1,6 +1,6 @@
 # Windows Installation Guide
 
-**This guild is only for devices with working USB!**
+**This guide is only for devices with working USB!**
 
 Please check the [Device Support Status](en/windows/state-frame.html).
 
