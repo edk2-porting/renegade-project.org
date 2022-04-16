@@ -550,11 +550,11 @@
 		},
 		"state":{
 			"usb":"y",
-			"wifi":"n",
+			"wifi":"t",
 			"touchscreen":"y",
 			"bluetooth":"y",
 			"charging":"y",
-			"battery":"y",
+			"battery":"p",
 			"gpu":"y",
 			"buttons":"t",
 			"lte":"t"
@@ -575,9 +575,9 @@
 			"touchscreen":"y",
 			"bluetooth":"y",
 			"charging":"y",
-			"battery":"y",
+			"battery":"p",
 			"gpu":"y",
-			"lte":"y"
+			"lte":"t"
 		},
 		"message":{
 		}
