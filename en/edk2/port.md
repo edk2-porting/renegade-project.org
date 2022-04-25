@@ -1,4 +1,4 @@
-# edk2-sdm845 Porting Guide
+# edk2-sdm845 Porting Guide (Obsolete)
 
  1. Install Python protobuf and uefi_firmware-parser by executing `pip install --upgrade google-api-python-client uefi_firmware` in terminal
  2. Download [extract_android_ota_payload](https://github.com/cyxx/extract_android_ota_payload/archive/master.zip) and extract the folder inside the archive anywhere

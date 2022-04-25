@@ -2,7 +2,7 @@
 
 **本教程仅支持usb正常工作的设备**
 
-请查看右侧[设备支持状态](zh/windows/state-frame.html)
+请注意查看[设备支持状态](zh/windows/state-frame.html)
 
 ### Download Tools
 
@@ -16,13 +16,11 @@
    
 2. 下载dism++
 
-   [Dism++](http://www.chuyu.me/zh-Hans/index.html)
+   [Dism++](https://github.com/Chuyu-Team/Dism-Multi-language/releases)
 
 3. 下载SDM845 驱动
 
-   [GitHub WOA-Drivers](https://github.com/edk2-porting/WOA-Drivers)
-
-   You need to extract drivers for your device here, check README.
+   [Releases · edk2-porting/WOA-Drivers · GitHub](https://github.com/edk2-porting/WOA-Drivers/releases)
 
 4. 下载windows10/windows11 arm64 iso
 
@@ -52,11 +50,11 @@
    
    ```
 
-### Pre-Installation
+### 安装前的准备
 
-Some devices may need additional steps. Before you proceed, please check your device page at *Devices* section.
+某些设备可能需要额外的步骤，在开始操作之前，请前往**设备支持状态**仔细阅读。
 
-### Create Partitions
+### 创建分区
 
 ​	电脑连接手机进入TWRP
 
@@ -100,13 +98,13 @@ Some devices may need additional steps. Before you proceed, please check your de
    cp -r /usbstorage/20h2pe_new/* /mnt
    ```
 
-5. Reboot to system with TWRP
+5. 使用TWRP重启至安卓系统
 
-   Try to boot Android first. If it works, Android is ok and we can proceed.
+   确保安卓系统仍能正常启动，再继续剩余的安装步骤
 
 6. 重启进入 fastboot
 
-### Install Windows
+### 安装Windows
 
 1. 进入fastboot，boot UEFI
 

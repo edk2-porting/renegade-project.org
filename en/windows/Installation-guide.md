@@ -16,13 +16,11 @@ Download these files to your USB flash drive:
     
 2. Download dism++
 
-   [Dism++](https://www.chuyu.me/en/index.html)
+   [Dism++](https://github.com/Chuyu-Team/Dism-Multi-language/releases)
 
 3. Download SDM845 Drivers
    
-   [GitHub WOA-Drivers](https://github.com/edk2-porting/WOA-Drivers)
-
-   You need to extract drivers for your device here, check README.
+   [Releases · edk2-porting/WOA-Drivers · GitHub](https://github.com/edk2-porting/WOA-Drivers/releases)
 
 4. Download Windows 10 arm64 iso
 

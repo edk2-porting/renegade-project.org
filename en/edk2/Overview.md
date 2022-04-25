@@ -35,5 +35,3 @@ As we have mentioned before, xbl is UEFI based. So we can extract binary EFI dri
 Windows on Arm, just as Windows on x86 platforms, requires a certain set of ACPI tables, which are supposed to be provided by the bootloader. In short, ACPI describes the hardware components and their configuration on your device.
 
 Extracting the ACPI tables from a random WoA laptop won't *just* work. Qualcomm drivers will be confused when there's a mismatch between ACPI and the real hardware (your phone), resulting in a BSOD :(
-
-Fixing ACPI is a major obstacle.

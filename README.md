@@ -4,7 +4,7 @@
 
 请看左侧目录
 
-Please see the list on the left
+Please read the list on the left
 
 ## Project Forum/项目论坛：
 

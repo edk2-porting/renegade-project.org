@@ -1,6 +1,6 @@
 - [Home](/README.md)
 * Chinese
-  - [前言](zh/Preface.md)
+  - [多启动支持](zh/multiboot.md)
   - EDK2
     - [预览](zh/edk2/Overview.md)
     - [移植](zh/edk2/port.md)
@@ -12,6 +12,7 @@
     - [SDM845](zh/devices/sdm845/status.md)
       - [dipper (小米8)](zh/devices/sdm845/dipper/status.md)
       - [polaris (小米MIX2S)](zh/devices/sdm845/polaris/status.md)
+      - [beryllium (小米Poco F1)](zh/devices/sdm845/beryllium/status.md)
       - [enchilada (一加6)](zh/devices/sdm845/enchilada/status.md)
       - [fajita (一加6T)](zh/devices/sdm845/fajita/status.md)
     - MSM8998
@@ -21,7 +22,7 @@
     - [设备支持状态](zh/windows/state-frame.html)
     - [触摸](zh/windows/touch.md)
 - English
-  - [Preface](en/Preface.md)
+  - [Multiboot support](en/multiboot.md)
   - EDK2
     - [Overview](en/edk2/Overview.md)
     - [Porting](en/edk2/port.md)
@@ -33,6 +34,7 @@
     - [SDM845](en/devices/sdm845/status.md)
       - [dipper (Xiaomi MI8)](en/devices/sdm845/dipper/status.md)
       - [polaris (Xiaomi MIX2S)](en/devices/sdm845/polaris/status.md)
+      - [beryllium (Xiaomi Poco F1)](en/devices/sdm845/beryllium/status.md)
       - [enchilada (OnePlus 6)](en/devices/sdm845/enchilada/status.md)
       - [fajita (OnePlus 6T)](en/devices/sdm845/fajita/status.md)
     - MSM8998

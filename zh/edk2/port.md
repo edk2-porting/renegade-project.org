@@ -1,4 +1,4 @@
-# edk2-sdm845 适配指南
+# edk2-sdm845 适配指南（已过时）
 
  1. 在终端执行`pip install --upgrade google-api-python-client uefi_firmware`以安装Python的模块protobuf和uefi_firmware-parser
  2. 下载[extract_android_ota_payload](https://github.com/cyxx/extract_android_ota_payload/archive/master.zip)并将其解压到任何位置

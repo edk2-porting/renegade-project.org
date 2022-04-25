@@ -36,4 +36,4 @@ Very useful and recommended for early kernel debugging.
 Disable the efifb framebuffer. 
 efifb highly affects performance on my phone for unknown reasons.
 Disabling it can improve performance.
-**Do not disable unless you have an alternative fb such as simplefb**
+**Do not disable unless you have an alternative framebuffer such as simplefb**
