@@ -16,6 +16,7 @@
 			"charging":"y",
 			"gpu":"y",
 			"usb":"y",
+			"sensor":"y",
 			"lte":"y"
 		},
 		"message":{
