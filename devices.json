@@ -658,6 +658,29 @@
 		"message":{
 		}
 	},{
+		"codename":"epsilon",
+		"soc":"SM8150",
+		"name":{
+			"zh_cn":"Surface Duo",
+			"en_us":"Surface Duo"
+		},
+		"state":{
+			"touchscreen":"p",
+			"buttons":"y",
+			"wifi":"n",
+			"bluetooth":"y",
+			"battery":"t",
+			"charging":"t",
+			"gpu":"y",
+			"lte":"n",
+			"usb":"y",
+			"sensor":"n",
+            "camera":"t"
+
+		},
+		"message":{
+		}
+	},{
 		"codename":"cepheus",
 		"soc":"SM8150",
 		"name":{
