@@ -391,34 +391,6 @@
 		"message":{
 		}
 	},{
-		"codename":"epsilon",
-		"soc":"SM8150",
-		"name":{
-			"zh_cn":"微软Surface Duo",
-			"en_us":"Surface Duo"
-		},
-		"state":{
-			"usb":"p",
-			"gpu":"p",
-			"buttons":"y",
-			"bluetooth":"y",
-			"wifi":"t",
-			"touchscreen":"t",
-			"battery":"t",
-			"charging":"t",
-			"lte":"t",
-			"audio":"t",
-			"gps":"t",
-			"sensor":"t",
-			"camera":"t"
-		},
-		"message":{
-			"usb":{
-				"zh_cn":"详见： https://github.com/WOA-Project/SurfaceDuoPkg",
-				"en_us":"For more details: https://github.com/WOA-Project/SurfaceDuoPkg"
-			}
-		}
-	},{
 		"codename":"andromeda",
 		"soc":"SM8150",
 		"name":{
