@@ -17,7 +17,8 @@
 			"gpu":"y",
 			"usb":"y",
 			"sensor":"y",
-			"lte":"y"
+			"lte":"y",
+			"gps":"y"
 		},
 		"message":{
 			"touchscreen":{
@@ -44,7 +45,8 @@
 			"bluetooth":"y",
 			"touchscreen":"p",
 			"gpu":"y",
-			"lte":"y"
+			"lte":"y",
+			"gps":"y"
 		},
 		"message":{
 			"touchscreen":{
@@ -148,7 +150,8 @@
 			"battery":"y",
 			"charging":"y",
 			"gpu":"y",
-			"lte":"y"
+			"lte":"y",
+			"gps":"y"
 		},
 		"message":{
 			"touchscreen":{
