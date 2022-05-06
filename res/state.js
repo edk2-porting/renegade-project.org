@@ -71,7 +71,7 @@ function add_device(device){
 	add_state(tr,state.lte           ,"w",message.lte);
 	add_state(tr,state.audio         ,"n",message.audio);
 	add_state(tr,state.gps           ,"u",message.gps);
-	add_state(tr,state.sensor        ,"n",message.sensor);
+	add_state(tr,state.sensor        ,"w",message.sensor);
 	add_state(tr,state.camera        ,"n",message.camera);
 }
 function update_size(){

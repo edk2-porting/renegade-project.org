@@ -74,7 +74,8 @@
 			"gpu":"y",
 			"buttons":"y",
 			"lte":"y",
-                        "camera":"t"
+            "camera":"n",
+			"gps":"y"
 		},
 		"message":{
 			"charging":{
@@ -101,36 +102,14 @@
 			"charging":"p",
 			"buttons":"y",
 			"gpu":"y",
-			"lte":"y"
+			"lte":"y",
+			"gps":"y"
 		},
 		"message":{
 			"charging":{
 				"zh_cn":"对充电器要求较高，lumia 5v3a充电器效果最佳",
 				"en_us":"could be picky about chargers, 5v3a charger from Lumia is preferred"
 			},
-			"lte":{
-				"zh_cn":"使用前请备份基带EFS/QCN",
-				"en_us":"Please backup modem EFS/QCN before use"
-			}
-		}
-	},{
-		"codename":"perseus",
-		"soc":"SDM845",
-		"name":{
-			"zh_cn":"小米MIX3",
-			"en_us":"Xiaomi MIX3"
-		},
-		"state":{
-			"touchscreen":"t",
-			"wifi":"y",
-			"bluetooth":"y",
-			"battery":"y",
-			"charging":"y",
-			"gpu":"y",
-			"buttons":"y",
-			"lte":"y"
-		},
-		"message":{
 			"lte":{
 				"zh_cn":"使用前请备份基带EFS/QCN",
 				"en_us":"Please backup modem EFS/QCN before use"
@@ -145,6 +124,7 @@
 		},
 		"state":{
 			"touchscreen":"y",
+			"buttons":"y",
 			"wifi":"y",
 			"bluetooth":"y",
 			"battery":"y",
@@ -172,18 +152,80 @@
 		},
 		"state":{
 			"touchscreen":"y",
+			"buttons":"y",
 			"wifi":"y",
 			"bluetooth":"y",
 			"battery":"y",
 			"charging":"y",
 			"gpu":"y",
-			"lte":"y"
+			"lte":"y",
+			"gps":"y"
 		},
 		"message":{
 			"touchscreen":{
 				"zh_cn":"请在设备管理器中把“允许计算机关闭此设备”取消勾选，并且你需要使用fastboot刷写devcfg分区，devcfg链接：http://files.renegade-project.org/devcfg-dipper_FixTS.img",
 				"en_us":"Please uncheck power saving features in Device Manager, and flash devcfg partition with the provided image. Link: http://files.renegade-project.org/devcfg-dipper_FixTS.img"
 			},
+			"lte":{
+				"zh_cn":"使用前请备份基带EFS/QCN",
+				"en_us":"Please backup modem EFS/QCN before use"
+			}
+		}
+	},{
+		"codename":"ayn-odin",
+		"soc":"SDA845",
+		"name":{
+			"zh_cn":"奥丁掌机",
+			"en_us":"AYN Odin handheld"
+		},
+		"state":{
+			"bluetooth":"y",
+			"battery":"y",
+			"buttons":"y",
+			"charging":"y",
+			"wifi":"y",
+			"gpu":"y",
+			"audio":"y",
+			"sensor":"y",
+			"touchscreen":"y",
+			"virtualization":"p",
+			"camera":"n",
+			"lte":"n",
+			"gps":"y"
+		},
+		"message":{
+			"camera":{
+				"zh_cn":"该设备不支持此功能",
+				"en_us":"Not supported by the device"
+			},
+			"virtualization":{
+				"zh_cn":"需要WP固件以使用虚拟化特性",
+				"en_us":"WP firmware is required to enable virtualization"
+			},
+			"lte":{
+				"zh_cn":"该设备不支持此功能",
+				"en_us":"Not supported by the device"
+			}
+		}
+	},{
+		"codename":"perseus",
+		"soc":"SDM845",
+		"name":{
+			"zh_cn":"小米MIX3",
+			"en_us":"Xiaomi MIX3"
+		},
+		"state":{
+			"touchscreen":"t",
+			"wifi":"y",
+			"bluetooth":"y",
+			"battery":"y",
+			"charging":"y",
+			"gpu":"y",
+			"buttons":"y",
+			"lte":"y",
+			"gps":"y"
+		},
+		"message":{
 			"lte":{
 				"zh_cn":"使用前请备份基带EFS/QCN",
 				"en_us":"Please backup modem EFS/QCN before use"
@@ -204,7 +246,110 @@
 			"bluetooth":"y",
 			"battery":"y",
 			"charging":"y",
-			"lte":"y"
+			"lte":"y",
+			"gps":"y"
+		},
+		"message":{
+		}
+	},{
+		"codename":"judyln",
+		"soc":"SDM845",
+		"name":{
+			"zh_cn":"LG G7",
+			"en_us":"LG G7"
+		},
+		"state":{
+			"audio":"n",
+			"buttons":"y",
+			"wifi":"u",
+			"battery":"y",
+			"charging":"y",
+			"bluetooth":"y",
+			"touchscreen":"n",
+			"gpu":"y",
+			"lte":"u"
+		},
+		"message":{
+		}
+	},{
+		"codename":"judyp",
+		"soc":"SDM845",
+		"name":{
+			"zh_cn":"LG V35",
+			"en_us":"LG V35"
+		},
+		"state":{
+			"audio":"n",
+			"buttons":"y",
+			"wifi":"u",
+			"battery":"n",
+			"charging":"n",
+			"bluetooth":"y",
+			"touchscreen":"n",
+			"gpu":"y",
+			"lte":"u"
+		},
+		"message":{
+		}
+	},{
+		"codename":"judypn",
+		"soc":"SDM845",
+		"name":{
+			"zh_cn":"LG V40",
+			"en_us":"LG V40"
+		},
+		"state":{
+			"audio":"n",
+			"buttons":"y",
+			"wifi":"u",
+			"battery":"y",
+			"charging":"y",
+			"bluetooth":"y",
+			"touchscreen":"n",
+			"gpu":"y",
+			"lte":"u"
+		},
+		"message":{
+		}
+	},{
+		"codename":"cheeseburger",
+		"soc":"MSM8998",
+		"name":{
+			"zh_cn":"一加5",
+			"en_us":"Oneplus 5"
+		},
+		"state":{
+			"usb":"y",
+			"wifi":"t",
+			"touchscreen":"y",
+			"bluetooth":"y",
+			"charging":"y",
+			"battery":"p",
+			"gpu":"y",
+			"buttons":"t",
+			"sensor":"n",
+			"lte":"t"
+		},
+		"message":{
+		}
+	},{
+		"codename":"dumpling",
+		"soc":"MSM8998",
+		"name":{
+			"zh_cn":"一加5T",
+			"en_us":"Oneplus 5T"
+		},
+		"state":{
+			"usb":"y",
+			"buttons":"t",
+			"wifi":"t",
+			"touchscreen":"y",
+			"bluetooth":"y",
+			"charging":"y",
+			"battery":"p",
+			"gpu":"y",
+			"sensor":"n",
+			"lte":"t"
 		},
 		"message":{
 		}
@@ -239,44 +384,75 @@
 			"battery":"y",
 			"charging":"y",
 			"buttons":"y",
-			"gpu":"y"
+			"gpu":"y",
+			"lte":"u",
+			"bluetooth":"y"
 		},
 		"message":{
 		}
 	},{
-		"codename":"ayn-odin",
-		"soc":"SDA845",
+		"codename":"epsilon",
+		"soc":"SM8150",
 		"name":{
-			"zh_cn":"奥丁掌机",
-			"en_us":"AYN Odin handheld"
+			"zh_cn":"微软Surface Duo",
+			"en_us":"Surface Duo"
+		},
+		"state":{
+			"usb":"p",
+			"gpu":"p",
+			"buttons":"y",
+			"bluetooth":"y",
+			"wifi":"t",
+			"touchscreen":"t",
+			"battery":"t",
+			"charging":"t",
+			"lte":"t",
+			"audio":"t",
+			"gps":"t",
+			"sensor":"t",
+			"camera":"t"
+		},
+		"message":{
+			"usb":{
+				"zh_cn":"详见： https://github.com/WOA-Project/SurfaceDuoPkg",
+				"en_us":"For more details: https://github.com/WOA-Project/SurfaceDuoPkg"
+			}
+		}
+	},{
+		"codename":"andromeda",
+		"soc":"SM8150",
+		"name":{
+			"zh_cn":"小米MIX3 5G",
+			"en_us":"Xiaomi MIX3 5G"
+		},
+		"state":{
+			"touchscreen":"y",
+			"buttons":"y",
+			"wifi":"n",
+			"bluetooth":"t",
+			"battery":"n",
+			"charging":"n",
+			"gpu":"t",
+			"lte":"n",
+			"sensor":"n",
+			"usb":"y"
+		},
+		"message":{
+		}
+	},{
+		"codename":"akershus",
+		"soc":"SDM845",
+		"name":{
+			"zh_cn":"中兴天机Axon 9 Pro",
+			"en_us":"ZTE Axon 9 Pro"
 		},
 		"state":{
 			"bluetooth":"y",
 			"battery":"y",
-			"buttons":"y",
 			"charging":"y",
-			"wifi":"y",
-			"gpu":"y",
-			"audio":"y",
-			"sensor":"y",
-			"touchscreen":"y",
-			"virtualization":"p",
-			"camera":"n",
-			"lte":"n"
+			"wifi":"w"
 		},
 		"message":{
-			"camera":{
-				"zh_cn":"该设备不支持此功能",
-				"en_us":"Not supported by the device"
-			},
-			"virtualization":{
-				"zh_cn":"需要WP固件以使用虚拟化特性",
-				"en_us":"WP firmware is required to enable virtualization"
-			},
-			"lte":{
-				"zh_cn":"该设备不支持此功能",
-				"en_us":"Not supported by the device"
-			}
 		}
 	},{
 		"codename":"nx616j",
@@ -302,81 +478,6 @@
 		"state":{
 			"usb":"p",
 			"ufs":"u"
-		},
-		"message":{
-		}
-	},{
-		"codename":"judyln",
-		"soc":"SDM845",
-		"name":{
-			"zh_cn":"LG G7",
-			"en_us":"LG G7"
-		},
-		"state":{
-			"audio":"n",
-			"fullsystem":"y",
-			"wifi":"n",
-			"battery":"y",
-			"charging":"y",
-			"bluetooth":"y",
-			"touchscreen":"n",
-			"gpu":"y",
-			"lte":"n"
-		},
-		"message":{
-		}
-	},{
-		"codename":"judyp",
-		"soc":"SDM845",
-		"name":{
-			"zh_cn":"LG V35",
-			"en_us":"LG V35"
-		},
-		"state":{
-			"audio":"n",
-			"fullsystem":"y",
-			"wifi":"n",
-			"battery":"n",
-			"charging":"n",
-			"bluetooth":"y",
-			"touchscreen":"n",
-			"gpu":"y",
-			"lte":"n"
-		},
-		"message":{
-		}
-	},{
-		"codename":"judypn",
-		"soc":"SDM845",
-		"name":{
-			"zh_cn":"LG V40",
-			"en_us":"LG V40"
-		},
-		"state":{
-			"audio":"n",
-			"fullsystem":"y",
-			"wifi":"n",
-			"battery":"y",
-			"charging":"y",
-			"bluetooth":"y",
-			"touchscreen":"n",
-			"gpu":"y",
-			"lte":"n"
-		},
-		"message":{
-		}
-	},{
-		"codename":"akershus",
-		"soc":"SDM845",
-		"name":{
-			"zh_cn":"中兴天机Axon 9 Pro",
-			"en_us":"ZTE Axon 9 Pro"
-		},
-		"state":{
-			"bluetooth":"y",
-			"battery":"y",
-			"charging":"y",
-			"wifi":"w"
 		},
 		"message":{
 		}
@@ -444,50 +545,6 @@
 		"message":{
 		}
 	},{
-		"codename":"blueline",
-		"soc":"SDM845",
-		"name":{
-			"zh_cn":"谷歌 Pixel 3",
-			"en_us":"Google Pixel 3"
-		},
-		"state":{
-			"ufs":"n",
-			"battery":"n",
-			"bluetooth":"n",
-			"charging":"n",
-			"gpu":"n",
-			"lte":"n",
-			"gps":"n"
-		},
-		"message":{
-			"ufs":{
-				"zh_cn":"你的UFS将会被Windows的storufs驱动擦除!",
-				"en_us":"Your UFS will be ERASED by Windows storufs driver!"
-			}
-		}
-	},{
-		"codename":"akari",
-		"soc":"SDM845",
-		"name":{
-			"zh_cn":"索尼 Xperia XZ2",
-			"en_us":"Sony Xperia XZ2"
-		},
-		"state":{
-			"ufs":"n",
-			"battery":"n",
-			"bluetooth":"n",
-			"charging":"n",
-			"gpu":"n",
-			"lte":"n",
-			"gps":"n"
-		},
-		"message":{
-			"ufs":{
-				"zh_cn":"你的UFS将会被Windows的storufs驱动擦除!",
-				"en_us":"Your UFS will be ERASED by Windows storufs driver!"
-			}
-		}
-	},{
 		"codename":"Rog1",
 		"soc":"SDM845+",
 		"name":{
@@ -516,75 +573,6 @@
 				"en_us":"The secondary usb has not been repaired for the time being, and it is not working at present."
 			}
 		}
-	},
-
-{
-		"codename":"rennell",
-		"soc":"SM7125",
-		"name":{
-			"zh_cn":"骁龙720G QRD",
-			"en_us":"Snapdragon 720G QRD"
-		},
-		"state":{
-			"audio":"y",
-			"virtualization":"p",
-			"touchscreen":"t",
-			"charging":"y",
-			"buttons":"y",
-			"camera":"y",
-			"wifi":"y",
-            "bluetooth":"y",
-			"battery":"u",
-			"gpu":"y",
-			"lte":"y",
-			"usb":"p"
-		},
-		"message":{
-			"usb":{
-				"zh_cn":"USB可能需要外接供电",
-				"en_us":"External power supply might be needed for USB"
-			}
-		}
-	},{
-		"codename":"cheeseburger",
-		"soc":"MSM8998",
-		"name":{
-			"zh_cn":"一加5",
-			"en_us":"Oneplus 5"
-		},
-		"state":{
-			"usb":"y",
-			"wifi":"t",
-			"touchscreen":"y",
-			"bluetooth":"y",
-			"charging":"y",
-			"battery":"p",
-			"gpu":"y",
-			"buttons":"t",
-			"lte":"t"
-		},
-		"message":{
-		}
-	},{
-		"codename":"dumpling",
-		"soc":"MSM8998",
-		"name":{
-			"zh_cn":"一加5T",
-			"en_us":"Oneplus 5T"
-		},
-		"state":{
-			"usb":"y",
-			"buttons":"t",
-			"wifi":"t",
-			"touchscreen":"y",
-			"bluetooth":"y",
-			"charging":"y",
-			"battery":"p",
-			"gpu":"y",
-			"lte":"t"
-		},
-		"message":{
-		}
 	},{
 		"codename":"sagit",
 		"soc":"MSM8998",
@@ -601,6 +589,7 @@
 			"charging":"t",
 			"battery":"t",
 			"gpu":"t",
+			"sensor":"n",
 			"lte":"t"
 		},
 		"message":{
@@ -621,6 +610,7 @@
 			"charging":"t",
 			"battery":"t",
 			"gpu":"t",
+			"sensor":"n",
 			"lte":"t"
 		},
 		"message":{
@@ -641,6 +631,7 @@
 			"charging":"u",
 			"battery":"u",
 			"gpu":"n",
+			"sensor":"n",
 			"lte":"n"
 		},
 		"message":{
@@ -661,6 +652,7 @@
 			"charging":"u",
 			"battery":"u",
 			"gpu":"y",
+			"sensor":"n",
 			"lte":"t"
 		},
 		"message":{
@@ -673,16 +665,17 @@
 			"en_us":"Xiaomi MI9"
 		},
 		"state":{
-			"touchscreen":"t",
-			"buttons":"t",
-			"wifi":"t",
-			"bluetooth":"t",
-			"battery":"t",
-			"charging":"t",
-			"gpu":"t",
-			"lte":"t",
+			"touchscreen":"n",
+			"buttons":"n",
+			"wifi":"n",
+			"bluetooth":"n",
+			"battery":"n",
+			"charging":"n",
+			"gpu":"n",
+			"lte":"n",
 			"usb":"y",
-                        "camera":"t"
+			"sensor":"n",
+            "camera":"n"
 
 		},
 		"message":{
@@ -696,35 +689,16 @@
 		},
 		"state":{
 			"touchscreen":"n",
-			"buttons":"y",
-			"wifi":"t",
-			"bluetooth":"t",
-			"battery":"t",
-			"charging":"t",
-			"gpu":"t",
-			"lte":"t",
+			"buttons":"n",
+			"wifi":"n",
+			"bluetooth":"n",
+			"battery":"n",
+			"charging":"n",
+			"gpu":"n",
+			"lte":"n",
 			"usb":"y",
-                        "camera":"t"
-		},
-		"message":{
-		}
-	},{
-		"codename":"andromeda",
-		"soc":"SM8150",
-		"name":{
-			"zh_cn":"小米MIX3 5G",
-			"en_us":"Xiaomi MIX3 5G"
-		},
-		"state":{
-			"touchscreen":"y",
-			"buttons":"y",
-			"wifi":"t",
-			"bluetooth":"t",
-			"battery":"t",
-			"charging":"t",
-			"gpu":"t",
-			"lte":"t",
-			"usb":"y"
+			"sensor":"n",
+            "camera":"n"
 		},
 		"message":{
 		}
@@ -736,15 +710,16 @@
 			"en_us":"Xiaomi Pad 5"
 		},
 		"state":{
-			"touchscreen":"u",
-			"buttons":"u",
-			"wifi":"t",
-			"bluetooth":"t",
-			"battery":"t",
-			"charging":"t",
-			"gpu":"t",
+			"touchscreen":"n",
+			"buttons":"n",
+			"wifi":"n",
+			"bluetooth":"n",
+			"battery":"n",
+			"charging":"n",
+			"gpu":"n",
 			"lte":"n",
 			"usb":"y",
+			"sensor":"n",
 			"gps":"n"
 		},
 		"message":{
@@ -757,43 +732,19 @@
 			"en_us":"Oneplus 7"
 		},
 		"state":{
-			"touchscreen":"t",
-			"buttons":"y",
-			"wifi":"t",
-			"bluetooth":"t",
-			"battery":"t",
-			"charging":"t",
-			"gpu":"t",
-			"lte":"n",
-			"usb":"y",
-			"gps":"n"
-		},
-		"message":{
-		}
-	},
-{
-		"codename":"star",
-		"soc":"SM8350",
-		"name":{
-			"zh_cn":"小米11",
-			"en_us":"Xiaomi 11"
-		},
-		"state":{
 			"touchscreen":"n",
-                        "fullsystem":"t",
-			"audio":"n",
 			"buttons":"n",
 			"wifi":"n",
 			"bluetooth":"n",
 			"battery":"n",
 			"charging":"n",
-			"usb":"t"
+			"gpu":"n",
+			"lte":"n",
+			"usb":"y",
+			"sensor":"n",
+			"gps":"n"
 		},
 		"message":{
-			"fullsystem":{
-				"zh_cn":"需要找到方法来突破vm来运行否则只能Linux",
-				"en_us":"We need to find a way to break through vm to allow it to run, otherwise it can only be Linux."
-			}
 		}
 	},{
 		"codename":"guacamole",
@@ -812,9 +763,83 @@
 			"gpu":"n",
 			"lte":"n",
 			"usb":"y",
+			"sensor":"n",
 			"gps":"n"
 		},
 		"message":{
+		}
+	},{
+		"codename":"star",
+		"soc":"SM8350",
+		"name":{
+			"zh_cn":"小米11",
+			"en_us":"Xiaomi 11"
+		},
+		"state":{
+			"touchscreen":"n",
+			"audio":"n",
+			"buttons":"n",
+			"wifi":"n",
+			"bluetooth":"n",
+			"battery":"n",
+			"charging":"n",
+			"sensor":"n",
+			"usb":"t",
+			"gpu":"n",
+			"lte":"n",
+			"gps":"n"
+		},
+		"message":{
+			"usb":{
+				"zh_cn":"需要找到方法来突破vm来运行否则只能Linux",
+				"en_us":"We need to find a way to break through vm to allow it to run, otherwise it can only be Linux."
+			}
+		}
+	},{
+		"codename":"blueline",
+		"soc":"SDM845",
+		"name":{
+			"zh_cn":"谷歌 Pixel 3",
+			"en_us":"Google Pixel 3"
+		},
+		"state":{
+			"ufs":"n",
+			"battery":"n",
+			"bluetooth":"n",
+			"charging":"n",
+			"gpu":"n",
+			"lte":"n",
+			"gps":"n",
+			"sensor":"n"
+		},
+		"message":{
+			"ufs":{
+				"zh_cn":"你的UFS将会被Windows的storufs驱动擦除!",
+				"en_us":"Your UFS will be ERASED by Windows storufs driver!"
+			}
+		}
+	},{
+		"codename":"akari",
+		"soc":"SDM845",
+		"name":{
+			"zh_cn":"索尼 Xperia XZ2",
+			"en_us":"Sony Xperia XZ2"
+		},
+		"state":{
+			"ufs":"n",
+			"battery":"n",
+			"bluetooth":"n",
+			"charging":"n",
+			"gpu":"n",
+			"lte":"n",
+			"gps":"n",
+			"sensor":"n"
+		},
+		"message":{
+			"ufs":{
+				"zh_cn":"你的UFS将会被Windows的storufs驱动擦除!",
+				"en_us":"Your UFS will be ERASED by Windows storufs driver!"
+			}
 		}
 	}
 ]
