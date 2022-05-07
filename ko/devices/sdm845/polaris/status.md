@@ -1,15 +1,15 @@
-Notice
+주의
 ======================
 
-You need to flash `devcfg` partition with the provided image, otherwise touchscreen won't work, or the phone won't boot!
+당신은 `devcfg`을 준비된 이미지로 플래시해야 합니다. 그렇지 않으면 터치스크린이 작동하지 않거나 휴대폰이 부팅되지 않을 수도 있습니다!
 
-Read [Device Support Status](en/windows/state-frame.html) to know more about details
+ 자세하게 알아보려면 [Device Support Status](en/windows/state-frame.html)를 읽어보세요
 
-SimpleInit Configuration
+SimpleInit 설정하기
 =========================
 
-To boot Android, you'll need `dtb_id = 6` in `simpleinit.static.uefi.cfg`
+안드로이드를 부팅하려면 `simpleinit.static.uefi.cfg` 안에 `dtb_id = 6`이 있어야 합니다.
 
-dtbo configuration is not needed, at least for Evolution X (Android 12)
+Evolution X (Android 12)를 쓸 때는 dtbo를 설정하지 않아도 됩니다.
 
-Read [Multiboot support](en/multiboot.md) for details
+ 자세하게 알아보려면 [Multiboot support](en/multiboot.md)를 읽어보세요.
