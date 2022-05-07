@@ -1,14 +1,17 @@
-# Multiboot support
+주의: 번역이 완벽하지 않을 수 있습니다.
+Warning: Translation may not be perfect.
 
-`edk2-sdm845` has SimpleInit as boot manager. You can configure it by modifying `simpleinit.static.uefi.cfg` in `logfs` partition
+# 멀티부팅 지원
 
-SimpleInit will detect Windows automatically, so there's no need to add Windows boot entry
+`edk2-sdm845`은 SimpleInit를 부팅 관리자로 쓰고 있습니다. 당신은 `simpleinit.static.uefi.cfg`를 `logfs` 파티션에서 수정하여 그것을 설정할 수 있습니다.
 
-To boot Android, you'll need `edk2-sdm845` Version 2.0+
+SimpleInit이 윈도우를 자동으로 감지할 것이므로 윈도우 부팅 항목을 추가할 필요가 없습니다.
 
-## Configuration examples
+안드로이드를 부팅하려면 `edk2-sdm845`의 버전이 2.0보다 높거나 같아야 합니다.
 
-Here is a configuration example for Xiaomi Mix 2s, which has been tested with Evolution X (Android 12)
+## 설정 예시
+
+여기에는 Xiaomi Mix 2s를 위한 예시가 있습니다. 또, Evolution X (Android 12) 테스트가 완료되었습니다.
 
 ```
 language = "en_US.UTF-8"
@@ -116,3 +119,7 @@ locates {
 	}
 }
 ```
+
+## 레퍼런스 
+
+[SimpleInit 문서](https://github.com/BigfootACA/simple-init/blob/master/docs/index.md)
