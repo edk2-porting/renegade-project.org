@@ -1,8 +1,10 @@
-## A/B Partitions
+## A/B 파티션
 
-> This device uses A/B partitions layout! Read the following carefully.
+> 이 문서는 완벽하게 번역되지 않았습니다! / This document isn't translated completely!
 
-In some cases second inactive slot can be unpopulated or contain much older firmware than your active slot (slot containing your current working Android ROM), leading to various issues including a **potential hard-brick**. We need to ensure none of that will happen by copying the contents of active slot to inactive.
+> 이 디바이스는 A/B 파티션 레이아웃을 사용합니다! 이 가이드를 조심스럽게 읽어주세요.
+
+어떤 경우에는 두 번째 비활성화 슬롯에 아무것도 없거나 당신의 활성화된 슬롯보다 오래된 펌웨어를 포함할 수 있고(당신의 현재 ROM을 포함하는 슬롯), **잠재적인 하드 브릭**을 포함하게 할 수 있습니다. We need to ensure none of that will happen by copying the contents of active slot to inactive.
 
 !> If you're going to flash EDK2 to a second boot partition, do not rush and prepare your device first. **This step is NOT optional for A/B in this case!**
 
