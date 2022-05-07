@@ -1,37 +1,31 @@
-# Brief Overview
+# edk2-sdm845 포팅 가이드 (구식)
 
-`edk2-sdm845` is a project aimed at providing a custom UEFI environment for Snapdragon 845 in order to boot any fuOS at EL1.
+ 1. Python protobuf와 uefi_firmware-parser를 터미널에서 `pip install --upgrade google-api-python-client uefi_firmware`을 실행하여 설치한다.
+ 2. [extract_android_ota_payload](https://github.com/cyxx/extract_android_ota_payload/archive/master.zip)를 다운로드하고 아카이브 안에 있는 폴더를 아무데나 추출한다.
+ 3. 당신의 휴대폰을 위한 아무 OTA 업데이트를 실행한다.
+ 4. payload.bin를 `extract_android_ota_payload-master` 폴더에 추출한다.
+ 5. 터미널을 같은 폴더에서 실행하고 거기에서 `python3 extract_android_ota_payload.py payload.bin`을 실행한다.
+ 6. `uefi-firmware-parser -b -e xbl.img`를 실행한다.
+ 7. 디렉토리를 `volume-******/file-9e21fd93-9c72-4c15-8c4b-e77f1db2d792`로 변경한다.
+ 8. `7z x -oextracted section0.guid`를 실행한다.
+ 9. UEFITool을 열고 `section0` 파일을 `extracted` 폴더 안에서 실행한다.
+ 10. 파일 관리자 안에서 `edk2-sdm845/sdm845Pkg/Binary`를 열고 `dipper` 폴더를 복사하고 또 이름을 당신의 디바이스 모델명으로 변경한다.
+ 11. UEFITool에서 `UEFI image`와 아래에 있는 볼륨을 확장한다.
+ 12. 당신의 디바이스 폴더 안에 있는 각각의 파일을 UEFITool로 변경하기 위하여:
+     - UEFITool 안에 있는 DXE Driver를 당신이 변경하는 파일과 같은 이름으로 확장한다.
+     - 파일이 `.depex` 확장자로 끝나는 경우 `.depex` DXE 의존을 우클릭한다.
+     - 파일이 `.efi` 확장자로 끝나는 경우 PE32 이미지를 우클릭한다.
+     - `Extract body`를 클릭한다.
+     - 원본 파일을 삭제한다.
+     - 당신이 추출하고 삭제된 것과 같은 이름을 지어 다른 파일을 저장한다.
+     - ( 예) DXE Dependency)가 UEFITool에 없는 경우 그냥 그 파일을 삭제한다.
+ 13. `edk2-sdm845/sdm845Pkg`를 파일 관리자에서 연다.
+ 14. `dipper.dsc`와 `dipper.fdf`를 복사하고 둘 다 당신의 디바이스 모델명으로 이름을 바꾼다.
+ 15. `.dsc` 파일을 열고 값 1080과 2248을 당신의 디바이스의 폭과 높이로 바꾼 뒤 저장한다.
+ 16. `.fdf` 파일을 열고 모든 "dipper"을 당신의 디바이스 모델명으로 바꾼 뒤 저장한다.
+ 17. `edk2-sdm845`를 열고 `build.sh`를 텍스트 편집기로 수정한다.
+ 18. 디바이스 목록을 맨 위에 위치하고 당신의 디바이스 모델명을 추가한 뒤 저장한다.
 
-As is said in README, it is a terribly broken edk2 port. But still, we're only using it as a bootloader. And it's doing well in booting Windows.
+당신은 이제 평소처럼 빌드할 수 있습니다.
 
-Below are some simple explanations about how everything works.
-
-## Fastboot to EDK2
-
-On most recent Qualcomm devices, there are two partitions called xbl and abl.
-
-`xbl` is the UEFI firmware on Qualcomm platforms. It contains EFI drivers as well as applications (eg. Fastboot). On LA platforms, if fastboot is not launched, it loads abl immediately.
-
-`abl` is only found on Qualcomm LA platforms, and is open-source on CodeAurora. It contains an EFI application called `LinuxLoader.efi` , which is used to load Linux kernel located in boot partition. 
-
-Unfortunately, xbl and abl are both signed on retail devices. We can't make any modifications to them. Thus, it's impossible to boot Windows using stock bootloader.
-
-What we are doing here is to make our UEFI Firmware *look like* a Linux kernel. It's done by adding a piece of magic header on top of the image, and also appending device tree to it. In this way, abl will be happy with the provided image.
-
-## MemoryMap
-
-EDK2 requires a memory map to work properly. You can start off by referring to `uefiplat.cfg` inside xbl. Note that it won't work if you only do copy-paste. Additional fixes are required.
-
-## Display
-
-xbl already initialized the display hardware on your device, giving you a nice framebuffer. So here we use SimpleFbDxe to make things simplified.
-
-## EFI Drivers
-
-As we have mentioned before, xbl is UEFI based. So we can extract binary EFI drivers from it, then insert them into our new firmware. Many drivers won't work in this way, such as those for buttons, USB, PMIC... It is sheer luck that UFS surprisingly works, enabling us to continue our journey.
-
-## Windows
-
-Windows on Arm, just as Windows on x86 platforms, requires a certain set of ACPI tables, which are supposed to be provided by the bootloader. In short, ACPI describes the hardware components and their configuration on your device.
-
-Extracting the ACPI tables from a random WoA laptop won't *just* work. Qualcomm drivers wi
+ 만약 어딘가에 당신이 갇혔고 만약 당신의 포팅이 성공적이었으면 꼭 Discord 또는 Telegram group에 `edk2-sdm845/sdm845Pkg/Binary/devicename` 폴더와 `.dsc`, `.fdf` 파일들을 .
