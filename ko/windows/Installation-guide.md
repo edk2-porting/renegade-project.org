@@ -1,6 +1,6 @@
-# Windows Installation Guide
+# 윈도우 설치 가이드
 
-**This guide is only for devices with working USB!**
+**이 가이드는 USB가 작동하는 기기만을 위한 것입니다!**
 
 Please check the [Device Support Status](en/windows/state-frame.html).
 
