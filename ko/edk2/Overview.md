@@ -1,37 +1,36 @@
-# Brief Overview
+# 짧은 개요
 
-`edk2-sdm845` is a project aimed at providing a custom UEFI environment for Snapdragon 845 in order to boot any fuOS at EL1.
+`edk2-sdm845`는 Snapdragon 845를 위한 커스텀 UEFI 환경을 제공하여 EL1에서 아무 fuOS를 부팅하는 것에 초점을 둔 프로젝트입니다.
 
-As is said in README, it is a terribly broken edk2 port. But still, we're only using it as a bootloader. And it's doing well in booting Windows.
+README에서 말했듯이, 그건 끔찍하게 망가진 edk2 포팅입니다. 하지만 여전히 우리는 그것을 부트로더로만 사용하고 있습니다. 그리고 그것은 윈도우를 잘 부팅합니다.
 
-Below are some simple explanations about how everything works.
+아래에는 몇 개의 어떻게 모든 것이 작동하는지에 대한 간단한 설명이 있습니다.
 
-## Fastboot to EDK2
+## EDK2로 Fastboot하기
 
-On most recent Qualcomm devices, there are two partitions called xbl and abl.
+최근에 만들어진 Qualcomm 디바이스에는 xbl과 abl이라고 불리는 2개의 파티션이 있습니다.
 
-`xbl` is the UEFI firmware on Qualcomm platforms. It contains EFI drivers as well as applications (eg. Fastboot). On LA platforms, if fastboot is not launched, it loads abl immediately.
+`xbl` 은 QWualcomm 플랫폼에서의 UEFI 펌웨어입니다. 그것은 EFI 드라이버를 애플리케이션으로 갖고 있습니다. ( 예) Fastboot). LA 플랫폼에서는 만약 fastboot가 실행되지 않았다면 바로 abl을 로딩합니다.
 
-`abl` is only found on Qualcomm LA platforms, and is open-source on CodeAurora. It contains an EFI application called `LinuxLoader.efi` , which is used to load Linux kernel located in boot partition. 
+`abl`은 Qualcomm LA 플랫폼에서만 찾을 수 있습니다. 그리고 그것은 CodeAurora에서 오픈소스입니다. 그것은 `LinuxLoader.efi`라고 불리는 EFI 애플리케이션을 갖고 있고 부팅 파티션에 있는 Linux 커널을 로딩하기 위해 사용됩니다. 
 
-Unfortunately, xbl and abl are both signed on retail devices. We can't make any modifications to them. Thus, it's impossible to boot Windows using stock bootloader.
+안타깝게도 xbl과 abl은 둘 다 리테일 디바이스에서 서명되어 있습니다. 저희는 그것들에 아무런 변화도 만들 수 없습니다. 따라서 순정 부트로더로 윈도우를 부팅하는 것은 불가능합니다.
 
-What we are doing here is to make our UEFI Firmware *look like* a Linux kernel. It's done by adding a piece of magic header on top of the image, and also appending device tree to it. In this way, abl will be happy with the provided image.
+저희가 여기서 하는 것은 UEFI 펌웨어를 리눅스*처럼* 보이게 하는 것입니다. 그것은 마법 헤더에 조각을 이미지 맨 위에 추가하여 완료됩니다. 그리고 거기에 디바이스 트리도 추가해야 합니다. 이 방법에선 abl이 제공된 이미지와 함께 행복해 할 것입니다.
 
-## MemoryMap
+## 메모리 맵핑하기
 
-EDK2 requires a memory map to work properly. You can start off by referring to `uefiplat.cfg` inside xbl. Note that it won't work if you only do copy-paste. Additional fixes are required.
+EDK2는 제대로 작동하기 위해서 메모리 맵이 필요합니다. xbl에서 `uefiplat.cfg`를 참조하여 시작할 수 있습니다. 만약 당신이 복붙만 하면 작동하지 않는다는 것을 기억해주세요. 또 추가 수습도 필요합니다.
 
-## Display
+## 디스플레이
 
-xbl already initialized the display hardware on your device, giving you a nice framebuffer. So here we use SimpleFbDxe to make things simplified.
+xbl은 이미 디스플레이 하드웨어를 당신의 디바이스에서 추가했고 당신에게 좋은 프레임 버퍼를 줍니다. 그래서 저희는 여기서 SimpleFbDxe를 사용하여 모든 것을 간단하게 만듭니다.
 
-## EFI Drivers
+## EFI 드라이버
 
-As we have mentioned before, xbl is UEFI based. So we can extract binary EFI drivers from it, then insert them into our new firmware. Many drivers won't work in this way, such as those for buttons, USB, PMIC... It is sheer luck that UFS surprisingly works, enabling us to continue our journey.
+전에 말했듯이 xbl은 UEFI에 기반되었습니다. 그래서 저희는 바이너리 EFI 드라이버를 거기서 추출해내고 저희의 새 펌웨어에 삽입할 수 있습니다. 이 방법에서는 많은 드라이버가 작동하지 않고 버튼, USB, PMIC같은 것이 작동하지 않습니다. 그것은 UFS가 놀랍게 작동하는 것만으로도 순전히 행운이고 저희가 저희의 여행을 계속할 수 있게 해 줍니다.
 
-## Windows
+## 윈도우
 
-Windows on Arm, just as Windows on x86 platforms, requires a certain set of ACPI tables, which are supposed to be provided by the bootloader. In short, ACPI describes the hardware components and their configuration on your device.
-
-Extracting the ACPI tables from a random WoA laptop won't *just* work. Qualcomm drivers wi
+Windows on Arm, 그냥 Windows on x86 platforms은 특정 ACPI tables의 묶음을 필요로 하고 부트로더에 의해 제공되는 것으로 추정됩니다. 요컨대, ACPI는 당신의 디바이스에서 hardware 요소들과 그들의 설정을 설명합니다.
+ACPI 테이블을 아무 WoA 노트북 에서 추출하는 것은 *그냥* 작동하지 않습니. Qualcomm 드라이버는 만약 ACPI와 당신의 하드웨어 간에 불일치가 있다면 혼란스러워하여 블루스크린을 일으킬 것입니다. :(
