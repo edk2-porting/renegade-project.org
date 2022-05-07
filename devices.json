@@ -4,7 +4,8 @@
 		"soc":"SDM845",
 		"name":{
 			"zh_cn":"小米MIX2S",
-			"en_us":"Xiaomi MIX2S"
+			"en_us":"Xiaomi MIX2S",
+			"ko_kr":"샤오미 믹스 2S"
 		},
 		"state":{
 			"touchscreen":"y",
@@ -23,11 +24,13 @@
 		"message":{
 			"touchscreen":{
 				"zh_cn":"你需要使用fastboot刷写devcfg分区，devcfg链接：http://files.renegade-project.org/devcfg-polaris_FixTS.img",
-				"en_us":"You need to flash devcfg partition with the provided image. Link: http://files.renegade-project.org/devcfg-polaris_FixTS.img"
+				"en_us":"You need to flash devcfg partition with the provided image. Link: http://files.renegade-project.org/devcfg-polaris_FixTS.img",
+				"ko_kr":"제공된 이미지로 devcfg 파티션을 플래시하셔야 합니다. 링크: http://files.renegade-project.org/devcfg-polaris_FixTS.img"
 			},
 			"lte":{
 				"zh_cn":"使用前请备份基带EFS/QCN",
-				"en_us":"Please backup modem EFS/QCN before use"
+				"en_us":"Please backup modem EFS/QCN before use",
+				"ko_kr":"사용하시기 전에 먼저 모뎀 EFS/QCN을 백업해주세요"
 			}
 		}
 	},{
@@ -35,7 +38,8 @@
 		"soc":"SDM845",
 		"name":{
 			"zh_cn":"小米PocoPhone F1",
-			"en_us":"Xiaomi PocoPhone F1"
+			"en_us":"Xiaomi PocoPhone F1",
+			"ko_kr":"샤오미 포코폰 F1"
 		},
 		"state":{
 			"wifi":"y",
@@ -51,11 +55,13 @@
 		"message":{
 			"touchscreen":{
 				"zh_cn":"仅适用于使用 EBBG/FTS 面板的型号  你需要使用fastboot刷写devcfg分区，devcfg链接：https://files.renegade-project.org/devcfg-beryllium_FixTS.img",
-				"en_us":"Only works with models that use EBBG/FTS panel + you need to flash devcfg partition with the provided image. Link: https://files.renegade-project.org/devcfg-beryllium_FixTS.img and run the beryllium 2246x1080 focaltech _fix.reg REG file within Windows. Link: https://files.renegade-project.org/beryllium_2246x1080_focaltech_fix.reg"
+				"en_us":"Only works with models that use EBBG/FTS panel + you need to flash devcfg partition with the provided image. Link: https://files.renegade-project.org/devcfg-beryllium_FixTS.img and run the beryllium 2246x1080 focaltech _fix.reg REG file within Windows. Link: https://files.renegade-project.org/beryllium_2246x1080_focaltech_fix.reg",
+				"ko_kr":"패널을 사용하는 기기에서만 작동합니다 + 제공된 이미지로 devcfg 파티션을 플래시하셔야 합니다. Link: https://files.renegade-project.org/devcfg-beryllium_FixTS.img and run the beryllium 2246x1080 focaltech _fix.reg REG file within Windows. Link: https://files.renegade-project.org/beryllium_2246x1080_focaltech_fix.reg"
 			},
 			"lte":{
 				"zh_cn":"使用前请备份基带EFS/QCN",
-				"en_us":"Please backup modem EFS/QCN before use"
+				"en_us":"Please backup modem EFS/QCN before use",
+				"ko_kr":"사용하시기 전에 먼저 모뎀 EFS/QCN을 백업해주세요"
 			}
 		}
 	},{
@@ -63,7 +69,8 @@
 		"soc":"SDM845",
 		"name":{
 			"zh_cn":"一加6T",
-			"en_us":"OnePlus 6T"
+			"en_us":"OnePlus 6T",
+			"ko_kr":"OnePlus 6T"
 		},
 		"state":{
 			"touchscreen":"y",
@@ -80,11 +87,14 @@
 		"message":{
 			"charging":{
 				"zh_cn":"对充电器要求较高，lumia 5v3a充电器效果最佳",
-				"en_us":"could be picky about chargers, 5v3a charger from Lumia is preferred"
+				"en_us":"could be picky about chargers, 5v3a charger from Lumia is preferred",
+				"ko_kr":"충전기에 까다로울 수 있고, 루미아의 5v3a 충전기를 추천합니다"
 			},
 			"lte":{
 				"zh_cn":"使用前请备份基带EFS/QCN",
-				"en_us":"Please backup modem EFS/QCN before use"
+				"en_us":"Please backup modem EFS/QCN before use",
+				"ko_kr":"사용하시기 전에 먼저 모뎀 EFS/QCN을 백업해주세요"
+				
 			}
 		}
 	},{
@@ -92,7 +102,8 @@
 		"soc":"SDM845",
 		"name":{
 			"zh_cn":"一加6",
-			"en_us":"OnePlus 6"
+			"en_us":"OnePlus 6",
+			"ko_kr":"OnePlus 6"
 		},
 		"state":{
 			"touchscreen":"y",
@@ -108,11 +119,13 @@
 		"message":{
 			"charging":{
 				"zh_cn":"对充电器要求较高，lumia 5v3a充电器效果最佳",
-				"en_us":"could be picky about chargers, 5v3a charger from Lumia is preferred"
+				"en_us":"could be picky about chargers, 5v3a charger from Lumia is preferred",
+				"ko_kr":"충전기에 까다로울 수 있고, 루미아의 5v3a 충전기를 추천합니다"
 			},
 			"lte":{
 				"zh_cn":"使用前请备份基带EFS/QCN",
-				"en_us":"Please backup modem EFS/QCN before use"
+				"en_us":"Please backup modem EFS/QCN before use",
+				"ko_kr":"사용하시기 전에 먼저 모뎀 EFS/QCN을 백업해주세요"
 			}
 		}
 	},{
@@ -120,7 +133,8 @@
 		"soc":"SDM845",
 		"name":{
 			"zh_cn":"小米8",
-			"en_us":"Xiaomi MI8"
+			"en_us":"Xiaomi MI8",
+			"ko_kr":"샤오미 미8"
 		},
 		"state":{
 			"touchscreen":"y",
@@ -136,11 +150,13 @@
 		"message":{
 			"touchscreen":{
 				"zh_cn":"请在设备管理器中把“允许计算机关闭此设备”取消勾选，并且你需要使用fastboot刷写devcfg分区，devcfg链接：http://files.renegade-project.org/devcfg-dipper_FixTS.img",
-				"en_us":"Please uncheck power saving features in Device Manager, and flash devcfg partition with the provided image. Link: http://files.renegade-project.org/devcfg-dipper_FixTS.img"
+				"en_us":"Please uncheck power saving features in Device Manager, and flash devcfg partition with the provided image. Link: http://files.renegade-project.org/devcfg-dipper_FixTS.img",
+				"ko_kr":"장치 관리자에서 전원 절약 기능을 꺼 주시고 제공된 이미지로 devcfg 파티션을 플래시 해주세요.http://files.renegade-project.org/devcfg-dipper_FixTS.img
 			},
 			"lte":{
 				"zh_cn":"使用前请备份基带EFS/QCN",
-				"en_us":"Please backup modem EFS/QCN before use"
+				"en_us":"Please backup modem EFS/QCN before use",
+				"ko_kr":"사용하시기 전에 먼저 모뎀 EFS/QCN을 백업해주세요"
 			}
 		}
 	},{
@@ -148,7 +164,8 @@
 		"soc":"SDM845",
 		"name":{
 			"zh_cn":"小米8UD屏幕指纹版",
-			"en_us":"Xiaomi MI8 UD"
+			"en_us":"Xiaomi MI8 UD",
+			"ko_kr":"샤오미 미8 UD"
 		},
 		"state":{
 			"touchscreen":"y",
@@ -164,11 +181,13 @@
 		"message":{
 			"touchscreen":{
 				"zh_cn":"请在设备管理器中把“允许计算机关闭此设备”取消勾选，并且你需要使用fastboot刷写devcfg分区，devcfg链接：http://files.renegade-project.org/devcfg-dipper_FixTS.img",
-				"en_us":"Please uncheck power saving features in Device Manager, and flash devcfg partition with the provided image. Link: http://files.renegade-project.org/devcfg-dipper_FixTS.img"
+				"en_us":"Please uncheck power saving features in Device Manager, and flash devcfg partition with the provided image. Link: http://files.renegade-project.org/devcfg-dipper_FixTS.img",
+				"ko_kr":"장치 관리자에서 전원 절약 기능을 꺼 주시고 제공된 이미지로 devcfg 파티션을 플래시 해주세요.http://files.renegade-project.org/devcfg-dipper_FixTS.img
 			},
 			"lte":{
 				"zh_cn":"使用前请备份基带EFS/QCN",
 				"en_us":"Please backup modem EFS/QCN before use"
+				"ko_kr":"사용하시기 전에 먼저 모뎀 EFS/QCN을 백업해주세요"
 			}
 		}
 	},{
@@ -176,7 +195,8 @@
 		"soc":"SDA845",
 		"name":{
 			"zh_cn":"奥丁掌机",
-			"en_us":"AYN Odin handheld"
+			"en_us":"AYN Odin handheld",
+			"ko_kr":"AYN 오딘 모바일 기기"
 		},
 		"state":{
 			"bluetooth":"y",
@@ -196,15 +216,18 @@
 		"message":{
 			"camera":{
 				"zh_cn":"该设备不支持此功能",
-				"en_us":"Not supported by the device"
+				"en_us":"Not supported by the device",
+				"ko_kr":"이 기기에서는 지원되지 않습니다"
 			},
 			"virtualization":{
 				"zh_cn":"需要WP固件以使用虚拟化特性",
-				"en_us":"WP firmware is required to enable virtualization"
+				"en_us":"WP firmware is required to enable virtualization",
+				"ko_kr":"가상화를 활성화하려면 WP 펌웨어가 필요합니다"
 			},
 			"lte":{
 				"zh_cn":"该设备不支持此功能",
-				"en_us":"Not supported by the device"
+				"en_us":"Not supported by the device",
+				"ko_kr":"이 기기에서는 지원되지 않습니다"
 			}
 		}
 	},{
@@ -212,7 +235,8 @@
 		"soc":"SDM845",
 		"name":{
 			"zh_cn":"小米MIX3",
-			"en_us":"Xiaomi MIX3"
+			"en_us":"Xiaomi MIX3",
+			"ko_kr":"샤오미 믹스 3"
 		},
 		"state":{
 			"touchscreen":"t",
@@ -228,7 +252,8 @@
 		"message":{
 			"lte":{
 				"zh_cn":"使用前请备份基带EFS/QCN",
-				"en_us":"Please backup modem EFS/QCN before use"
+				"en_us":"Please backup modem EFS/QCN before use",
+				"ko_kr":"사용하시기 전에 먼저 모뎀 EFS/QCN을 백업해주세요"
 			}
 		}
 	},{
@@ -236,7 +261,8 @@
 		"soc":"SDM845",
 		"name":{
 			"zh_cn":"锤子坚果R1",
-			"en_us":"Smartisan R1"
+			"en_us":"Smartisan R1",
+			"ko_kr":"Smartisan R1"
 		},
 		"state":{
 			"touchscreen":"w",
@@ -256,7 +282,8 @@
 		"soc":"SDM845",
 		"name":{
 			"zh_cn":"LG G7",
-			"en_us":"LG G7"
+			"en_us":"LG G7",
+			"ko_kr":"LG G7"
 		},
 		"state":{
 			"audio":"n",
@@ -276,7 +303,8 @@
 		"soc":"SDM845",
 		"name":{
 			"zh_cn":"LG V35",
-			"en_us":"LG V35"
+			"en_us":"LG V35",
+			"ko_kr":"LG V35"
 		},
 		"state":{
 			"audio":"n",
@@ -296,7 +324,8 @@
 		"soc":"SDM845",
 		"name":{
 			"zh_cn":"LG V40",
-			"en_us":"LG V40"
+			"en_us":"LG V40",
+			"ko_kr":"LG V40"
 		},
 		"state":{
 			"audio":"n",
@@ -316,7 +345,8 @@
 		"soc":"MSM8998",
 		"name":{
 			"zh_cn":"一加5",
-			"en_us":"Oneplus 5"
+			"en_us":"Oneplus 5",
+			"ko_kr":"Oneplus 5"
 		},
 		"state":{
 			"usb":"y",
@@ -337,7 +367,8 @@
 		"soc":"MSM8998",
 		"name":{
 			"zh_cn":"一加5T",
-			"en_us":"Oneplus 5T"
+			"en_us":"Oneplus 5T",
+			"ko_kr":"Oneplus 5T"
 		},
 		"state":{
 			"usb":"y",
@@ -358,7 +389,8 @@
 		"soc":"SDM845",
 		"name":{
 			"zh_cn":"魅族16th",
-			"en_us":"Meizu 16th"
+			"en_us":"Meizu 16th",
+			"ko_kr":"Meizu 16th"
 		},
 		"state":{
 			"gpu":"y",
@@ -368,7 +400,8 @@
 		"message":{
 			"gpu":{
 				"zh_cn":"请暂时使用魅族16th Plus的驱动",
-				"en_us":"Please use drivers for Meizu 16th Plus temporarily"
+				"en_us":"Please use drivers for Meizu 16th Plus temporarily",
+				"ko_kr":"일시적으로 Meizu 16th Plus를 위한 드라이버를 사용해주세요"
 			}
 		}
 	},{
@@ -376,7 +409,8 @@
 		"soc":"SDM845",
 		"name":{
 			"zh_cn":"魅族16th Plus",
-			"en_us":"Meizu 16th Plus"
+			"en_us":"Meizu 16th Plus",
+			"ko_kr":"Meizu 16th Plus"
 		},
 		"state":{
 			"touchscreen":"w",
@@ -395,7 +429,8 @@
 		"soc":"SM8150",
 		"name":{
 			"zh_cn":"小米MIX3 5G",
-			"en_us":"Xiaomi MIX3 5G"
+			"en_us":"Xiaomi MIX3 5G",
+			"ko_kr":"샤오미 믹스 3 5G"
 		},
 		"state":{
 			"touchscreen":"y",
@@ -416,7 +451,8 @@
 		"soc":"SDM845",
 		"name":{
 			"zh_cn":"中兴天机Axon 9 Pro",
-			"en_us":"ZTE Axon 9 Pro"
+			"en_us":"ZTE Axon 9 Pro",
+			"ko_kr":"ZTE Axon 9 Pro"
 		},
 		"state":{
 			"bluetooth":"y",
@@ -431,7 +467,8 @@
 		"soc":"SDM845",
 		"name":{
 			"zh_cn":"努比亚X",
-			"en_us":"Nubia X"
+			"en_us":"Nubia X",
+			"ko_kr":"Nubia X"
 		},
 		"state":{
 			"usb":"y",
@@ -445,7 +482,8 @@
 		"soc":"SDM845",
 		"name":{
 			"zh_cn":"三星 Galaxy S9+",
-			"en_us":"Samsung Galaxy S9+"
+			"en_us":"Samsung Galaxy S9+",
+			"ko_kr":"삼성 갤럭시 S9+"
 		},
 		"state":{
 			"usb":"p",
@@ -458,7 +496,8 @@
 		"soc":"SDM845",
 		"name":{
 			"zh_cn":"黑鲨手机一代",
-			"en_us":"BlackShark One"
+			"en_us":"BlackShark One",
+			"ko_kr":"BlackShark One"
 		},
 		"state":{
 			"wifi":"w"
@@ -470,7 +509,8 @@
 		"soc":"SDM845",
 		"name":{
 			"zh_cn":"OPPO Find X",
-			"en_us":"OPPO Find X"
+			"en_us":"OPPO Find X",
+			"ko_kr":"OPPO Find X"
 		},
 		"state":{
 			"wifi":"w"
@@ -482,7 +522,8 @@
 		"soc":"SDM845",
 		"name":{
 			"zh_cn":"诺基亚9 PureView",
-			"en_us":"Nokia 9 PureView"
+			"en_us":"Nokia 9 PureView",
+			"ko_kr":"노키아 9 PureView"
 		},
 		"state":{
 			"usb":"u",
@@ -495,7 +536,8 @@
 		"soc":"SDM845",
 		"name":{
 			"zh_cn":"华硕 ZenFone 5Z",
-			"en_us":"Asus ZenFone 5Z"
+			"en_us":"Asus ZenFone 5Z",
+			"ko_kr":"Asus ZenFone 5Z"
 		},
 		"state":{
 			"usb":"y",
@@ -508,7 +550,8 @@
 		"soc":"SDM845",
 		"name":{
 			"zh_cn":"Vivo NEX 双屏版",
-			"en_us":"Vivo NEX Dual Display"
+			"en_us":"Vivo NEX Dual Display",
+			"ko_kr":"Vivo NEX Dual Display"
 		},
 		"state":{
 			"usb":"u",
@@ -521,7 +564,8 @@
 		"soc":"SDM845+",
 		"name":{
 			"zh_cn":"Rog Phone 1",
-			"en_us":"Rog Phone 1"
+			"en_us":"Rog Phone 1",
+			"ko_kr":"Rog Phone 1"
 		},
 		"state":{
 			"touchscreen":"p",
@@ -538,11 +582,13 @@
 		"message":{
 			"touchscreen":{
 				"zh_cn":"有点毛病",
-				"en_us":"There are some problems"
+				"en_us":"There are some problems",
+				"ko_kr":"약간의 문제가 있습니다"
 			},
 			"usb":{
 				"zh_cn":"副usb暂时没修，暂时不工作",
-				"en_us":"The secondary usb has not been repaired for the time being, and it is not working at present."
+				"en_us":"The secondary usb has not been repaired for the time being, and it is not working at present.",
+				"ko_kr":"두 번째 USB가 당분간 복구되지 않았고 지금은 작동하지 않습니다."
 			}
 		}
 	},{
@@ -550,7 +596,8 @@
 		"soc":"MSM8998",
 		"name":{
 			"zh_cn":"小米6",
-			"en_us":"Xiaomi MI6"
+			"en_us":"Xiaomi MI6",
+			"ko_kr":"샤오미 미 6"
 		},
 		"state":{
 			"usb":"y",
@@ -571,7 +618,8 @@
 		"soc":"MSM8998",
 		"name":{
 			"zh_cn":"小米MIX2",
-			"en_us":"Xiaomi MIX2"
+			"en_us":"Xiaomi MIX2",
+			"ko_kr":"샤오미 믹스 2"
 		},
 		"state":{
 			"usb":"y",
@@ -592,7 +640,8 @@
 		"soc":"MSM8998",
 		"name":{
 			"zh_cn":"摩托罗拉Moto Z2 Force",
-			"en_us":"Motorola Moto Z2 Force"
+			"en_us":"Motorola Moto Z2 Force",
+			"ko_kr":"Motorola Moto Z2 Force"
 		},
 		"state":{
 			"usb":"y",
@@ -613,7 +662,8 @@
 		"soc":"MSM8998",
 		"name":{
 			"zh_cn":"LG V30",
-			"en_us":"LG V30"
+			"en_us":"LG V30",
+			"ko_kr":"LG V30"
 		},
 		"state":{
 			"usb":"y",
@@ -634,7 +684,8 @@
 		"soc":"SM8150",
 		"name":{
 			"zh_cn":"Surface Duo",
-			"en_us":"Surface Duo"
+			"en_us":"Surface Duo",
+			"ko_kr":"Surface Duo"
 		},
 		"state":{
 			"touchscreen":"p",
@@ -657,7 +708,8 @@
 		"soc":"SM8150",
 		"name":{
 			"zh_cn":"小米9",
-			"en_us":"Xiaomi MI9"
+			"en_us":"Xiaomi MI9",
+			"ko_kr":"샤오미 미9"
 		},
 		"state":{
 			"touchscreen":"n",
@@ -680,7 +732,8 @@
 		"soc":"SM8150",
 		"name":{
 			"zh_cn":"红米K20Pro",
-			"en_us":"Redmi K20 Pro"
+			"en_us":"Redmi K20 Pro",
+			"ko_kr":"레드미 K20 Pro"
 		},
 		"state":{
 			"touchscreen":"n",
@@ -702,7 +755,8 @@
 		"soc":"SM8150AC",
 		"name":{
 			"zh_cn":"小米平板5",
-			"en_us":"Xiaomi Pad 5"
+			"en_us":"Xiaomi Pad 5",
+			"ko_kr":"샤오미 패드 5"
 		},
 		"state":{
 			"touchscreen":"n",
@@ -724,7 +778,8 @@
 		"soc":"SM8150",
 		"name":{
 			"zh_cn":"一加7",
-			"en_us":"Oneplus 7"
+			"en_us":"Oneplus 7",
+			"ko_kr":"Oneplus 7"
 		},
 		"state":{
 			"touchscreen":"n",
@@ -746,7 +801,8 @@
 		"soc":"SM8150",
 		"name":{
 			"zh_cn":"一加7Pro",
-			"en_us":"Oneplus 7 Pro"
+			"en_us":"Oneplus 7 Pro",
+			"ko_kr":"Oneplus 7 Pro"
 		},
 		"state":{
 			"touchscreen":"n",
@@ -768,7 +824,8 @@
 		"soc":"SM8350",
 		"name":{
 			"zh_cn":"小米11",
-			"en_us":"Xiaomi 11"
+			"en_us":"Xiaomi 11",
+			"ko_kr":"Xiaomi 11"
 		},
 		"state":{
 			"touchscreen":"n",
@@ -787,7 +844,8 @@
 		"message":{
 			"usb":{
 				"zh_cn":"需要找到方法来突破vm来运行否则只能Linux",
-				"en_us":"We need to find a way to break through vm to allow it to run, otherwise it can only be Linux."
+				"en_us":"We need to find a way to break through vm to allow it to run, otherwise it can only be Linux.",
+				"ko_kr":"가상 머신을 뚫어서 작동하게 하는 방법을 찾아야 합니다. 그렇지 않으면, 리눅스만 작동할 수 있습니다"
 			}
 		}
 	},{
@@ -795,7 +853,8 @@
 		"soc":"SDM845",
 		"name":{
 			"zh_cn":"谷歌 Pixel 3",
-			"en_us":"Google Pixel 3"
+			"en_us":"Google Pixel 3",
+			"ko_kr":"Google Pixel 3"
 		},
 		"state":{
 			"ufs":"n",
@@ -810,7 +869,8 @@
 		"message":{
 			"ufs":{
 				"zh_cn":"你的UFS将会被Windows的storufs驱动擦除!",
-				"en_us":"Your UFS will be ERASED by Windows storufs driver!"
+				"en_us":"Your UFS will be ERASED by Windows storufs driver!",
+				"ko_kr":"윈도우 storufs 드라이버의 당신의 UFS가 지워질 것입니다!"
 			}
 		}
 	},{
@@ -818,7 +878,8 @@
 		"soc":"SDM845",
 		"name":{
 			"zh_cn":"索尼 Xperia XZ2",
-			"en_us":"Sony Xperia XZ2"
+			"en_us":"Sony Xperia XZ2",
+			"ko_kr":"Sony Xperia XZ2"
 		},
 		"state":{
 			"ufs":"n",
@@ -833,7 +894,8 @@
 		"message":{
 			"ufs":{
 				"zh_cn":"你的UFS将会被Windows的storufs驱动擦除!",
-				"en_us":"Your UFS will be ERASED by Windows storufs driver!"
+				"en_us":"Your UFS will be ERASED by Windows storufs driver!",
+				"ko_kr":"윈도우 storufs 드라이버의 당신의 UFS가 지워질 것입니다!"
 			}
 		}
 	}
