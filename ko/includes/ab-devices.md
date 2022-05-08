@@ -4,9 +4,9 @@
 
 어떤 경우에는 두 번째 비활성화 슬롯에 아무것도 없거나 당신의 활성화된 슬롯보다 오래된 펌웨어를 포함할 수 있고(당신의 현재 ROM을 포함하는 슬롯), **잠재적인 하드 브릭**을 포함하게 할 수 있습니다. 활성화된 슬롯의 내용을 비활성화된 슬롯으로 옮기면 이런 문제가 생기므로 이런 일이 일어나지 않게 해야 합니다.
 
-!> If you're going to flash EDK2 to a second boot partition, do not rush and prepare your device first. **This step is NOT optional for A/B in this case!**
+!> 만약 EDK2를 두 번째 부팅 파티션에 플래싱 하시려고 한다면 성급하게 하지 마시고 먼저 당신의 기기를 준비해주세. **이 경우에는 이 단계가 A/B에게 선택적이지 않습니다!**
 
-To do this, sideload the `copy-partitions-20210323_1922.zip` package by doing the following:
+진행하려면 다음 항목을 이용하여 `copy-partitions-20210323_1922.zip` 패키지를 사이드로드요하세요:
 
 1. [여기서](https://files.renegade-project.org/copy-partitions-20210323_1922.zip ':ignore'); `copy-partitions-20210323_1922.zip` 파일을 다운로드하세요
 2. `copy-partitions-20210323_1922.zip` 패키지를 사이드 로드하세요:
