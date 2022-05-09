@@ -637,7 +637,7 @@
 			"en_us":"Surface Duo"
 		},
 		"state":{
-			"touchscreen":"p",
+			"touchscreen":"y",
 			"buttons":"y",
 			"wifi":"n",
 			"bluetooth":"y",
@@ -647,8 +647,7 @@
 			"lte":"n",
 			"usb":"y",
 			"sensor":"n",
-            "camera":"t"
-
+			"camera":"t"
 		},
 		"message":{
 		}
