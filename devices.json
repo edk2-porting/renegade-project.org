@@ -151,7 +151,7 @@
 			"touchscreen":{
 				"zh_cn":"请在设备管理器中把“允许计算机关闭此设备”取消勾选，并且你需要使用fastboot刷写devcfg分区，devcfg链接：http://files.renegade-project.org/devcfg-dipper_FixTS.img",
 				"en_us":"Please uncheck power saving features in Device Manager, and flash devcfg partition with the provided image. Link: http://files.renegade-project.org/devcfg-dipper_FixTS.img",
-				"ko_kr":"장치 관리자에서 전원 절약 기능을 꺼 주시고 제공된 이미지로 devcfg 파티션을 플래시 해주세요.http://files.renegade-project.org/devcfg-dipper_FixTS.img
+				"ko_kr":"장치 관리자에서 전원 절약 기능을 꺼 주시고 제공된 이미지로 devcfg 파티션을 플래시 해주세요. 링크: http://files.renegade-project.org/devcfg-dipper_FixTS.img"
 			},
 			"lte":{
 				"zh_cn":"使用前请备份基带EFS/QCN",
@@ -182,7 +182,7 @@
 			"touchscreen":{
 				"zh_cn":"请在设备管理器中把“允许计算机关闭此设备”取消勾选，并且你需要使用fastboot刷写devcfg分区，devcfg链接：http://files.renegade-project.org/devcfg-dipper_FixTS.img",
 				"en_us":"Please uncheck power saving features in Device Manager, and flash devcfg partition with the provided image. Link: http://files.renegade-project.org/devcfg-dipper_FixTS.img",
-				"ko_kr":"장치 관리자에서 전원 절약 기능을 꺼 주시고 제공된 이미지로 devcfg 파티션을 플래시 해주세요.http://files.renegade-project.org/devcfg-dipper_FixTS.img
+				"ko_kr":"장치 관리자에서 전원 절약 기능을 꺼 주시고 제공된 이미지로 devcfg 파티션을 플래시 해주세요. 링크: http://files.renegade-project.org/devcfg-dipper_FixTS.img"
 			},
 			"lte":{
 				"zh_cn":"使用前请备份基带EFS/QCN",
