@@ -63,5 +63,5 @@
       - [sagit (Xiaomi MI6)](ko/devices/msm8998/sagit/status.md)
   - Windows
     - [설치 가이드](ko/windows/installation-guide.md)
-    - [디바이스 지원 상태](ko/windows/state-frame.html)
+    - [기기 지원 현황](ko/windows/state-frame.html)
     - [터치](ko/windows/touch.md)
