@@ -43,3 +43,25 @@
     - [Installation Guide](en/windows/Installation-guide.md)
     - [Device Support Status](en/windows/state-frame.html)
     - [Touch](en/windows/touch.md)
+* Korean
+  - [멀티부팅](ko/multiboot.md)
+  - EDK2
+    - [개요](ko/edk2/Overview.md)
+    - [포팅](ko/edk2/port.md)
+  - 도구
+    - [UEFI-NTFS](ko/tools/uefi-ntfs/index.md)
+  - Linux
+    - [명령줄](ko/linux/cmdline.md)
+  - 디바이스
+    - [SDM845](ko/devices/sdm845/status.md)
+      - [dipper (Xiaomi MI8)](ko/devices/sdm845/dipper/status.md)
+      - [polaris (Xiaomi MIX2S)](ko/devices/sdm845/polaris/status.md)
+      - [beryllium (Xiaomi Poco F1)](ko/devices/sdm845/beryllium/status.md)
+      - [enchilada (OnePlus 6))](ko/devices/sdm845/enchilada/status.md)
+      - [fajita (OnePlus 6T)](ko/devices/sdm845/fajita/status.md)
+    - MSM8998
+      - [sagit (Xiaomi MI6)](ko/devices/msm8998/sagit/status.md)
+  - Windows
+    - [설치 가이드](ko/windows/installation-guide.md)
+    - [기기 지원 현황](ko/windows/state-frame.html)
+    - [터치](ko/windows/touch.md)

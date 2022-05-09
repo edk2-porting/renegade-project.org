@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="description" content="Windows Status Matrix" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0" />
+		<link rel="stylesheet" href="/res/vue.css" />
+		<link rel="stylesheet" href="/res/state.css" />
+		<title>Windows Status Matrix</title>
+		<script>
+			const locale={
+				loading:"Loading...",
+				not_200:"status not ok: ",
+				load_failed:"Load failed: ",
+				lang:"ko_kr"
+			}
+		</script>
+		<script src="/res/state.js"></script>
+	</head>
+	<body class="markdown-section">
+		<h2>윈도우 지원 매트릭스</h2>
+		<p>지원 단계로 정렬됨</p>
+		<table border="1" cellspacing="0">
+			<thead>
+				<tr>
+					<th>기기</th>
+					<th>코드명</th>
+					<th>SoC</th>
+					<th>USB</th>
+					<th>UFS</th>
+					<th>디스플레이</th>
+					<th>UEFI 버튼</th>
+					<th>터치스크린</th>
+					<th>WiFi</th>
+					<th>블루투스</th>
+					<th>배터리</th>
+					<th>충전</th>
+					<th>가상화</th>
+					<th>GPU</th>
+					<th>LTE</th>
+					<th>오디오</th>
+					<th>위치</th>
+					<th>센서</th>
+					<th>카메라</th>
+				</tr>
+			</thead>
+			<tbody id="content">
+			</tbody>
+		</table>
+		<br/>
+		<table>
+			<tbody>
+				<tr>
+					<td class="state-y">Y</td>
+					<td>이미 지원되고 사용 가능</td>
+				</tr>
+				<tr>
+					<td class="state-n">N</td>
+					<td>현재 지원이 불가능함</td>
+				</tr>
+				<tr>
+					<td class="state-p">P</td>
+					<td>문제 있음, 지원되어야 하지만 꼭 필요하지 않음</td>
+				</tr>
+				<tr>
+					<td class="state-w">W</td>
+					<td>다른 기기에서 테스트됨, 이 디바이스로는 옮겨지지 않음</td>
+				</tr>
+				<tr>
+					<td class="state-t">T</td>
+					<td>곧 지원됨, 테스트 중 또는 옮겨지는 중</td>
+				</tr>
+				<tr>
+					<td class="state-u">U</td>
+					<td>알 수 없는 상태</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>몇몇 디바이스의 상태는 이 테이블에 없을 수도 있습니다. <a href="https://github.com/edk2-porting/renegade-project.org" target="_blank">GitHub</a>에 추가해주세요.</p>
+		<div id="message" style="display:none">
+			<p>: </p>
+			<ul id="messages"></ul>
+		</div>
+	</body>
+	<script>initialize();</script>
+</html>
