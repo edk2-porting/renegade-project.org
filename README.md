@@ -2,7 +2,7 @@
 
 > This project has Super Cow Powers.
 
-> 한국 분들 중에 영어를 모르시는 분들은 번역기를 켜 주시기 바gkq니다. (Chrome에서만 지원)
+> 한국 분들 중에 영어를 모르시는 분들은 번역기를 켜 주시기 바랍니다. (Chrome에서만 지원)
 
 请看左侧目录
 
