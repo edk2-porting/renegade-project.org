@@ -70,21 +70,17 @@
 			"wifi":"y",
 			"bluetooth":"y",
 			"battery":"y",
-			"charging":"p",
+			"charging":"y",
 			"gpu":"y",
 			"buttons":"y",
-			"lte":"y",
-            "camera":"n",
+			"lte":"p",
+			"camera":"n",
 			"gps":"y"
 		},
 		"message":{
-			"charging":{
-				"zh_cn":"对充电器要求较高，lumia 5v3a充电器效果最佳",
-				"en_us":"could be picky about chargers, 5v3a charger from Lumia is preferred"
-			},
 			"lte":{
-				"zh_cn":"使用前请备份基带EFS/QCN",
-				"en_us":"Please backup modem EFS/QCN before use"
+				"zh_cn":"目前不稳定，可能导致设备崩溃",
+				"en_us":"Currently unstable, might crash the device"
 			}
 		}
 	},{
@@ -99,20 +95,16 @@
 			"wifi":"y",
 			"bluetooth":"y",
 			"battery":"y",
-			"charging":"p",
+			"charging":"y",
 			"buttons":"y",
 			"gpu":"y",
-			"lte":"y",
+			"lte":"p",
 			"gps":"y"
 		},
 		"message":{
-			"charging":{
-				"zh_cn":"对充电器要求较高，lumia 5v3a充电器效果最佳",
-				"en_us":"could be picky about chargers, 5v3a charger from Lumia is preferred"
-			},
 			"lte":{
-				"zh_cn":"使用前请备份基带EFS/QCN",
-				"en_us":"Please backup modem EFS/QCN before use"
+				"zh_cn":"目前不稳定，可能导致设备崩溃",
+				"en_us":"Currently unstable, might crash the device"
 			}
 		}
 	},{
