@@ -383,27 +383,6 @@
 		"message":{
 		}
 	},{
-		"codename":"andromeda",
-		"soc":"SM8150",
-		"name":{
-			"zh_cn":"小米MIX3 5G",
-			"en_us":"Xiaomi MIX3 5G"
-		},
-		"state":{
-			"touchscreen":"y",
-			"buttons":"y",
-			"wifi":"n",
-			"bluetooth":"t",
-			"battery":"n",
-			"charging":"n",
-			"gpu":"t",
-			"lte":"n",
-			"sensor":"n",
-			"usb":"y"
-		},
-		"message":{
-		}
-	},{
 		"codename":"akershus",
 		"soc":"SDM845",
 		"name":{
@@ -640,6 +619,27 @@
 			"usb":"y",
 			"sensor":"n",
 			"camera":"t"
+		},
+		"message":{
+		}
+	},{
+		"codename":"andromeda",
+		"soc":"SM8150",
+		"name":{
+			"zh_cn":"小米MIX3 5G",
+			"en_us":"Xiaomi MIX3 5G"
+		},
+		"state":{
+			"touchscreen":"y",
+			"buttons":"y",
+			"wifi":"n",
+			"bluetooth":"y",
+			"battery":"n",
+			"charging":"n",
+			"gpu":"t",
+			"lte":"n",
+			"sensor":"n",
+			"usb":"y"
 		},
 		"message":{
 		}
