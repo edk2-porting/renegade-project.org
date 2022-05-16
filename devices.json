@@ -609,15 +609,17 @@
 		},
 		"state":{
 			"touchscreen":"y",
+			"audio":"t",
 			"buttons":"y",
 			"wifi":"n",
 			"bluetooth":"y",
 			"battery":"t",
 			"charging":"t",
 			"gpu":"y",
-			"lte":"n",
 			"usb":"y",
-			"sensor":"n",
+			"sensor":"t",
+			"lte":"n",
+			"gps":"n",
 			"camera":"t"
 		},
 		"message":{
