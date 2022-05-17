@@ -829,5 +829,27 @@
 				"en_us":"Your UFS will be ERASED by Windows storufs driver!"
 			}
 		}
+	},{
+		"codename":"alphaplus",
+		"soc":"SM8150",
+		"name":{
+			"zh_cn":"LG G8",
+			"en_us":"LG G8"
+		},
+		"state":{
+			"touchscreen":"n",
+			"buttons":"n",
+			"wifi":"n",
+			"bluetooth":"n",
+			"battery":"n",
+			"charging":"n",
+			"gpu":"n",
+			"lte":"n",
+			"usb":"y",
+			"sensor":"n",
+            "camera":"n"
+		},
+		"message":{
+		}
 	}
 ]
