@@ -20,6 +20,7 @@
   - Windows
     - [安装指南](zh/windows/installation-guide.md)
     - [设备支持状态](zh/windows/state-frame.html)
+    - [获取驱动日志](zh/windows/logging.md)
     - [触摸](zh/windows/touch.md)
 - English
   - [Multiboot support](en/multiboot.md)
@@ -42,4 +43,5 @@
   - Windows
     - [Installation Guide](en/windows/Installation-guide.md)
     - [Device Support Status](en/windows/state-frame.html)
+    - [Driver logging](en/windows/logging.md)
     - [Touch](en/windows/touch.md)
