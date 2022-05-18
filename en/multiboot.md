@@ -31,9 +31,9 @@ boot {
 				use_uefi = false
                 // points to the boot partition in the locates configuration below
 				abootimg = "#part_boot"
-                // devicetree ID in boot image, varies by device
+                // device model in boot image devicetree, varies by device
                 // might get recognized automatically on certain devices and thus not needed
-				dtb_id = 6
+				dtb_model = "Xiaomi Technologies, Inc. Polaris P2 v2.1"
                 // points to the dtbo partition in the locates configuration below, might not be needed
                 // dtbo = "#part_dtbo"
                 // dtbo ID，varies by device, might not be needed

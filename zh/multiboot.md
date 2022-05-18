@@ -31,8 +31,8 @@ boot {
 				use_uefi = false
                 // 指向下方locates配置中的启动分区
 				abootimg = "#part_boot"
-                // boot镜像中的设备树id，因设备而异，某些设备上能自动识别，从而不需要该项
-				dtb_id = 6
+                // boot镜像中的设备树model值，因设备而异，某些设备上能自动识别，从而不需要该项
+				dtb_model = "Xiaomi Technologies, Inc. Polaris P2 v2.1"
                 // 指向下方locates配置中的dtbo分区，某些时候可能不需要
                 // dtbo = "#part_dtbo"
                 // dtbo id，因设备而异，某些时候可能不需要

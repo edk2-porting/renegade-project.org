@@ -8,7 +8,11 @@
 SimpleInit配置
 =========================
 
-你需要在`simpleinit.static.uefi.cfg`中指定`dtb_id = 6`来启动安卓
+!> 目前基于安卓10的MIUI无法正常启动
+
+你需要在`simpleinit.static.uefi.cfg`中手动指定`dtb_model`来启动安卓
+
+正确的值可以从安卓的`/sys/firmware/devicetree/base/model`中获取得到
 
 至少对于Evolution X (Android 12)，dtbo配置是不需要的
 
