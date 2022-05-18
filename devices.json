@@ -641,7 +641,8 @@
 			"gpu":"t",
 			"lte":"n",
 			"sensor":"n",
-			"usb":"y"
+			"usb":"y",
+			"gps":"n"
 		},
 		"message":{
 		}
@@ -663,8 +664,8 @@
 			"lte":"n",
 			"usb":"y",
 			"sensor":"n",
-            "camera":"n"
-
+            "camera":"n",
+			"gps":"n"
 		},
 		"message":{
 		}
@@ -686,7 +687,8 @@
 			"lte":"n",
 			"usb":"y",
 			"sensor":"n",
-            "camera":"n"
+            "camera":"n",
+			"gps":"n"
 		},
 		"message":{
 		}
@@ -708,6 +710,29 @@
 			"lte":"n",
 			"usb":"y",
 			"sensor":"n",
+			"gps":"n"
+		},
+		"message":{
+		}
+	},{
+		"codename":"alphaplus",
+		"soc":"SM8150",
+		"name":{
+			"zh_cn":"LG G8",
+			"en_us":"LG G8"
+		},
+		"state":{
+			"touchscreen":"n",
+			"buttons":"n",
+			"wifi":"n",
+			"bluetooth":"n",
+			"battery":"n",
+			"charging":"n",
+			"gpu":"n",
+			"lte":"n",
+			"usb":"y",
+			"sensor":"n",
+			"camera":"n",
 			"gps":"n"
 		},
 		"message":{
@@ -745,7 +770,7 @@
 			"touchscreen":"n",
 			"buttons":"u",
 			"wifi":"n",
-			"bluetooth":"u",
+			"bluetooth":"n",
 			"battery":"n",
 			"charging":"n",
 			"gpu":"n",
@@ -828,28 +853,6 @@
 				"zh_cn":"你的UFS将会被Windows的storufs驱动擦除!",
 				"en_us":"Your UFS will be ERASED by Windows storufs driver!"
 			}
-		}
-	},{
-		"codename":"alphaplus",
-		"soc":"SM8150",
-		"name":{
-			"zh_cn":"LG G8",
-			"en_us":"LG G8"
-		},
-		"state":{
-			"touchscreen":"n",
-			"buttons":"n",
-			"wifi":"n",
-			"bluetooth":"n",
-			"battery":"n",
-			"charging":"n",
-			"gpu":"n",
-			"lte":"n",
-			"usb":"y",
-			"sensor":"n",
-            "camera":"n"
-		},
-		"message":{
 		}
 	}
 ]
