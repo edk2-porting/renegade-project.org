@@ -1,25 +1,4 @@
 - [Home](/README.md)
-* Chinese
-  - [多启动支持](zh/multiboot.md)
-  - EDK2
-    - [预览](zh/edk2/Overview.md)
-    - [移植](zh/edk2/port.md)
-  - Linux
-    - [命令行](zh/linux/cmdline.md)
-  - 设备
-    - [SDM845](zh/devices/sdm845/status.md)
-      - [dipper (小米8)](zh/devices/sdm845/dipper/status.md)
-      - [polaris (小米MIX2S)](zh/devices/sdm845/polaris/status.md)
-      - [beryllium (小米Poco F1)](zh/devices/sdm845/beryllium/status.md)
-      - [enchilada (一加6)](zh/devices/sdm845/enchilada/status.md)
-      - [fajita (一加6T)](zh/devices/sdm845/fajita/status.md)
-    - MSM8998
-      - [sagit (小米6)](zh/devices/msm8998/sagit/status.md)
-  - Windows
-    - [安装指南](zh/windows/installation-guide.md)
-    - [设备支持状态](zh/windows/state-frame.html)
-    - [获取驱动日志](zh/windows/logging.md)
-    - [触摸](zh/windows/touch.md)
 - English
   - [Multiboot support](en/multiboot.md)
   - EDK2
@@ -41,3 +20,24 @@
     - [Device Support Status](en/windows/state-frame.html)
     - [Driver logging](en/windows/logging.md)
     - [Touch](en/windows/touch.md)
+* Chinese
+  - [多启动支持](zh/multiboot.md)
+  - EDK2
+    - [预览](zh/edk2/Overview.md)
+    - [移植](zh/edk2/port.md)
+  - Linux
+    - [命令行](zh/linux/cmdline.md)
+  - 设备
+    - [SDM845](zh/devices/sdm845/status.md)
+      - [dipper (小米8)](zh/devices/sdm845/dipper/status.md)
+      - [polaris (小米MIX2S)](zh/devices/sdm845/polaris/status.md)
+      - [beryllium (小米Poco F1)](zh/devices/sdm845/beryllium/status.md)
+      - [enchilada (一加6)](zh/devices/sdm845/enchilada/status.md)
+      - [fajita (一加6T)](zh/devices/sdm845/fajita/status.md)
+    - MSM8998
+      - [sagit (小米6)](zh/devices/msm8998/sagit/status.md)
+  - Windows
+    - [安装指南](zh/windows/installation-guide.md)
+    - [设备支持状态](zh/windows/state-frame.html)
+    - [获取驱动日志](zh/windows/logging.md)
+    - [触摸](zh/windows/touch.md)

@@ -2,7 +2,7 @@
 
 > This project has Super Cow Powers.
 
-请看左侧目录
+请看左侧目录，中文用户请往下滚动
 
 Please read the list on the left
 
