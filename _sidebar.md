@@ -4,8 +4,6 @@
   - EDK2
     - [预览](zh/edk2/Overview.md)
     - [移植](zh/edk2/port.md)
-  - 工具
-    - [UEFI-NTFS](zh/tools/uefi-ntfs/index.md)
   - Linux
     - [命令行](zh/linux/cmdline.md)
   - 设备
@@ -27,8 +25,6 @@
   - EDK2
     - [Overview](en/edk2/Overview.md)
     - [Porting](en/edk2/port.md)
-  - Tools
-    - [UEFI-NTFS](en/tools/uefi-ntfs/index.md)
   - Linux
     - [Cmdline](en/linux/cmdline.md)
   - Devices
