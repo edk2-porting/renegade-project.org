@@ -3,6 +3,7 @@
   - [Multiboot support](en/multiboot.md)
   - EDK2
     - [Overview](en/edk2/Overview.md)
+    - [SM8150 Porting](en/edk2/sm8150-port.md)
     - [Porting](en/edk2/port.md)
   - Linux
     - [Cmdline](en/linux/cmdline.md)
@@ -24,6 +25,7 @@
   - [多启动支持](zh/multiboot.md)
   - EDK2
     - [预览](zh/edk2/Overview.md)
+    - [SM8150移植](zh/edk2/sm8150-port.md)
     - [移植](zh/edk2/port.md)
   - Linux
     - [命令行](zh/linux/cmdline.md)
