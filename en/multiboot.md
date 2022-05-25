@@ -40,6 +40,17 @@ boot {
                 // dtbo_id = 6
 			}
 		}
+		// Example of booting to Windows PE
+		pe {
+			mode = 9
+			desc = "Windows PE"
+			show = true
+			enabled = true
+			icon = "distributor-logo-windows.svg"
+			extra {
+				efi_file = "@part_pe:\\efi\\boot\\bootaa64.efi"
+			}
+		}
         // Example of booting to recovery
 		recovery {
 			mode = 8
@@ -114,6 +125,11 @@ locates {
 		by_disk_label = "gpt"
 		by_gpt_name = "esp"
 	}
+	part_pe {
+		by_disk_label = "gpt"
+		by_gpt_name = "pe"
+	}
+
 }
 ```
 
