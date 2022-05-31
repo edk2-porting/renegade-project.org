@@ -3,8 +3,14 @@
   - [Multiboot support](en/multiboot.md)
   - EDK2
     - [Overview](en/edk2/Overview.md)
-    - [SM8150 Porting](en/edk2/sm8150-port.md)
+    - [SM8150 Porting (deprecated)](en/edk2/sm8150-port.md)
     - [Porting](en/edk2/port.md)
+  - Mu-SM8150pkg
+    - [Porting guide](en/sm8150pkg/tutorial/README)
+      - [Welcome](en/sm8150pkg/tutorial/README)
+      - [Prerequisites and bootloader binary extraction](en/sm8150pkg/tutorial/1_Prerequisites_Bootloader_binary_extraction.md)
+      - [Build environment setup](en/sm8150pkg/tutorial/2_Build_environment_setup.md)
+      - [Build instructions](en/sm8150pkg/tutorial/3_Build_instructions.md)
   - Linux
     - [Cmdline](en/linux/cmdline.md)
   - Devices
