@@ -1,5 +1,7 @@
 # Porting edk2 UEFI to SM8150 devices
 
+# This document has been deprecated. Please see[ the Mu-SM8150pkg tutorial](en/sm8150pkg/tutorial/) for the most up-to-date version.
+
 > This is a *temporary* solution to support multiple devices with the preliminary Multi-Device Framework
 
 ## NOTICE

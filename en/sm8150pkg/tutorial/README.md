@@ -10,4 +10,8 @@ By the time you go through this guide, we do expect that you would be able to bu
 
 Hope you enjoy the ride!
 
-[Click here to get started.](en/sm8150pkg/tutorial/1_Prerequisites_Bootloader_binary_extraction.md)
+# [Click here to get started.](en/sm8150pkg/tutorial/1_Prerequisites_Bootloader_binary_extraction.md)
+
+____________
+
+This documentation for MU-sm8150pkg was written by [@WaseemAlkurdi](http://twitter.com/WaseemAlkurdi), building upon [earlier Renegade documentation](en/edk2/sm8150-port.md)

@@ -11,6 +11,11 @@
       - [Prerequisites and bootloader binary extraction](en/sm8150pkg/tutorial/1_Prerequisites_Bootloader_binary_extraction.md)
       - [Build environment setup](en/sm8150pkg/tutorial/2_Build_environment_setup.md)
       - [Build instructions](en/sm8150pkg/tutorial/3_Build_instructions.md)
+    - Next steps
+      - Patching firmware binaries for working USB FN and buttons
+        - [Preparing the files and workspace](en/sm8150pkg/tutorial/4_Preparing_files_workspace.md)
+        - [Analyzing and patching firmware binaries](en/sm8150pkg/tutorial/5_Analyzing_patching_firmware_binaries.md)
+        - [Building UEFI with patched firmware binaries](en/sm8150pkg/tutorial/6_Building_with_patched_firmware_binaries.md)
   - Linux
     - [Cmdline](en/linux/cmdline.md)
   - Devices
