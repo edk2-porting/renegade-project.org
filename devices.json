@@ -786,33 +786,6 @@
 		"message":{
 		}
 	},{
-		"codename":"star",
-		"soc":"SM8350",
-		"name":{
-			"zh_cn":"小米11",
-			"en_us":"Xiaomi 11"
-		},
-		"state":{
-			"touchscreen":"n",
-			"audio":"n",
-			"buttons":"n",
-			"wifi":"n",
-			"bluetooth":"n",
-			"battery":"n",
-			"charging":"n",
-			"sensor":"n",
-			"usb":"t",
-			"gpu":"n",
-			"lte":"n",
-			"gps":"n"
-		},
-		"message":{
-			"usb":{
-				"zh_cn":"需要找到方法来突破vm来运行否则只能Linux",
-				"en_us":"We need to find a way to break through vm to allow it to run, otherwise it can only be Linux."
-			}
-		}
-	},{
 		"codename":"blueline",
 		"soc":"SDM845",
 		"name":{
