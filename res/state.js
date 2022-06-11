@@ -48,14 +48,27 @@ function add_device(device){
 				messages.push({id:id,str:str});
 			}
 		}
+		return c;
 	};
 	const tr=document.createElement("tr");
 	let state=device.state,message=device.message;
 	if(!state)state={};
 	if(!message)message={};
-	add_col(tr,device.name[locale.lang],null);
-	add_col(tr,device.codename,null);
-	add_col(tr,device.soc,null);
+	const name=add_col(tr,device.name[locale.lang],null);
+	const codename=add_col(tr,device.codename,null);
+	const soc=add_col(tr,device.soc,null);
+	if(device.detail&&device.detail[locale.lang]){
+		tr.style.cursor="pointer";
+		tr.dataset.url=device.detail[locale.lang];
+		tr.title=device.detail[locale.lang];
+		tr.onclick=function(){
+			const doc=window.parent?
+				window.parent.document:
+				window.document;
+			doc.location.href=tr.dataset.url;
+		};
+		name.style.color="blue";
+	}
 	cont.appendChild(tr);
 	add_state(tr,state.usb           ,"y",message.usb);
 	add_state(tr,state.ufs           ,"y",message.ufs);
