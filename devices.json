@@ -2,6 +2,10 @@
 	{
 		"codename":"polaris",
 		"soc":"SDM845",
+		"detail":{
+			"zh_cn":"/#/zh/devices/sdm845/polaris/status",
+			"en_us":"/#/en/devices/sdm845/polaris/status"
+		},
 		"name":{
 			"zh_cn":"小米MIX2S",
 			"en_us":"Xiaomi MIX2S"
@@ -33,6 +37,10 @@
 	},{
 		"codename":"beryllium",
 		"soc":"SDM845",
+		"detail":{
+			"zh_cn":"/#/zh/devices/sdm845/beryllium/status",
+			"en_us":"/#/en/devices/sdm845/beryllium/status"
+		},
 		"name":{
 			"zh_cn":"小米PocoPhone F1",
 			"en_us":"Xiaomi PocoPhone F1"
@@ -61,6 +69,10 @@
 	},{
 		"codename":"fajita",
 		"soc":"SDM845",
+		"detail":{
+			"zh_cn":"/#/zh/devices/sdm845/fajita/status",
+			"en_us":"/#/en/devices/sdm845/fajita/status"
+		},
 		"name":{
 			"zh_cn":"一加6T",
 			"en_us":"OnePlus 6T"
@@ -86,6 +98,10 @@
 	},{
 		"codename":"enchilada",
 		"soc":"SDM845",
+		"detail":{
+			"zh_cn":"/#/zh/devices/sdm845/enchilada/status",
+			"en_us":"/#/en/devices/sdm845/enchilada/status"
+		},
 		"name":{
 			"zh_cn":"一加6",
 			"en_us":"OnePlus 6"
@@ -110,6 +126,10 @@
 	},{
 		"codename":"dipper",
 		"soc":"SDM845",
+		"detail":{
+			"zh_cn":"/#/zh/devices/sdm845/dipper/status",
+			"en_us":"/#/en/devices/sdm845/dipper/status"
+		},
 		"name":{
 			"zh_cn":"小米8",
 			"en_us":"Xiaomi MI8"
@@ -519,6 +539,10 @@
 	},{
 		"codename":"sagit",
 		"soc":"MSM8998",
+		"detail":{
+			"zh_cn":"/#/zh/devices/msm8998/sagit/status",
+			"en_us":"/#/en/devices/msm8998/sagit/status"
+		},
 		"name":{
 			"zh_cn":"小米6",
 			"en_us":"Xiaomi MI6"
