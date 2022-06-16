@@ -279,7 +279,7 @@
 			"bluetooth":"y",
 			"touchscreen":"n",
 			"gpu":"y",
-			"lte":"u"
+			"lte":"u",
 			"gps":"y"
 		},
 		"message":{
@@ -300,7 +300,7 @@
 			"bluetooth":"y",
 			"touchscreen":"n",
 			"gpu":"y",
-			"lte":"u"
+			"lte":"u",
 			"gps":"y"
 		},
 		"message":{
@@ -321,7 +321,7 @@
 			"bluetooth":"y",
 			"touchscreen":"n",
 			"gpu":"y",
-			"lte":"u"
+			"lte":"u",
 			"gps":"y"
 		},
 		"message":{
@@ -623,7 +623,7 @@
 			"battery":"u",
 			"gpu":"y",
 			"sensor":"n",
-			"lte":"t"
+			"lte":"t",
 			"gps":"y"
 		},
 		"message":{
