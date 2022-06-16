@@ -280,6 +280,7 @@
 			"touchscreen":"n",
 			"gpu":"y",
 			"lte":"u"
+			"gps":"y"
 		},
 		"message":{
 		}
@@ -300,6 +301,7 @@
 			"touchscreen":"n",
 			"gpu":"y",
 			"lte":"u"
+			"gps":"y"
 		},
 		"message":{
 		}
@@ -320,6 +322,7 @@
 			"touchscreen":"n",
 			"gpu":"y",
 			"lte":"u"
+			"gps":"y"
 		},
 		"message":{
 		}
@@ -621,6 +624,7 @@
 			"gpu":"y",
 			"sensor":"n",
 			"lte":"t"
+			"gps":"y"
 		},
 		"message":{
 		}
