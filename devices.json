@@ -747,6 +747,33 @@
 		"message":{
 		}
 	},{
+		"codename":"beyond1qlte",
+		"soc":"SM8150",
+		"name":{
+			"zh_cn":"三星 Galaxy S10",
+			"en_us":"Samsung Galaxy S10"
+		},
+		"state":{
+			"ufs":"n",
+			"touchscreen":"n",
+			"buttons":"y",
+			"wifi":"n",
+			"bluetooth":"n",
+			"battery":"n",
+			"charging":"n",
+			"gpu":"y",
+			"lte":"n",
+			"sensor":"n",
+			"usb":"y",
+			"gps":"n"
+		},
+		"message":{
+                           "ufs":{
+                                  "zh_cn":"无法正常使用UFS",
+                                  "en_us":"UFS is protected"
+                            }
+		}
+	},{
 		"codename":"alphaplus",
 		"soc":"SM8150",
 		"name":{
