@@ -344,6 +344,7 @@
 			"buttons":"t",
 			"sensor":"n",
 			"lte":"t"
+			"gps":"t"
 		},
 		"message":{
 		}
