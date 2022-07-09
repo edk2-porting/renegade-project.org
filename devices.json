@@ -343,7 +343,7 @@
 			"gpu":"y",
 			"buttons":"t",
 			"sensor":"n",
-			"lte":"t"
+			"lte":"t",
 			"gps":"t"
 		},
 		"message":{
