@@ -8,7 +8,7 @@ Please check the [Device Support Status](en/windows/state-frame.html).
 
 Download these files to your USB flash drive:
 
-1. Download Windows PE
+1. Download Windows PE (works only on SDM845)
    
    [20h2pe_new.zip](https://pan.baidu.com/s/1Pgaz-bdTiOKFXGAxgYCX6A)
    
@@ -18,7 +18,7 @@ Download these files to your USB flash drive:
 
    [Dism++](https://github.com/Chuyu-Team/Dism-Multi-language/releases)
 
-3. Download SDM845 Drivers
+3. Download Drivers
    
    [Releases · edk2-porting/WOA-Drivers · GitHub](https://github.com/edk2-porting/WOA-Drivers/releases)
 
@@ -28,7 +28,9 @@ Download these files to your USB flash drive:
 
 5. Download UEFI
 
-   [Releases · edk2-porting/edk2-sdm845 · GitHub](https://github.com/edk2-porting/edk2-sdm845/releases)
+   SDM845: [Releases · edk2-porting/edk2-sdm845 · GitHub](https://github.com/edk2-porting/edk2-sdm845/releases)
+   MSM8998: [Releases · edk2-porting/edk2-msm8998 · GitHub](https://github.com/edk2-porting/edk2-msm8998/releases)
+   
 
 6. Download parted
    
