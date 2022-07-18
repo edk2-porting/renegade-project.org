@@ -798,6 +798,33 @@
 		"message":{
 		}
 	},{
+		"codename":"mh2lm",
+		"soc":"SM8150",
+		"name":{
+			"zh_cn":"LG V50S",
+			"en_us":"LG V50S"
+		},
+		"state":{
+			"touchscreen":"n",
+			"buttons":"y",
+			"wifi":"n",
+			"bluetooth":"y",
+			"battery":"n",
+			"charging":"n",
+			"gpu":"p",
+			"lte":"n",
+			"usb":"y",
+			"sensor":"n",
+			"camera":"n",
+			"gps":"n"
+		},
+		"message":{
+                           "gpu":{
+                                  "zh_cn":"面板不工作，远程桌面时GPU可用",
+                                  "en_us":"Panel failed to re-initialize. GPU is available while using remote desktop"
+                            }
+		}
+	},{
 		"codename":"guacamoleb",
 		"soc":"SM8150",
 		"name":{
