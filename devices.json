@@ -798,6 +798,29 @@
 		"message":{
 		}
 	},{
+		"codename":"flashlmdd",
+		"soc":"SM8150",
+		"name":{
+			"zh_cn":"LG V50",
+			"en_us":"LG V50"
+		},
+		"state":{
+			"touchscreen":"n",
+			"buttons":"y",
+			"wifi":"y",
+			"bluetooth":"y",
+			"battery":"n",
+			"charging":"n",
+			"gpu":"y",
+			"lte":"p",
+			"usb":"y",
+			"sensor":"n",
+			"camera":"n",
+			"gps":"y"
+		},
+		"message":{
+		}
+	},{
 		"codename":"mh2lm",
 		"soc":"SM8150",
 		"name":{
