@@ -341,12 +341,17 @@
 			"charging":"y",
 			"battery":"p",
 			"gpu":"y",
-			"buttons":"t",
+			"buttons":"y",
 			"sensor":"n",
 			"lte":"t",
-			"gps":"t"
+			"sensor":"p",
+			"gps":"p"
 		},
 		"message":{
+			"wifi":{
+				"zh_cn":"需要修复Subsystem的MPSS部分",
+				"en_us":"The MPSS part of the subsystem needs to be repaired"
+			}
 		}
 	},{
 		"codename":"dumpling",
