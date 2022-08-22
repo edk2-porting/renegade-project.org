@@ -520,30 +520,22 @@
 		"codename":"zs600kl",
 		"soc":"SDM845+",
 		"name":{
-			"zh_cn":"Rog Phone 1",
-			"en_us":"Rog Phone 1"
+			"zh_cn":"Asus ROG Phone",
+			"en_us":"Asus ROG Phone"
 		},
 		"state":{
-			"touchscreen":"p",
+			"touchscreen":"u",
 			"audio":"u",
-			"buttons":"y",
-			"wifi":"t",
-			"bluetooth":"y",
-			"battery":"y",
-			"charging":"y",
-			"gpu":"y",
-			"usb":"y",
-			"lte":"t"
+			"buttons":"u",
+			"wifi":"u",
+			"bluetooth":"u",
+			"battery":"u",
+			"charging":"u",
+			"gpu":"u",
+			"usb":"u",
+			"lte":"u"
 		},
 		"message":{
-			"touchscreen":{
-				"zh_cn":"有点毛病",
-				"en_us":"There are some problems"
-			},
-			"usb":{
-				"zh_cn":"副usb暂时没修，暂时不工作",
-				"en_us":"The secondary usb has not been repaired for the time being, and it is not working at present."
-			}
 		}
 	},{
 		"codename":"sagit",
