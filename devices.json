@@ -553,7 +553,7 @@
 			"buttons":"t",
 			"wifi":"t",
 			"touchscreen":"y",
-			"bluetooth":"u",
+			"bluetooth":"y",
 			"charging":"t",
 			"battery":"t",
 			"gpu":"t",
