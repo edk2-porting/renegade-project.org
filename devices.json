@@ -664,17 +664,13 @@
 			"bluetooth":"y",
 			"battery":"n",
 			"charging":"n",
-			"gpu":"p",
+			"gpu":"y",
 			"lte":"y",
 			"sensor":"n",
 			"usb":"y",
 			"gps":"n"
 		},
 		"message":{
-                           "gpu":{
-                                  "zh_cn":"面板不工作，远程桌面时GPU可用",
-                                  "en_us":"Panel failed to re-initialize. GPU is available while using remote control"
-                            }
 		}
 	},{
 		"codename":"cepheus",
@@ -831,7 +827,7 @@
 			"bluetooth":"y",
 			"battery":"n",
 			"charging":"n",
-			"gpu":"p",
+			"gpu":"y",
 			"lte":"p",
 			"usb":"y",
 			"sensor":"n",
@@ -839,10 +835,6 @@
 			"gps":"n"
 		},
 		"message":{
-                           "gpu":{
-                                  "zh_cn":"面板不工作，远程桌面时GPU可用",
-                                  "en_us":"Panel failed to re-initialize. GPU is available while using remote desktop"
-                            }
 		}
 	},{
 		"codename":"guacamoleb",
