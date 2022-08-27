@@ -673,6 +673,31 @@
 		"message":{
 		}
 	},{
+		"codename":"tp1803",
+		"soc":"SM8150",
+		"name":{
+			"zh_cn":"Nubia Mini 5G",
+			"en_us":"Nubia Mini 5G"
+		},
+		"state":{
+			"touchscreen":"y",
+			"audio":"w",
+			"buttons":"y",
+			"wifi":"w",
+			"bluetooth":"y",
+			"battery":"n",
+			"charging":"t",
+			"gpu":"w",
+			"usb":"t",
+			"sensor":"n",
+			"lte":"w",
+			"gps":"y",
+			"camera":"n",
+			"virtualization":"p"
+		},
+		"message":{
+		}
+	},{
 		"codename":"cepheus",
 		"soc":"SM8150",
 		"name":{
