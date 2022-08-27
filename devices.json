@@ -630,8 +630,8 @@
 		"codename":"epsilon",
 		"soc":"SM8150",
 		"name":{
-			"zh_cn":"Surface Duo",
-			"en_us":"Surface Duo"
+			"zh_cn":"Surface Duo 1",
+			"en_us":"Surface Duo 1"
 		},
 		"state":{
 			"touchscreen":"y",
@@ -877,6 +877,30 @@
 			"usb":"y",
 			"sensor":"n",
 			"gps":"n"
+		},
+		"message":{
+		}
+	},{
+		"codename":"zeta",
+		"soc":"SM8350",
+		"name":{
+			"zh_cn":"Surface Duo 2",
+			"en_us":"Surface Duo 2"
+		},
+		"state":{
+			"touchscreen":"u",
+			"audio":"u",
+			"buttons":"y",
+			"wifi":"u",
+			"bluetooth":"u",
+			"battery":"u",
+			"charging":"u",
+			"gpu":"u",
+			"usb":"u",
+			"sensor":"u",
+			"lte":"u",
+			"gps":"u",
+			"camera":"u"
 		},
 		"message":{
 		}
