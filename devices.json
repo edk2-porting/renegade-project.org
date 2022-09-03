@@ -857,7 +857,7 @@
 			"usb":"y",
 			"sensor":"n",
 			"camera":"n",
-			"gps":"n"
+			"gps":"y"
 		},
 		"message":{
 		}
@@ -902,6 +902,29 @@
 			"usb":"y",
 			"sensor":"n",
 			"gps":"n"
+		},
+		"message":{
+		}
+	},{
+		"codename":"pine",
+		"soc":"SM8150",
+		"name":{
+			"zh_cn":"Kakao STAGE 5G",
+			"en_us":"Kakao STAGE 5G"
+		},
+		"state":{
+			"touchscreen":"t",
+			"buttons":"y",
+			"wifi":"t",
+			"bluetooth":"y",
+			"battery":"n",
+			"charging":"n",
+			"gpu":"y",
+			"lte":"t",
+			"usb":"y",
+			"sensor":"n",
+			"camera":"n",
+			"gps":"y"
 		},
 		"message":{
 		}
