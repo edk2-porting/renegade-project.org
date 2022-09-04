@@ -86,6 +86,7 @@ function add_device(device){
 	add_state(tr,state.gps           ,"u",message.gps);
 	add_state(tr,state.sensor        ,"w",message.sensor);
 	add_state(tr,state.camera        ,"n",message.camera);
+	add_state(tr,state.nfc           ,"n",message.nfc);
 }
 function update_size(){
 	if(!parent)return;
