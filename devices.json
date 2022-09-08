@@ -384,10 +384,24 @@
 		"state":{
 			"gpu":"y",
 			"bluetooth":"y",
-			"wifi":"w"
+			"wifi":"y",
+			"battery":"y",
+			"charging":"y"
 		},
 		"message":{
 			"gpu":{
+				"zh_cn":"请暂时使用魅族16th Plus的驱动",
+				"en_us":"Please use drivers for Meizu 16th Plus temporarily"
+			}
+			"wifi":{
+				"zh_cn":"请暂时使用魅族16th Plus的驱动",
+				"en_us":"Please use drivers for Meizu 16th Plus temporarily"
+			}
+			"battery":{
+				"zh_cn":"请暂时使用魅族16th Plus的驱动",
+				"en_us":"Please use drivers for Meizu 16th Plus temporarily"
+			}
+			"charging":{
 				"zh_cn":"请暂时使用魅族16th Plus的驱动",
 				"en_us":"Please use drivers for Meizu 16th Plus temporarily"
 			}
@@ -573,7 +587,7 @@
 			"usb":"y",
 			"buttons":"u",
 			"wifi":"t",
-			"touchscreen":"t",
+			"touchscreen":"y",
 			"bluetooth":"y",
 			"charging":"t",
 			"battery":"t",
