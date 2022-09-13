@@ -700,11 +700,11 @@
 			"wifi":"w",
 			"bluetooth":"y",
 			"battery":"n",
-			"charging":"t",
+			"charging":"y",
 			"gpu":"y",
 			"usb":"y",
 			"sensor":"w",
-			"lte":"w",
+			"lte":"y",
 			"gps":"y",
 			"camera":"n",
 			"virtualization":"p"
