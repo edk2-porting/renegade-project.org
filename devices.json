@@ -1012,5 +1012,30 @@
 				"en_us":"Your UFS will be ERASED by Windows storufs driver!"
 			}
 		}
-	}
+	},	{
+		"codename":"vayu",
+		"soc":"SM8150AC",
+		"name":{
+			"zh_cn":"Poco X3 Pro",
+			"en_us":"Poco X3 Pro"
+		},
+		"state":{
+			"ufs":"y",
+			"touchscreen":"n",
+			"audio":"n",
+			"buttons":"y",
+			"wifi":"n",
+			"bluetooth":"n",
+			"battery":"n",
+			"charging":"n",
+			"gpu":"n",
+			"usb":"y",
+			"sensor":"n",
+			"lte":"n",
+			"gps":"n",
+			"camera":"n"
+		},
+		"message":{
+			
+			}
 ]
